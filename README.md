@@ -1,67 +1,69 @@
-# Marp Slides Template
+# Refactoring Your Developer Identity
 
-[Use this template!](https://github.com/codebytes/marp-slides-template/generate)
+This repository contains the slide deck and related resources for the "Refactoring Your Developer Identity" talk by Chris Ayers. The session focuses on helping senior engineers and technical leaders decouple their professional value from any single language or framework and re‑anchor it in durable, transferable skills.
 
-Create a Marp presentation site that can be built and published on [GitHub Pages] using this minimal template. The site features:
+## Slides
 
-- Marp integration
-- A GitHub Pages / Actions workflow for build and publish ([See a preview](http://chris-ayers.com/marp-slides-template/))
-- A DevContainer/CodeSpace configuration with Marp and Markdown preview extensions
-- Chrome installation for PDF and PowerPoint slide creation on Linux
+Access the slides (export or hosted link if published) at:
 
-## Customization
+https://chris-ayers.com/refactoring-your-identity/ 
 
-Feel free to customize the sites created with this template as you like!
+Raw deck (Marp markdown): `slides/Slides.md`
 
-## Getting Started
+## Overview
 
-1. Click "[use this template]" to create a new site.
-2. Update the content of `slides/Slides.md` with your own presentation.
+The talk covers:
 
-## Custom Themes
-
-This template includes four custom themes in the `slides/themes` folder:
-
-- custom
-- custom-default (based on the built-in default theme)
-- custom-gaia (based on the built-in gaia theme)
-- custom-uncover (based on the built-in uncover theme)
-
-To use a custom theme, edit the relevant css file and add its reference in the front matter of `Slides.md`. For example, to use `custom-default` add the following to the `Slides.md` front matter:
-
-```markdown
----
-marp: true
-theme: custom-default
----
-```
-
-For additional themes, add them to the devcontainer and follow the [Marp custom theme documentation](https://marpit.marp.app/theme-css).
-
-## Publishing on GitHub Pages
-
-1. In your GitHub repo, navigate to `Settings` > `Pages` > `Build and deployment`.
-2. Select `Source`: `GitHub Actions`.
-3. If any Actions failed, go to the `Actions` tab and click on `Re-run jobs`.
-
-## Local Build and Preview
-
-1. Install [Visual Studio Code](https://code.visualstudio.com/).
-2. Install the [Marp for VS Code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
-3. Open `slides/Slides.md` in VS Code.
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. Reuse or extend the code as you wish, but include the original license. The deployment GitHub Actions workflow is based on GitHub's starter workflows.
+- How technical identity forms and calcifies
+- Identity smells and anti‑patterns
+- Costs of stack-locked thinking (personal & organizational)
+- Transferable skill inventory & mapping exercises
+- New stack adoption loop & learning debt log
+- Decision frameworks (Build / Buy / Learn, Mini ADR)
+- Risk vectors: platform shifts, automation, AI commoditization
+- Action plans (30 / 60–90 day) & accountability systems
 
 ## Resources
 
-- [Use this template](https://github.com/codebytes/marp-slides-template/generate)
+Reference materials and concepts mentioned:
 
-- GitHub Pages: [https://docs.github.com/en/pages](https://docs.github.com/en/pages)
+- Architecture Decision Records (ADR pattern)
+- Lightweight decision log / mini ADR
+- Learning debt log (unknown → hypothesis → resolution)
+- Cognitive bias references (confirmation, sunk cost, status quo)
+- System / outcome framing questions (metrics, cost of delay, risk radius)
 
-- CommonMark markdown syntax: [https://commonmark.org/help/](https://commonmark.org/help/)
+*(You can add a `RESOURCES.md` later with direct links.)*
 
-- Marp Official Repository: [https://github.com/marp-team/marp](https://github.com/marp-team/marp)
-- Marp Official Documentation: [https://marpit.marp.app/markdown](https://marpit.marp.app/markdown)
-- Marp for VS Code Documentation: [https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+## Connect with Chris Ayers
+
+- BlueSky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)
+- LinkedIn: [chris-l-ayers](https://linkedin.com/in/chris-l-ayers/)
+- Blog: https://chris-ayers.com/
+- GitHub: [Codebytes](https://github.com/codebytes)
+- Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
+
+## Exporting the Deck
+
+If you want to generate PDF / PPTX / HTML locally:
+
+1. Install the Marp VS Code extension (or CLI).
+2. Open `slides/Slides.md`.
+3. Use the command palette export option, or run (with Marp CLI installed):
+	- `marp slides/Slides.md --pdf -o dist/refactoring-your-developer-identity.pdf`
+
+## Demo / Extension Ideas
+
+While this repo is slide-focused, you may extend it with:
+
+- Example mini ADRs (`/examples/adr-*`)
+- A learning debt log template (`/templates/learning-debt.md`)
+- Workshop variant (long-form exercises)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Questions or suggestions? Open an issue or start a discussion.
