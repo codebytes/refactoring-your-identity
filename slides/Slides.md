@@ -39,47 +39,132 @@ _Microsoft_
 - Career risk & future-proofing (incl. AI)
 - Action plans (30 / 60–90 days)
 - Q&A / Discussion
-<!-- Speaker Notes: Set expectations; reassure: no shaming—this is an upgrade path. -->
+<!-- Speaker Notes: Set expectations; reassure: no shaming-this is an upgrade path. -->
 
 ---
 
 ## Why This Talk (Problem Frame)
-- Over-identification with a framework = fragility
-- Unfamiliar tech reads as personal threat
-- Opportunity loss: architecture, leadership, influence
-- Force-fitting wastes time & creates drag
-- Durable value = judgment, synthesis, communication
-<!-- Speaker Notes: Emphasize strategic ceiling of narrow identity. -->
+
+<div class="columns">
+<div>
+
+## Problem
+
+* Identity tied closely to tools or stacks
+* New tech feels uncomfortable or risky
+* Familiar solutions stretched too far
+
+</div>
+<div>
+
+## Opportunity (what we'll explore)
+
+* Skills transfer across domains
+* Strong architecture & judgment multiply your impact
+* Adaptability makes you durable
+
+</div>
+</div>
+
+<!-- Speaker Notes: 
+- "These are normal patterns - most of us have felt them."
+- "But if we shift perspective, the very same moments of discomfort become opportunities."
+- "That's the journey of this talk: moving from left to right."
+
+Architecture
+- Architecture decisions shape everything downstream (cost, reliability, maintainability).
+- A good design choice early saves dozens of developer-hours later.
+- Example: choosing event-driven vs. monolith - one decision influences scalability, fault tolerance, and team velocity.
+
+Judgment
+- Tools and frameworks change, but judgment about trade-offs doesn't.
+- Knowing when "simple and fast" is right vs. when to invest in "robust and scalable" is more valuable than syntax knowledge.
+- Example: deciding to reuse a service vs. rebuilding from scratch - good judgment avoids waste.
+
+Leverage
+- These skills amplify impact. One engineer with strong architectural thinking and sound judgment multiplies the effectiveness of a whole team.
+- Unlike syntax, these are transferable across stacks, domains, and roles.
+-->
 
 ---
 
 ## How Technical Identity Forms
-- Early career: reps in one stack create comfort
-- Reinforcement loop: speed praised -> identity hardens
-- Social labeling: team / org brand you as the X expert
-- Sunk cost bias: investment feels at risk
-- Fear of reduced status while beginner again
-<!-- Speaker Notes: Normalize psychology—this is predictable, not a personal failing. -->
+
+<div class="mermaid">
+flowchart LR
+    A[Comfort] --> B[Praise]
+    B --> C[Label]
+    C --> D[Cost]
+    D --> E[Fear]
+    E --> A
+</div>  
+
+<!-- Speaker Notes: 
+- Early wins in one stack = comfort and speed
+- Positive feedback reinforces the pattern
+- Labeled as "the X expert" by teams or orgs
+* Hard to walk away from years of investment
+* Feels risky to be a beginner again
+
+- "This isn't a flaw-it's human psychology. We all like to stick with what we're praised for."
+- "Teams and orgs reinforce it too-once you're branded the X expert, people keep pulling you back there."
+- "That's how identity calcifies. Not because of weakness, but because of perfectly normal incentives."
+-->
 
 ---
 
 ## Identity Smells
-- "I’m a <X> developer" as shield
-- Dismiss or mock alternatives quickly
-- Premature refactor toward favorite paradigm
-- Avoid cross-stack architecture reviews
-- Equate local velocity with seniority
-<!-- Speaker Notes: Invite private score 0–5 for each. Pattern awareness precedes change. -->
+  
+
+- Introducing yourself by stack
+- Preferring the familiar before exploring alternatives
+- Refactoring early toward patterns you know well
+- Hesitant to review outside your specialty
+- Equating speed in one stack with seniority
+
+<!-- Speaker Notes: 
+- "Think of these like code smells - they're not disasters, just signals worth paying attention to."
+- Introducing yourself by stack: "Back in the day it was normal to say ‘I'm a Java developer' or ‘.NET developer.' But now systems span languages, platforms, and services. Defining yourself too narrowly can box you in."
+- Preferring the familiar: "We used to roll our own authentication flows. Today, with OAuth and managed identity, doing it yourself is often a security risk."
+- Refactoring early toward known patterns: "Forcing everything into MVC worked when web apps were simpler, but microservices and event-driven designs pushed us toward new patterns."
+- Hesitant to review outside your specialty: "Infra-as-code used to feel like ‘not my job.' Now, reliability and performance are defined as much by infra as by code."
+- Equating speed with seniority: "In the past, being the fastest at writing raw SQL was impressive. Today, ORMs, caching, and distributed databases have shifted what ‘senior' really means."
+
+- "Now, those patterns we just walked through? They're not abstract. Most of us can probably think of times we've done at least one of them. Let's take a moment to reflect privately."
+- "This isn't about guilt or sharing - just noticing where identity shows up in your own work."
+-->
 
 ---
 
+
 ## Self-Assessment (Silent Exercise)
-- List 3 tech areas you reflexively avoid
-- Note last time you shipped in an unfamiliar stack
-- Identify a decision you biased toward comfort
-- What fear drove it? (status / time / exposure)
-- Circle one to interrogate later
-<!-- Speaker Notes: 90 seconds quiet reflection. Encourage honesty. -->
+
+* List 3 tech areas you reflexively avoid
+
+* Note the last time you shipped in an unfamiliar stack
+
+* Identify a decision you biased toward comfort
+
+* What fear drove it? (status / time / exposure)
+
+* Circle one to interrogate later
+
+<!-- Speaker Notes: 
+- "We're going to pause for 90 seconds. No sharing, no judgment - this is just for you."
+- List 3 tech areas you reflexively avoid:  
+    "For example, some of us shy away from front-end frameworks, or from infra-as-code, or maybe even machine learning. Write down yours."
+- Last time you shipped in an unfamiliar stack:  
+    "Think of the last time you had to work outside your comfort zone. How did that feel? What did you learn?"
+- Decision biased toward comfort:  
+    "Maybe you picked the database you always use, even if another one might have been better."
+- What fear drove it:  
+    "Was it fear of slowing down, of looking junior again, of losing credibility? Totally normal."
+- Circle one to interrogate later:  
+    "You don't have to solve it now. Just pick one that feels worth revisiting after this talk."
+
+- "Okay, let's bring it back. You don't have to share what you wrote - this is just for you. But keep that note nearby, because we'll circle back later when we talk about action plans."
+- "The point isn't to feel bad about the past - it's to notice the patterns so you can choose differently in the future."
+-->
 
 ---
 
@@ -174,7 +259,7 @@ _Microsoft_
 
 ## Shift: Developer -> Problem Solver
 - Begin at outcome & constraints
-- Ask: what’s the simplest viable path?
+- Ask: what's the simplest viable path?
 - Let domain shape tool selection
 - Optimize for team maintainability horizon
 - Seek clarity, not cleverness
@@ -237,7 +322,7 @@ flowchart LR
 - Source to validate
 - Status (open / closed)
 - Next action trigger
-<!-- Speaker Notes: Model after technical debt—make visible. -->
+<!-- Speaker Notes: Model after technical debt-make visible. -->
 
 ---
 
@@ -415,11 +500,11 @@ flowchart LR
 ## Q&A / Discussion
 - Where are you over-attached?
 - What skill will you surface next month?
-- What’s your first experiment?
+- What's your first experiment?
 <!-- Speaker Notes: Facilitate share & commitments. -->
 
 ---
 
 ## Thank You
-### Refactor identity continuously — not reactively
+### Refactor identity continuously - not reactively
 <!-- Speaker Notes: Closing slide relocated & abstract removed as requested. -->
