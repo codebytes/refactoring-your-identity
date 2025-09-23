@@ -5,7 +5,7 @@ footer: 'Refactoring your Developer Identity'
 transition: reveal
 ---
 
-![bg right alt: Refactor Metaphor](./img/refactor.png)
+![bg right alt: Illustration representing a code refactor concept (decorative)](./img/refactor.png)
 # Refactoring Your Developer Identity
 ## Moving Beyond Your Favorite Stack
 <!-- Speaker Notes: Story: senior engineer declines greenfield service (Go + event-driven) because they're a "Java person"; opportunity + visibility shifts to someone who learns. Ask: Where does your real leverage come from? -->
@@ -13,7 +13,7 @@ transition: reveal
 ---
 
 
-![bg left:40% alt: Speaker Portrait](./img/portrait.png)
+![bg left:40% alt: Speaker portrait of Chris Ayers](./img/portrait.png)
 
 ## Chris Ayers
 
@@ -26,7 +26,7 @@ _Microsoft_
 <i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)
 <i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
 <i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
-~~<i class="fa-brands fa-twitter"></i> Twitter: @Chris_L_Ayers~~
+<i class="fa-brands fa-twitter"></i> Twitter (legacy / less active): @Chris_L_Ayers
 
 ---
 
@@ -155,13 +155,13 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 
-# Cost & Risk Landscape
+## Cost & Risk Landscape
 
 <!-- Speaker Notes: Frame core thesis fast: identity over-fitted to stack shrinks leverage surface and erodes future optionality. Set urgency without shame. -->
 
 ---
 
-# Stack-Lock: Immediate Friction
+## Stack-Lock: Immediate Friction
 
 - Pigeonholed into repetitive maintenance work
 - Late paradigm fit → rework & credibility drag
@@ -171,7 +171,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Compounding Opportunity Loss
+## Compounding Opportunity Loss
 
 - Avoiding paradigms erodes future intuition
 - Fewer option/trade-off reps → slower trust for scope
@@ -181,7 +181,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Career & Resilience Risk Surface
+## Career & Resilience Risk Surface
 
  - Platform / ecosystem shifts → slower safe redeploy
  - Cross-layer blind spots create collaboration friction
@@ -191,31 +191,31 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Energy & Motivation Drain
+## Energy & Motivation Risks
 
-- Defensive “expert” posture burns cognitive budget
+- Maintaining an “expert only” posture burns cognitive budget
 - Monotony lowers curiosity & intrinsic reward loops
-- Lack of visible micro-progress stalls momentum
-- Burnout risk rises without context switching variety
+- Missing visible progress signals stalls momentum
+- Burnout risk rises without healthy context switching variety
 <!-- Speaker Notes: Human side: sustained motivation requires novelty + progress signals. Link to preventative maintenance for career energy. -->
 
 ---
 
-# AI Replacement Risk
-## What AI Does vs What You Should Do
+## AI Replacement Risk
+**What AI Does vs What You Should Do**
 
-- AI is getting fast at routine code in popular stacks
-- Raw speed in one framework is no longer a moat
-- Your edge: define the real problem before typing code
+- Recognize AI acceleration on routine popular‑stack code
+- Stop relying on raw single‑stack speed as a moat
+- Define the real problem before typing any code
 - Surface constraints & risks early (latency, cost, ops, security)
 - Say “no / not yet” to extra services, libraries, abstractions
 - Record decisions (problem, options, criteria, choice, rejected alternatives)
-- Sample new paradigms now so you can judge fit quickly
+- Sample new paradigms early to judge fit quickly
 <!-- Speaker Notes: Keep it plain: AI accelerates average implementation. Differentiation shifts to upstream problem clarity, early constraint/risk detection, and disciplined non-adoption. Emphasize: senior judgment = deciding *not* to add tech. Prompt: This week, replace one auto-build impulse with a short decision record capturing a clear “not now.” -->
 
 ---
 
-# Behavioral Patterns & Triggers
+## Behavioral Patterns & Triggers
 ### Recognizing the Reflexes Before Changing Them
 <!-- Speaker Notes: Pivot from cost awareness to diagnostic mode: name the triggers and anti-patterns so they become observable and interruptible. Encourage note-taking of personal matches. -->
 
@@ -256,13 +256,13 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 <!-- Section Divider -->
-# Skills Beyond the Stack
+## Skills Beyond the Stack
 ## Transferable Skills Beyond Syntax & Frameworks
 <!-- Speaker Notes: Transition into the assets that transcend stacks; reframe identity around durable, compounding skills. Prompt audience to inventory their own. -->
 
 ---
 
-# Transferable Skills (Exercise)
+## Transferable Skills (Exercise)
 
 - List 3 non-stack skills you used this week
 - Star the one that most amplified team impact
@@ -287,7 +287,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Systems Thinking
+## Systems Thinking
 
 - Define system boundary + external actors first
 - Surface invariant constraints (latency SLO, throughput, compliance)
@@ -299,7 +299,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Risk / Cost / Constraint Awareness
+## Risk / Cost / Constraint Awareness
 
 - Surface non-negotiables first (SLOs, budget, compliance, headcount)
 - Quantify impact (latency +X ms, error %, spend delta) before solutioning
@@ -310,7 +310,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Trade-Off Articulation
+## Trade-Off Articulation
 
 - Make costs, benefits, risks explicit (write them, don’t imply)
 - Compare distinct shapes; avoid pseudo-choices (3 variants of same)
@@ -321,7 +321,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Reversibility (One-Way vs Two-Way Doors)
+## Reversibility (One-Way vs Two-Way Doors)
 
 - Two-Way Door: low exit / rollback cost → bias toward fast, thin experiment
 - One-Way Door: high exit or irreversibility → deepen option set & criteria before commit
@@ -332,7 +332,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Structured Problem Solving
+## Structured Problem Solving
 
 - Restate problem w/ measurable impact (latency +X ms, error rate 3%)
 - Separate symptom vs root signal (timeline + first deviation)
@@ -344,7 +344,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Debugging Methodology (Structured Loop)
+## Debugging Methodology (Structured Loop)
 
 - Frame failure: what / where / when / impact (baseline state)
 - Rank hypotheses (prob × impact) → pick next test by info gain
@@ -355,7 +355,20 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Communication & Facilitation
+## Debugging Loop Mnemonic (FRAME → RANK → OBSERVE → DISPROVE → RECORD)
+
+1. FRAME: Define what changed, where it manifests, when it started, impact delta.
+2. RANK: Order hypotheses by (probability × impact × test effort) for maximum information gain.
+3. OBSERVE: Add only the missing visibility (targeted log, metric, trace span) before acting.
+4. DISPROVE: Run the smallest isolating experiment; change one variable at a time.
+5. RECORD: Capture root cause, guardrail added, diffusion snippet (turn fix into shared capability).
+
+**Reminder**: Stop when remaining hypotheses have low expected information gain relative to effort.
+<!-- Speaker Notes: Reinforces disciplined loop; turns ad-hoc debugging into repeatable method. -->
+
+---
+
+## Communication & Facilitation
 
 - Start with problem + impact before solution detail
 - Surface 3 assumptions explicitly; invite challenge early
@@ -367,7 +380,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Cross-Cutting Concerns (DevOps · Security · Identity · Observability)
+## Cross-Cutting Concerns (DevOps · Security · Identity · Observability)
 
 - DevOps: automate build/test/deploy; track DORA (deploy freq, lead time, MTTR, CFR)
 - Security: shift-left reviews, least privilege, abuse cases, secret hygiene
@@ -378,7 +391,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Mentorship & Knowledge Sharing
+## Mentorship & Knowledge Sharing
 
 - Pair outside comfort weekly → bi-directional pattern transfer
 - Convert solved incident / decision into 5‑bullet internal post
@@ -390,7 +403,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 
-# Adapting to Change and a Growth Mindset
+## Adapting to Change and a Growth Mindset
 
 ---
 
@@ -479,3 +492,4 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
