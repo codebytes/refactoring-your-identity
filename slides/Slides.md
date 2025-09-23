@@ -154,75 +154,53 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 
-# <!-- fit -->Cost & Risk Landscape
+# Cost & Risk Landscape
 
-## What rigidity costs you over time
-<!-- Speaker Notes: Transition: We've surfaced personal patterns; now translate identity lock into concrete organizational and personal risk dimensions before prescribing change. Anchor audience attention on why change is economically & operationally rational. -->
-
----
-
-<!-- Brief pivot: We'll narrow straight to how identity rigidity constrains YOUR leverage and what shifts when you refactor it. -->
-
-# Risk Surface
-
-- Narrow tool identity → funnel of repetitive maintenance work
-- Miss paradigm fit early → rework & credibility drag
-- AI automates rote stack speed faster than you up-skill
-<!-- Speaker Notes: Make risk concrete: (1) Narrow framing means others route you low-variance tasks; reduces exposure to architecture decisions. (2) Staying in familiar paradigm causes late design pivots that appear as indecision. (3) AI closes gap on raw throughput; leverage must shift to judgment, architecture, integration, trade-offs. Transition: now quantify opportunity lost. -->
+<!-- Speaker Notes: Frame core thesis fast: identity over-fitted to stack shrinks leverage surface and erodes future optionality. Set urgency without shame. -->
 
 ---
 
-# Opportunity Cost
+# Stack-Lock: Immediate Friction
 
-- Each avoided paradigm = delayed compounding mental model
-- Comfort tasks displace deliberate practice reps
-- Missed early reps defer staff-level readiness timeline
-<!-- Speaker Notes: Emphasize compounding: early exposure to streaming, idempotency, back-pressure yields years of intuition; skipping now pushes out senior signals (cross-domain design, trade-off fluency). Encourage audience to think of paradigms as interest-bearing assets. -->
-
----
-
-# Negotiation & Mobility
-
-- Broader pattern vocabulary = more roles you can credibly step into
-- Outcome-first narratives shift interviews from quiz to co-design
-- Lightweight decision records externalize your leverage (portable evidence)
-- Clear trade-off language increases perceived seniority & comp ceiling
-<!-- Speaker Notes: Differentiators: (1) Pattern vocabulary (events, CQRS, back-pressure, caching strategies) expands credible role scope (platform, data, reliability). (2) Outcome narratives: Framing past work as problem -> constraints -> options -> decision turns interviews into peer discussions, reducing algorithm trivia focus. (3) Decision records: Small artifacts (context, options, rationale) become portable proof of judgment across teams/companies. (4) Trade-off language (latency vs durability, consistency vs throughput) signals seniority; strengthens negotiation BATNA by evidencing repeatable thinking, not just stack familiarity. Prompt: Circle which of these is weakest for you today. -->
+- Pigeonholed into repetitive maintenance work
+- Late paradigm fit → rework & credibility drag
+- Comfort tasks crowd out deliberate practice reps
+- AI narrows raw speed gap in your “home” stack
+<!-- Speaker Notes: Four fast costs: (1) Task funnel shrink. (2) Design pivots arrive late. (3) Practice displaced. (4) Automation erodes speed-as-identity. Transition: hidden compounding losses. -->
 
 ---
 
-# Resilience & Advancement
+# Compounding Opportunity Loss
 
-- Paradigm fluency (events, streaming, functional, batch) = faster safe redeploy when platforms shift
-- Cross-layer empathy (frontend ↔ backend ↔ infra ↔ data) dissolves friction → you become default design facilitator
-- Pattern breadth + decision artifacts → earlier trust for owning architecture scope
-
-<!-- Speaker Notes: (1) Paradigm fluency: naming + selecting patterns (event sourcing vs CRUD, stream processing vs batch) lets you pivot when a language/runtime or framework is disrupted (including AI-generated boilerplate). (2) Cross-layer empathy: Understanding concerns of UX performance, API latency, infra cost, data modeling enables you to translate between specialties—this accelerates consensus and reduces meeting cycles. (3) Breadth + artifacts: A track record of diverse pattern application + decision documents builds executive and peer trust to hand you architectural stewardship earlier.
- -->
-
----
-
-# Energy & Motivation Return
-
-- Dropping defensive “expert” posture frees attention for exploration
-- Novel paradigms supply fresh puzzles → sustainable curiosity (not boredom)
-- Small visible skill increments produce micro‑dopamine → momentum flywheel
-- Variety reduces burnout: switching modes (event, data, infra) resets mental cache
-<!-- Speaker Notes: Joy + clarity: (1) Defensiveness consumes cycles (“prove I’m still the expert”); releasing it reallocates energy to learning. (2) Novel paradigms act like new game mechanics—brain treats them as engaging puzzles, combating stagnation. (3) Frequent, bite-sized wins (one new mental model clarified, a decision record written) create intrinsic reward loops; motivation becomes self-fueling. (4) Intentional variety is preventative maintenance against burnout—context shifts refresh cognitive resources instead of grinding a single narrow loop. Prompt: Note which of these you’re currently missing. -->
+- Avoided paradigms = missing intuition years later
+- Fewer option/trade-off reps → slower trust for scope
+- Thin negotiation story (tool vs outcome narrative)
+- Weak artifact trail (decisions) limits portable evidence
+<!-- Speaker Notes: Emphasize compounding: intuition & trust curves start earlier for those sampling paradigms now. Encourage audience to note which bullet stings most. -->
 
 ---
 
-# Leverage Shift Summary
+# Career & Resilience Risk Surface
 
-- You keep depth; you gain a richer map to apply it creatively
-- Breadth unlocks better roles, safer pivots, and wider influence surface
-- Early discomfort is an investment that returns calmer ops & stronger trust
-- Variety + continuous micro-learning = sustained joy instead of stagnation
-<!-- Speaker Notes: Synthesis framed with joy: (1) Depth not discarded—now a versatile toolset applied across more contexts (creative satisfaction). (2) Breadth multiplies optionality: roles, domains, influence channels (design reviews, architecture forums). (3) Discomfort reframed as front-loaded capital expenditure yielding downstream operational serenity and reputational trust. (4) Variety + micro-learning loops prevent plateau; career feels like a sequence of engaging levels, not one long maintenance grind. CTA: Choose one intentional discomfort experiment for the next sprint and write it down now. Transition to behavioral patterns to operationalize change. -->
+- Platform / ecosystem shifts → slower safe redeploy
+- Cross-layer blind spots create collaboration friction
+- Missing decision artifacts blocks early architecture ownership
+- Narrow pattern map = fragile during org reshuffle
+<!-- Speaker Notes: Tie to resilience: adaptability becomes core value as automation rises; artifacts + breadth = insurance. -->
 
 ---
 
-# <!-- fit --> Behavioral Patterns & Triggers
+# Energy & Motivation Drain
+
+- Defensive “expert” posture burns cognitive budget
+- Monotony lowers curiosity & intrinsic reward loops
+- Lack of visible micro-progress stalls momentum
+- Burnout risk rises without context switching variety
+<!-- Speaker Notes: Human side: sustained motivation requires novelty + progress signals. Link to preventative maintenance for career energy. -->
+
+---
+
+# Behavioral Patterns & Triggers
 ### Recognizing the reflexes before changing them
 <!-- Speaker Notes: Pivot from cost awareness to diagnostic mode: name the triggers and anti-patterns so they become observable and interruptible. Encourage note-taking of personal matches. -->
 
@@ -262,17 +240,8 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Flip Pattern → Leverage
-- Micro-rep plan: 25‑min daily slice (run sample API, parse JSON, embed text)
-- Fast visible win (internal assistant / log summarizer) reframes identity
-- Translator role emerges: C# services ↔ Python AI tooling
-- Result: Earlier seat in AI augmentation decisions vs reactive consumption
-<!-- Speaker Notes: Contrast minimal investment vs compounded leverage. Invite audience to jot one micro-slice they could attempt this week. Transition directly to Counter-Patterns / later action plan. -->
-
----
-
 <!-- Section Divider -->
-# <!-- fit -->Skills beyond the Stack
+# Skills beyond the Stack
 ## Transferable Skills beyond syntax & frameworks
 <!-- Speaker Notes: Transition into the assets that transcend stacks; reframe identity around durable, compounding skills. Prompt audience to inventory their own. -->
 
@@ -292,12 +261,14 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 # Transferable Skill Inventory 
 
 - Systems thinking / decomposition (clarify boundaries early)
+- Risk / cost / constraint awareness (design within realities)
 - Trade-off articulation (expose cost vs benefit explicitly)
+- Structured problem solving (options & criteria discipline)
 - Debugging methodology (structured hypothesis & tooling fluency)
 - Communication & facilitation (alignment + reduced thrash)
-- Risk / cost / constraint awareness (design within realities)
-- Mentorship & knowledge diffusion (multiplying effect)
-<!-- Speaker Notes: Briefly define each; tie to portability: survives framework shifts, compounds over time, accelerates org learning. Encourage audience to compare with their list—add any missing that resonate. Emphasize: maintain a living doc of these; review quarterly. -->
+- Cross-cutting concerns (DevOps, security, identity, observability)
+- Mentorship & knowledge sharing
+<!-- Speaker Notes: Ordered from foundation → analysis → comparison → structured decision → diagnostic loop → alignment → horizontal quality → scaling via diffusion. Encourage audience to star their weakest two. -->
 
 ---
 
@@ -309,16 +280,29 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 - Identify coupling types (temporal, data, deploy)
 - Make feedback loops explicit (metrics -> alert -> response)
 - Write failure narrative: "It’s 2am, what broke?" adjust design
-<!-- Speaker Notes:
-Purpose: Shift identity from feature implementer to systems steward. 
-Boundary: Force explicit scope; prevents accidental creep into adjacent systems.
-Invariants: Latency SLO, durability requirement, regulatory constraints anchor trade-offs.
-Flows: Draw minimal sequence / data flow; include at least one degradation scenario to expose hidden dependencies.
-Coupling: Ask: Are components forced to wait (temporal), share schema (data), or deploy together (deploy)? Pick ONE to decouple this iteration.
-Feedback Loops: No loop = silent failure. Define metric → threshold → alert owner.
-Failure Narrative: Pre-mortem story reveals observability & resilience gaps early.
-Facilitator Prompt: Ask audience which coupling type bites them most today.
--->
+<!-- Speaker Notes: Boundary + invariants anchor later constraints; coupling + failure narrative expose hidden risk early. -->
+
+---
+
+# Risk / Cost / Constraint Awareness
+
+- Surface non-negotiables first (SLOs, budget, compliance, headcount)
+- Quantify impact (latency +X ms, error %, spend delta) before solutioning
+- Distinguish one-time vs run-rate cost (people & ops included)
+- Label uncertainty zones; target with thin experiments
+- Map hidden constraints (org policy, data residency, release cadence)
+<!-- Speaker Notes: Constraints early prevent rework & credibility loss. Sets stage for explicit trade-offs. -->
+
+---
+
+# Trade-off Articulation
+
+- Make costs, benefits, risks explicit (write them, don’t imply)
+- Compare distinct shapes; avoid pseudo-choices (3 variants of same)
+- Use shared criteria (cost, complexity, risk, time-to-value, operability)
+- Call irreversibility & exit cost out early
+- Record decision + review date (prevents revisionist history)
+<!-- Speaker Notes: Trade-off clarity signals seniority; written review date creates revisit trigger when context shifts. -->
 
 ---
 
@@ -330,34 +314,18 @@ Facilitator Prompt: Ask audience which coupling type bites them most today.
 - Generate 3 distinct option shapes (simplest / resilient / scalable)
 - Compare via 3–5 shared criteria (cost, complexity, risk, time-to-value)
 - Capture decision rationale
-<!-- Speaker Notes:
-Restate: Convert vague pain into metrics; aligns team & defines success exit.
-Symptom vs Root: Build a short event timeline; highlight first anomaly. Prevents cargo-cult fixes.
-Constraints First: Avoids unconstrained ideation that later collapses when reality appears.
-Options: Force structural diversity (don’t pick 3 variants of the same approach).
-Criteria: Reusable rubric accelerates future similar decisions; reduces opinion heat.
-Decision Record: Locks clarity; shields from re-litigating mid-implementation.
-Facilitator: Ask for a recent example where constraints appeared too late.
--->
+<!-- Speaker Notes: Forces disciplined option diversity & reusable criteria; decision record prevents re-litigation. -->
 
 ---
 
-# Troubleshooting & Debugging Loop
-- Define failure signature (symptoms + scope + severity)
-- Form ranked hypotheses (probability × impact)
-- Instrument / log gap?
-- Run smallest falsification test per hypothesis
-- Update mental model & prune disproved paths
-- Capture root cause narrative + prevention action
-<!-- Speaker Notes:
-Signature: Precise scope prevents rabbit holes (which users / endpoints / regions?).
-Hypotheses: Weighted list avoids random walk debugging.
-Instrumentation Gap: If blind, invest first in visibility (log field, metric, trace span) before deeper guesswork.
-Falsification: Choose step that eliminates most possibilities fastest (binary narrowing).
-Model Update: Write quick note on actual system behavior vs prior belief; accelerates future incidents.
-Root Cause Narrative: Include trigger, contributing factors, detection latency, remediation, prevention.
-Facilitator: Quick poll—who still debugs without a written hypothesis list? Highlight efficiency gains.
--->
+# Debugging Methodology (Structured Loop)
+
+- Frame failure: what / where / when / impact (baseline state)
+- Rank hypotheses (prob × impact) → pick next test by info gain
+- Close visibility gap (add only needed observation before guessing)
+- Run smallest disproof & isolate variables (env, config, data, version)
+- Lock in learning: concise cause + guardrail + diffusion artifact
+<!-- Speaker Notes: Tech-agnostic loop: frame → rank → observe → disprove → institutionalize. Emphasize INFORMATION GAIN and making learning portable (artifact + guardrail). Prompt: Which link do you skip? -->
 
 ---
 
@@ -369,15 +337,18 @@ Facilitator: Quick poll—who still debugs without a written hypothesis list? Hi
 - Summarize decisions + owners live (shared doc / chat)
 - Translate across domains (latency vs UX vs cost) neutrally
 - Close loop: publish outcome + rationale asynchronously
-<!-- Speaker Notes:
-Problem First: Prevents stakeholders anchoring on premature tool choice.
-Assumptions: Making them explicit accelerates risk discovery & psychological safety to challenge.
-Divergence/Convergence: Avoid endless ideation—signal when exploring ends & selection starts.
-Live Summaries: Real-time capture reduces post-meeting ambiguity and rework.
-Translation: Reframe concerns in counterpart’s vocabulary (e.g., “This adds 40ms p95 but halves on-call pages”).
-Close Loop: Document outcome & reasoning; builds institutional memory & reduces repeat debates.
-Facilitator Prompt: Ask who currently writes live decision notes; encourage trial next week.
--->
+<!-- Speaker Notes: Alignment multiplier; explicit assumptions + live capture slash thrash & meeting recursion. -->
+
+---
+
+# Cross-Cutting Concerns (DevOps · Security · Identity · Observability)
+
+- DevOps: automate build/test/deploy; track DORA (deploy freq, lead time, MTTR, CFR)
+- Security: shift-left reviews, least privilege, abuse cases, secret hygiene
+- Identity & Access: central authn, least-privilege RBAC, audit trails, zero trust posture
+- Observability: metrics (RED/USE), structured logs, traces, SLO + error budget loop
+- Governance: lightweight policies codified (lint, IaC guardrails) to scale consistency
+<!-- Speaker Notes: Treat as dimensions on every design: ask explicitly how choices impact deployability, threat surface, identity scope, observability. -->
 
 ---
 
@@ -388,101 +359,11 @@ Facilitator Prompt: Ask who currently writes live decision notes; encourage tria
 - Run micro-teach (10 min) within 24h of learning slice
 - Encourage question framing: context → goal → constraint → ask
 - Seed successors: shadow → co-own → autonomous handoff
-<!-- Speaker Notes:
-Goal: Shift from individual learning to organizational compounding.
-Pairing: Cross-domain pairing dissolves silos; treat as deliberate curriculum, not ad hoc rescue.
-Post Conversion: Capture outcome, context, options, decision, lesson—keeps artifacts lightweight & searchable.
-Micro-Teach: Teaching within 24h solidifies retention; 10 min lightning avoids scheduling friction.
-Framed Questions: Improves signal quality & reduces back-and-forth latency; model publicly.
-Diffusion Metric: Simple count—artifacts produced & distinct consumers (views, comments). Use to detect stagnation.
-Successor Seeding: Intentional ownership transition prevents gatekeeping; increases resilience.
-Facilitator Prompt: Ask who currently measures diffusion; propose adopting a simple monthly metric.
--->
+<!-- Speaker Notes: Diffusion compounds organizational leverage; lightweight artifacts + rapid teach-backs convert personal learning into team capability. -->
 
 ---
 
-# Security Thinking
-
-- Threat sketch first: actors, asset, entry, impact
-- Default deny: only grant minimal runtime / network / data scope
-- Validate + sanitize all external input
-- Add abuse case to each feature (misuse path & mitigation)
-<!-- Speaker Notes:
-Threat Sketch: 90-second whiteboard; clarifies what you are *actually* protecting.
-Least Privilege: Narrow IAM roles, container perms, network egress; reduces blast radius.
-Input Validation: Early reject invalid shape; prevents injection & resource abuse.
-Secrets: Central rotation + audit; environment sprawl increases leak risk.
-Logging: Enough to investigate (user id hash, action, timestamp) without secrets/tokens.
-Abuse Case: Ask “How would someone exploit or degrade this?” prompts preemptive guardrails.
-Facilitator Prompt: Quick show—who writes abuse cases today? Encourage adding one next PR.
--->
-
----
-
-# Adaptive Operating System
-### Making Change Cheap & Repeatable
-- Core loop turns signals into shared learning
-- Artifacts: decision snippets, thin experiments, learning debt log
-- Metrics: loop cycle time, closure rate, diffusion reach
-<!-- Speaker Notes: Position this as an operating system: rapid sense → experiment → integrate → teach. Emphasize low friction + compounding artifacts. -->
-
----
-# Mindset Pyramid → Loop
-**Pyramid (enable upward):**
-1. Clarity (outcome & constraints)
-2. Option diversity (≥3 distinct)
-3. Thin experiment (small vertical risk slice)
-4. Reflection (expected vs actual)
-5. Diffusion (artifact / teach-back)
-**Operating Loop:** Observe → Map → Slice → Measure → Reflect → Diffuse → (repeat)
-<!-- Speaker Notes: Show dependency: without clarity, diversity degrades; without thin experiment, reflection is conjecture; without diffusion, benefits localize. -->
-
----
-# Decisions & Experiments
-- Thin Experiment: validate biggest uncertainty fast (days, not weeks)
-- Decision Matrix: Build | Buy | Learn Prototype | Delegate/Pair | Defer
-- Prompts: Differentiation? Operational drag? Uncertainty? Blast radius? Exit cost?
-**6-Line Decision Artifact**
-1. Context 2. Options 3. Decision 4. Trade-offs 5. Risk+Mitigation 6. Review date
-<!-- Speaker Notes: Keep decision friction ultra-low to sustain habit; explicit trade-offs prevent revisionist history. -->
-
----
-# Learning Debt & Adoption
-**Learning Debt Item:** unknown / hypothesis / next probe / date
-- Weekly triage: impact × recurrence risk
-- Close states: validated, disproved, superseded
-- Purge stale (>45d) or escalate
-**Adoption Loop:** Map → Slice → Log Unknowns → Pressure Test (real data) → Teach Back → (repeat)
-Metrics: closure %, median time-to-closure
-<!-- Speaker Notes: Treat knowledge gaps as backlog; closure (even disproved) frees cognition; adoption loop targets 2–5 day cadence. -->
-
----
-# Build / Buy / Delegate Heuristics
-- Build: differentiates & offers learning yield with manageable ops
-- Buy/Service: commodity, high reliability/compliance need
-- Prototype (Learn): high uncertainty; cheap risk probe first
-- Delegate/Pair: high risk + low internal context
-- Defer/Simplify: low impact + high churn
-**Tool Checklist:** problem crisp? success metrics? total cost? ecosystem maturity? rollback story?
-<!-- Speaker Notes: Avoid reflexive building; emphasize explicit cost of ownership and migration. -->
-
----
-# Career Resilience Signals
-Risk Vectors: platform obsolescence, AI commoditizing rote, identity over-fitting, business isolation
-Shifts:
-- Value migrates to judgment, constraint modeling, system design
-- Artifact trail = portable capital (decisions, slices, closures)
-- Option density expands future role surface
-Narrative: "I run an engine that de-risks change & scales others."
-<!-- Speaker Notes: Link operational loop metrics to promotable narrative; resilience via transferable system not static tool expertise. -->
-
----
-# Habits & Leverage
-Breadth Habits: 1 micro-experiment / sprint; rotate review domains; shadow adjacent design; weekly post-mortem read; teach-back cadence
-Mentorship: model inquiry, enforce question framing, celebrate learning velocity
-Influence: frame proposals in outcomes, surface trade-offs early, invite dissent, close loops
-Mindset Refactor: tool preference ≠ identity; living skill inventory; quarterly structured discomfort
-<!-- Speaker Notes: Small, rhythmic habits > sporadic intensity. Mentorship and artifacts multiply impact & credibility. -->
+# Adapting to Change and a Growth Mindset
 
 ---
 
@@ -514,26 +395,6 @@ Mindset Refactor: tool preference ≠ identity; living skill inventory; quarterl
 - Be requested for ≥2 architecture / decision reviews outside team
 - Curate 3 judgment stories (context → options → decision → outcome) for performance review / promo packet
 <!-- Speaker Notes: Translate operating system outputs into promotable evidence & resilience indicators; focus on portability & external trust signals. -->
-
----
-
-## Personal Roadmap Prompts
-- What skill is under-leveraged?
-- Which risk vector most relevant now?
-- What experiment has asymmetric upside?
-- Who can hold you accountable?
-- What will you sunset saying about yourself?
-<!-- Speaker Notes: Encourage writing answers tonight. -->
-
----
-
-## Accountability Mechanisms
-- Peer learning circle
-- Monthly retro with manager
-- Public decision log channel
-- Scheduled discomfort block
-- Quarterly identity audit
-<!-- Speaker Notes: Systems > willpower. -->
 
 ---
 
