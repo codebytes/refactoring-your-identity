@@ -31,17 +31,14 @@ _Microsoft_
 ---
 
 ## Agenda
-- Problem & framing
-- Identity formation loop
-- Identity smells & self‑assessment
-- Cost, risk & opportunity landscape
-- AI leverage shift & resilience
-- Patterns, triggers & anti‑patterns
-- Transferable & durable skills
-- Skill deep dives (systems, trade‑offs, debugging, facilitation, cross‑cutting)
-- Action plans (30 / 60 / 90 day)
-- Pitfalls & resources
-- Q&A / Discussion
+- Problem & identity loop
+- Smells & quick self‑assessment
+- Costs: risk, opportunity, energy
+- AI shift & resilience
+- Patterns: triggers & anti‑patterns
+- Durable skills & deep dives
+- Operating habits (30/60/90)
+- Pitfalls, resources, Q&A
 <!-- Speaker Notes: Updated to reflect consolidated adaptive section (loops + decisions + learning debt) and clearer progression: awareness → diagnosis → durable skills → operating system → artifacts → resilience → action. Reassure: no shaming—this is an upgrade path. -->
 
 ---
