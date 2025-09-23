@@ -17,6 +17,7 @@ img[alt~="center"] {
   display: block;
   margin: 0 auto;
 }
+.fa-bluesky { color: deepskyblue; }
 .fa-twitter { color: aqua; }
 .fa-mastodon { color: purple; }
 .fa-linkedin { color: blue; }
