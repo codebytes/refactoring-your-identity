@@ -419,301 +419,70 @@ Facilitator Prompt: Quick show—who writes abuse cases today? Encourage adding 
 
 ---
 
-# Adopting Change & Adaptive Mindset
-### Operationalizing learning, judgment, and diffusion
-<!-- Speaker Notes: Reframe: not just decisions—this is the operating system for continuous adaptation. Audience takeaway: a compact set of loops + artifacts that make change cheaper and repeatable. -->
+# Adaptive Operating System
+### Making Change Cheap & Repeatable
+- Core loop turns signals into shared learning
+- Artifacts: decision snippets, thin experiments, learning debt log
+- Metrics: loop cycle time, closure rate, diffusion reach
+<!-- Speaker Notes: Position this as an operating system: rapid sense → experiment → integrate → teach. Emphasize low friction + compounding artifacts. -->
 
 ---
-
-# Mindset Shift Pyramid
-1. Outcome & Constraint Clarity (what problem, what guardrails)
-2. Option Diversity (≥3 structurally distinct approaches)
-3. Thin Experiment (smallest vertical slice validating risk)
-4. Reflection & Recalibration (compare result vs hypothesis)
-5. Teach & Diffuse (artifact / micro-teach → org memory)
-<!-- Speaker Notes:
-Shape: Bottom layers enable the next—cannot skip to diffusion without clarity & experimentation.
-Outcome & Constraints: Prevent solutioneering drift; forms evaluation baseline.
-Option Diversity: Forces creative space; reduces local maxima lock-in.
-Thin Experiment: Risk reduction with minimal sunk cost; time-box to days not weeks.
-Reflection: Update model; capture delta between expected and observed.
-Teach & Diffuse: Converts private learning into compounding leverage (others avoid same ramp cost).
-Prompt: Ask audience which layer they most often skip under time pressure.
--->
+# Mindset Pyramid → Loop
+**Pyramid (enable upward):**
+1. Clarity (outcome & constraints)
+2. Option diversity (≥3 distinct)
+3. Thin experiment (small vertical risk slice)
+4. Reflection (expected vs actual)
+5. Diffusion (artifact / teach-back)
+**Operating Loop:** Observe → Map → Slice → Measure → Reflect → Diffuse → (repeat)
+<!-- Speaker Notes: Show dependency: without clarity, diversity degrades; without thin experiment, reflection is conjecture; without diffusion, benefits localize. -->
 
 ---
-## Adaptive Operating Loop
-- Observe (signals: metrics, incidents, user friction)
-- Map (translate new domain concepts to known primitives)
-- Slice (small vertical; exercise core uncertainty)
-- Measure (capture latency/error/qual feedback vs hypothesis)
-- Reflect (what surprised? update model; log learning debt)
-- Diffuse (artifact / micro-teach / decision record)
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
-</script>
-<div class="mermaid">
-flowchart LR
-    O(Observe) --> M(Map)
-    M --> S(Slice)
-    S --> Me(Measure)
-    Me --> R(Reflect)
-    R --> D(Diffuse)
-    D --> O
-</div>
-<!-- Speaker Notes:
-Intent: Single loop unifying adoption, debugging, and knowledge spread.
-Observe: Start with evidence; avoid hypothetical optimization.
-Map: Reduce novelty surface; anchor new into existing mental lattice.
-Slice: Bias to runnable thin value; avoid indefinite spikes.
-Measure: Define 1–2 metrics or qualitative criteria before executing.
-Reflect: Compare expectation vs reality; extract delta into learning debt log.
-Diffuse: Teaching cements; artifact prevents knowledge silo rework.
-Cadence Target: Complete loop in ≤1 week for incremental domains; 2–3 days for small tech slices.
--->
+# Decisions & Experiments
+- Thin Experiment: validate biggest uncertainty fast (days, not weeks)
+- Decision Matrix: Build | Buy | Learn Prototype | Delegate/Pair | Defer
+- Prompts: Differentiation? Operational drag? Uncertainty? Blast radius? Exit cost?
+**6-Line Decision Artifact**
+1. Context 2. Options 3. Decision 4. Trade-offs 5. Risk+Mitigation 6. Review date
+<!-- Speaker Notes: Keep decision friction ultra-low to sustain habit; explicit trade-offs prevent revisionist history. -->
 
 ---
-## Learning Debt System
-- Capture: unknown / hypothesis / next probe / date
-- Triage Weekly: rank by impact × recurrence risk
-- Close: validated, disproved, or superseded (no zombie items)
-- Review Monthly: pattern scan (themes → next focus sprint)
-- Purge stale (>45d untouched) or escalate
-- Metric: closure rate (%) & time-to-closure median
-<!-- Speaker Notes:
-Purpose: Treat learning gaps like backlog items; visible and intentional.
-Capture: Require a proposed next probe—prevents passive list bloat.
-Triage: Quick 5–10 min weekly; reorder so highest leverage gaps addressed first.
-Close States: Disproved counts as progress; frees cognitive load.
-Monthly Review: Aggregate tags (observability, data modeling, security) to choose next structured discomfort area.
-Purge/Escalate: Stale items either become intentional research tasks or are deleted to keep signal high.
-Metric: Closure % trending upward signals effective loop; long time-to-closure highlights friction.
--->
+# Learning Debt & Adoption
+**Learning Debt Item:** unknown / hypothesis / next probe / date
+- Weekly triage: impact × recurrence risk
+- Close states: validated, disproved, superseded
+- Purge stale (>45d) or escalate
+**Adoption Loop:** Map → Slice → Log Unknowns → Pressure Test (real data) → Teach Back → (repeat)
+Metrics: closure %, median time-to-closure
+<!-- Speaker Notes: Treat knowledge gaps as backlog; closure (even disproved) frees cognition; adoption loop targets 2–5 day cadence. -->
 
 ---
-## Decision Matrix (Build | Buy | Learn | Delegate)
-- Build: Differentiator, high learning yield, manageable operational burden
-- Buy/Service: Commodity, low strategic value, high reliability / compliance need
-- Learn (Prototype): Emerging area; run thin experiment before deeper commit
-- Delegate / Pair: High risk + low internal context; accelerate safely
-- Defer / Simplify: Low impact + high churn; avoid premature complexity
-**Evaluation Prompts**
-- Does this materially differentiate user value? (Yes → Build bias)
-- Will ownership drag future velocity? (High drag → Buy/Delegate)
-- Is uncertainty high & scope fuzzy? (Yes → Prototype/Learn slice)
-- Can failure blast radius be contained? (If not → Pair/Delegate)
-- Migration / exit cost acceptable? (No → Re-examine choice)
-<!-- Speaker Notes:
-Matrix condenses prior scattered heuristics.
-Build: Only where you create defendable or compounding advantage.
-Buy: Offload undifferentiated heavy lifting; focus scarce brain cycles upstream.
-Learn Prototype: Probe risk first (performance, integration) cheaply.
-Delegate/Pair: Borrow judgment; reduce error surface in high stakes domain.
-Defer: Intentionally postpone work that doesn’t clear impact bar.
-Prompts: Ask sequentially; stop when a decisive answer emerges.
--->
+# Build / Buy / Delegate Heuristics
+- Build: differentiates & offers learning yield with manageable ops
+- Buy/Service: commodity, high reliability/compliance need
+- Prototype (Learn): high uncertainty; cheap risk probe first
+- Delegate/Pair: high risk + low internal context
+- Defer/Simplify: low impact + high churn
+**Tool Checklist:** problem crisp? success metrics? total cost? ecosystem maturity? rollback story?
+<!-- Speaker Notes: Avoid reflexive building; emphasize explicit cost of ownership and migration. -->
 
 ---
-## Lightweight Decision Artifact (≤6 Lines)
-1. Context: <situation + constraint>
-2. Options: A / B / C (1 phrase each)
-3. Decision: Chosen + primary rationale
-4. Trade-offs Accepted: (risk / cost / latency / complexity)
-5. Risk & Mitigation: top risk + planned guardrail
-6. Review Date: (sunset / revisit trigger)
-**Example**
-Context: ingest spike risk (10x events) w/ 50ms p95 SLA
-Options: Batch buffer | On-demand scale | Lossy shed
-Decision: Batch buffer → maintains SLA; lowest cost
-Trade-offs: Slight ingest latency increase accepted
-Risk & Mitigation: Burst > buffer → add alert + autoscale rule
-Review: After Black Friday load test
-<!-- Speaker Notes:
-Keep friction ultra-low so artifact habit survives.
-Each line scannable; no prose paragraphs.
-Example demonstrates explicit trade-off acceptance (latency vs cost) & baked-in revisit.
-Encourage storing in a shared channel / repo folder for discoverability & negotiation leverage later.
--->
+# Career Resilience Signals
+Risk Vectors: platform obsolescence, AI commoditizing rote, identity over-fitting, business isolation
+Shifts:
+- Value migrates to judgment, constraint modeling, system design
+- Artifact trail = portable capital (decisions, slices, closures)
+- Option density expands future role surface
+Narrative: "I run an engine that de-risks change & scales others."
+<!-- Speaker Notes: Link operational loop metrics to promotable narrative; resilience via transferable system not static tool expertise. -->
 
 ---
-## Transition: From Adaptive System → Career Resilience
-
-- Your loop metrics become credibility signals: cycle time, closure rate, diffusion reach
-- Artifact trail compounds: decisions, slices, learning debt closures = portable capital
-- Option Density: more validated slices → broader future role surface area
-- Resilience = Reduced identity fragility: system persists while tools shift
-- Narrative Hook: “I operate an engine that de-risks change and scales others”
-
-<!-- Speaker Notes:
-Set up next section (Career Resilience & Action). Emphasize portability of loops & artifacts as the new CV / promotion narrative.
-Encourage audience to start tracking 3 metrics this week and log first artifact in <48h.
--->
-
----
-
-## Shift: Developer -> Problem Solver
-- Begin at outcome & constraints
-- Ask: what's the simplest viable path?
-- Let domain shape tool selection
-- Optimize for team maintainability horizon
-- Seek clarity, not cleverness
-<!-- Speaker Notes: Re-anchor identity to outcomes. -->
-
-
----
-
-## New Stack Adoption Loop
-- Map concepts to known primitives
-- Build smallest vertical slice
-- Log unknowns explicitly
-- Pressure-test with real data
-- Teach back to cement learning
-<!-- Speaker Notes: Show cycle time target: 2–5 days per loop. -->
-
----
-
-## Adoption Loop (Visual)
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-<div class="mermaid">
-flowchart LR
-  A(Map) --> B(Slice)
-  B --> C(Log Unknowns)
-  C --> D(Pressure Test)
-  D --> E(Teach Back)
-  E --> A
-</div>
-<!-- Speaker Notes: Reinforce iterative nature; stop after value, not after mastery. -->
-
----
-
-## Learning Debt Log (Example Fields)
-- Date / Topic
-- Unknown / Question
-- Current hypothesis
-- Source to validate
-- Status (open / closed)
-- Next action trigger
-<!-- Speaker Notes: Model after technical debt-make visible. -->
-
----
-
-## Decision Framework (Build / Learn / Delegate)
-- Differentiator? -> Build core
-- Commodity? -> Buy / service
-- Enables compounding learning? -> Invest
-- High risk + low context? -> Pair / consult
-- Low impact + high churn? -> Defer / simplify
-<!-- Speaker Notes: Prevent reflex build-everything. -->
-
----
-
-## Mini Decision Record (Template)
-- Context
-- Option(s) considered
-- Decision & rationale
-- Trade-offs accepted
-- Risks & mitigation
-- Review date (sunset / revisit)
-<!-- Speaker Notes: Keep under 6 bullets; frictionless or it dies. -->
-
----
-
-## Build vs Buy Heuristics
-- Frequency of change (domain > infrastructure?)
-- Strategic differentiation potential
-- Operational burden tolerance
-- Integration surface complexity
-- Exit / migration cost
-<!-- Speaker Notes: Add weighted scoring if needed; start simple. -->
-
----
-
-## Tool Evaluation Checklist
-- Problem statement crisp?
-- Success metrics defined?
-- Total cost (licensing + people + ops)?
-- Ecosystem maturity & docs?
-- Failure & rollback story?
-<!-- Speaker Notes: Avoid shiny-object churn. -->
-
----
-
-<!-- Section Divider -->
-<!-- fit -->
-# Career Resilience & Action
-
-## Context & References
-- AI adoption: Internal scripting patterns (Python notebooks, embedding POCs)
-- Cross-language enablement: Lightweight ADR & decision record practices
-- Learning loop inspiration: Deliberate practice / skill acquisition literature
-- Architecture judgment: Trade-off & system design primer sources
-<!-- Speaker Notes: Keep generic on-slide; provide actual curated link list in repo handout. Emphasize sourcing patterns, not idolizing a single company case. -->
-### De-risking identity & compounding adaptability
-<!-- Speaker Notes: Final arc: translate systems into career durability + concrete next steps; set up action plans & metrics. Encourage selecting one experiment before session ends. -->
-
----
-
-## Career Risk Vectors
-- Platform obsolescence
-- AI automating rote layer
-- Over-fitting identity to temporary hype
-- Isolation from business dialogue
-- Defensiveness blocking growth
-<!-- Speaker Notes: Risks framed as manageable with strategy. -->
-
----
-
-## Automation & AI Impact
-- Routine code generation commoditized
-- Differentiation shifts to system design
-- Prompt literacy ≠ strategic leverage
-- Human value: model constraints & trade-offs
-- Identity anchored in judgment & ethics
-<!-- Speaker Notes: Align identity with irreducible human tasks. -->
-
----
-
-## Mindset Refactor Checklist
-- Tool preference ≠ identity core
-- Maintain living skill inventory
-- Track & review key decisions
-- Seek structured discomfort quarterly
-- Explain choices via first principles
-<!-- Speaker Notes: Suggest recurring calendar block. -->
-
----
-
-## Maintaining Breadth Habits
-- 1 small experiment / sprint
-- Rotate code review domains
-- Shadow design discussions outside comfort
-- Read 1 architecture post-mortem / week
-- Teach-back sessions internally
-<!-- Speaker Notes: Compound minor habits > occasional big pushes. -->
-
----
-
-## Mentorship as Leverage
-- Teach adaptable thinking, not syntax
-- Pair in unfamiliar territory intentionally
-- Encourage question framing discipline
-- Model humble inquiry
-- Celebrate learning velocity
-<!-- Speaker Notes: Mentoring reinforces your own generalization. -->
-
----
-
-## Influence Without Authority
-- Frame proposals in business outcomes
-- Use lightweight ADRs to build trust
-- Surface trade-offs transparently
-- Invite dissent early
-- Close the loop on decisions
-<!-- Speaker Notes: Identity shifts when influence style matures. -->
+# Habits & Leverage
+Breadth Habits: 1 micro-experiment / sprint; rotate review domains; shadow adjacent design; weekly post-mortem read; teach-back cadence
+Mentorship: model inquiry, enforce question framing, celebrate learning velocity
+Influence: frame proposals in outcomes, surface trade-offs early, invite dissent, close loops
+Mindset Refactor: tool preference ≠ identity; living skill inventory; quarterly structured discomfort
+<!-- Speaker Notes: Small, rhythmic habits > sporadic intensity. Mentorship and artifacts multiply impact & credibility. -->
 
 ---
 
@@ -775,16 +544,6 @@ flowchart LR
 - Overcorrecting: chasing every shiny tool
 - Neglecting depth entirely
 <!-- Speaker Notes: Balance breadth & depth deliberately. -->
-
----
-
-## Measuring Progress (Leading Indicators)
-- Time-to-first-vertical-slice in new stack
-- Diversity of code review contributions
-- Number of decision records authored
-- Instances of framing outcome before tool
-- Cross-team asks for architectural input
-<!-- Speaker Notes: Track like product metrics. -->
 
 ---
 
