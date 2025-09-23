@@ -321,6 +321,17 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
+# Reversibility (One-Way vs Two-Way Doors)
+
+- Two-Way Door: low exit / rollback cost → bias toward fast, thin experiment
+- One-Way Door: high exit or irreversibility → deepen option set & criteria before commit
+- Engineer reversibility: feature flags, abstraction seams, temporary adapters, staged data migrations
+- Delay one-way commits until forcing constraint / trigger; keep optionality alive
+- Record door type + revisit trigger in each decision record (prevents silent hardening)
+<!-- Speaker Notes: Borrowed from Bezos framing. Goal: accelerate safe, reversible bets while slowing & formalizing irreversible ones. Prompt: Identify one pending decision you can re-shape into a two-way door this week. -->
+
+---
+
 # Structured Problem Solving
 
 - Restate problem w/ measurable impact (latency +X ms, error rate 3%)
@@ -383,62 +394,66 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## 30-Day Focus (Foundations)
-- Select 2 personal anti-patterns → map explicit counter-pattern replacements
-- Ship 1 thin slice in unfamiliar stack (record baseline slice cycle time)
-- Log 8 learning debt items; close ≥4 (track closure median)
-- Publish 2 lightweight decision records (≤6 lines each)
-- Pair / review outside comfort area weekly (4 reps)
-- Track 3 leading metrics: slice cycle time, decision record count, diffusion (views / attendees)
-<!-- Speaker Notes: Emphasis = habit installation & measurement baselines. Keep scope small; success = consistent cadence not volume. -->
+## 30-Day Focus (Mindset Foundations)
+- Notice default reactions: log brief notes when you reach for the familiar before reframing the problem
+- Practice deliberate problem framing: write a short context → impact → constraints → open questions outline before starting significant work
+- Cultivate curiosity: explore one unfamiliar pattern or technique and summarize its essence in plain language (when it helps / when it hurts)
+- Shift from output to clarity: create concise decision records that emphasize why not just what
+- Reframe conversations: translate at least one technical ask into business or user impact language and reflect on the shift
+- Begin reflective practice: end each week with three prompts (What assumption did I surface? What bias did I interrupt? What skill felt stretched?)
+- Adopt a learning posture in feedback: offer one strengths-first, growth-oriented critique to a peer
+<!-- Speaker Notes: Month 1 centers on awareness, reframing, and reflective loops—lightweight artifacts over volume. -->
 
 ---
 
-## 60-Day Focus (Depth & Diffusion)
-- Lead a small improvement / feature in new stack (2nd/3rd slice faster than baseline)
-- Facilitate 1 cross-team design or post-mortem (practice translation skill)
-- Expand decision record library: total ≥5 decision records + 1 internal primer
-- Mentor a peer through full adaptive loop (observe → diffuse)
-- Reduce learning debt median closure time by 20% vs baseline
-<!-- Speaker Notes: Move from personal loop to facilitating others; introduce comparative improvement metric to show compounding. -->
+## 60-Day Focus (Habit Deepening & Diffusion)
+- Internalize framing reflex: pause autopilot starts; ensure every meaningful task begins with a written problem frame
+- Normalize experimentation: run small, time-boxed trials framed as questions (“If we try X, do we reduce Y friction?”) and capture adopt / defer reasoning
+- Embrace reversibility: revisit an earlier decision; document what changed and why adjustment was low-cost
+- Mentor through questions: guide a peer by asking clarifying, constraint, and risk questions instead of prescribing tools
+- Facilitate alignment: host a concise session that moves a group from divergent options to shared criteria-based choice; reflect on what unlocked convergence
+- Strengthen reflection: evolve weekly journal with a fourth prompt (Which judgment improved and how do I know?)
+- Model psychological safety: surface one of your own mistaken assumptions publicly and reframe it as learning fuel
+<!-- Speaker Notes: Month 2 reinforces identity shift via habitual framing, safe micro-experiments, and diffusion by inquiry not authority. -->
 
 ---
 
-## 90-Day Focus (Leverage & Evidence)
-- Demonstrate sustained slice cycle time reduction (≥30% vs day-0)
-- Achieve ≥10 distinct consumers of decision records (comments, views, attendees)
-- Maintain learning debt closure median < 14 days (no zombie items)
-- Be requested for ≥2 architecture / decision reviews outside team
-- Curate 3 judgment stories (context → options → decision → outcome) for performance review / promo packet
-<!-- Speaker Notes: Translate operating system outputs into promotable evidence & resilience indicators; focus on portability & external trust signals. -->
+## 90-Day Focus (Identity Shift & Sustainable Leverage)
+- Operate from principles: articulate concise personal heuristics (e.g., “Frame before solution”, “Prefer reversible steps first”, “Surface trade-offs explicitly”)
+- Demonstrate adaptive judgment: compile short judgment stories emphasizing context shifts and calibrated pivots, not raw output
+- Institutionalize clarity: create or refine a lightweight shared template (problem frame → options → criteria → decision → revisit trigger) adopted by others
+- Foster autonomy: enable peers to frame and decide without you by sharing heuristics and reflective prompts
+- Sustain reflective loop: continue weekly practice; synthesize quarter themes (biases diminished, new default behaviors installed)
+- Anchor growth narrative: write a one-page self-story focusing on mindset evolution (from tool identity → systems & judgment identity)
+<!-- Speaker Notes: Month 3 consolidates identity evolution; focus on codified principles, distributed clarity, and sustainable reflective practice. -->
 
 ---
 
 ## Common Pitfalls During Shift
-- Over-consuming passive content
-- Waiting for full mastery before shipping
-- Hiding learning mistakes
-- Overcorrecting: chasing every shiny tool
-- Neglecting depth entirely
-<!-- Speaker Notes: Balance breadth & depth deliberately. -->
+- Passive Consumption Over Creation – defaulting to reading/watching instead of producing thin slices or decision records
+- Mastery Gatekeeping – waiting for 100% fluency before shipping a reversible slice
+- Error Concealment – hiding learning mistakes vs surfacing them as judgment stories / guardrails
+- Shiny Object Whiplash – chasing each new tool without a framed problem & exit criterion
+- Shallow Sampling – breadth without scheduled depth reps (no deliberate repetition)
+<!-- Speaker Notes: Pair each pitfall with its antidote: Ship thin slices; treat mistakes as artifacts; frame before adopting; schedule depth reps. Prompt audience to pick ONE to actively counter next week. -->
 
 ---
 
 ## Resources & Further Reading
-- Architecture decision record patterns
-- Post-mortem facilitation guides
-- System design primers
-- Cognitive bias cheat sheets
-- Learning loop / deliberate practice sources
-<!-- Speaker Notes: Provide actual links in repo / handout. -->
+- Architecture Decision Record Patterns (templates, review cadences)
+- Post-Mortem & Incident Facilitation Guides (blameless synthesis, diffusion)
+- Systems Thinking & Design Primers (boundaries, flows, feedback loops)
+- Cognitive Bias & Judgment References (bias interruption checklists)
+- Deliberate Practice & Learning Loop Sources (experiment design, reflection prompts)
+<!-- Speaker Notes: Replace with repo links / handout. Encourage choosing ONE resource to operationalize (e.g., adopt ADR template) rather than bookmarking all. -->
 
 ---
 
 ## Q&A / Discussion
-- Where are you over-attached?
-- What skill will you surface next month?
-- What's your first experiment?
-<!-- Speaker Notes: Facilitate share & commitments. -->
+- Where is your identity over‑attached to a tool or pattern?
+- Which transferable skill will you deliberately surface next month?
+- What is your first small reversible experiment and its success criterion?
+<!-- Speaker Notes: Capture public commitments (skill + experiment + success signal). Encourage writing experiment hypothesis format: “If we do X, we expect Y signal within Z timeframe.” -->
 
 ---
 
