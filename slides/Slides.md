@@ -5,7 +5,7 @@ footer: 'Refactoring your Developer Identity'
 transition: reveal
 ---
 
-![bg right](./img/refactor.png)
+![bg right alt: Refactor Metaphor](./img/refactor.png)
 # Refactoring Your Developer Identity
 ## Moving Beyond Your Favorite Stack
 <!-- Speaker Notes: Story: senior engineer declines greenfield service (Go + event-driven) because they're a "Java person"; opportunity + visibility shifts to someone who learns. Ask: Where does your real leverage come from? -->
@@ -13,7 +13,7 @@ transition: reveal
 ---
 
 
-![bg left:40%](./img/portrait.png)
+![bg left:40% alt: Speaker Portrait](./img/portrait.png)
 
 ## Chris Ayers
 
@@ -22,7 +22,7 @@ _Azure CXP AzRel_
 _Microsoft_
 
 <i class="fa-brands fa-bluesky"></i> BlueSky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)
-<i class="fa-brands fa-linkedin"></i> LinkedIn: - [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
+<i class="fa-brands fa-linkedin"></i> LinkedIn: [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
 <i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)
 <i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
 <i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
@@ -32,14 +32,15 @@ _Microsoft_
 
 ## Agenda
 - Problem & framing
-- Identity formation & lock‑in mechanics
+- Identity formation loop
+- Identity smells & self‑assessment
 - Cost, risk & opportunity landscape
+- AI leverage shift & resilience
 - Patterns, triggers & anti‑patterns
-- Transferable skills beyond the stack
-- Adaptive mindset & operating loop
-- Decision matrix, learning debt & lightweight artifacts
-- Career resilience & future‑proofing (AI & automation)
-- Action plans (30 | 60–90 day)
+- Transferable & durable skills
+- Skill deep dives (systems, trade‑offs, debugging, facilitation, cross‑cutting)
+- Action plans (30 / 60 / 90 day)
+- Pitfalls & resources
 - Q&A / Discussion
 <!-- Speaker Notes: Updated to reflect consolidated adaptive section (loops + decisions + learning debt) and clearer progression: awareness → diagnosis → durable skills → operating system → artifacts → resilience → action. Reassure: no shaming—this is an upgrade path. -->
 
@@ -172,20 +173,20 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 # Compounding Opportunity Loss
 
-- Avoided paradigms = missing intuition years later
+- Avoiding paradigms erodes future intuition
 - Fewer option/trade-off reps → slower trust for scope
-- Thin negotiation story (tool vs outcome narrative)
-- Weak artifact trail (decisions) limits portable evidence
+- Thin negotiation narrative (tool-centric vs outcome-focused)
+- Weak decision record trail limits portable evidence
 <!-- Speaker Notes: Emphasize compounding: intuition & trust curves start earlier for those sampling paradigms now. Encourage audience to note which bullet stings most. -->
 
 ---
 
 # Career & Resilience Risk Surface
 
-- Platform / ecosystem shifts → slower safe redeploy
-- Cross-layer blind spots create collaboration friction
-- Missing decision artifacts blocks early architecture ownership
-- Narrow pattern map = fragile during org reshuffle
+ - Platform / ecosystem shifts → slower safe redeploy
+ - Cross-layer blind spots create collaboration friction
+ - Missing decision records blocks early architecture ownership
+ - Narrow pattern map = fragile during org reshuffle
 <!-- Speaker Notes: Tie to resilience: adaptability becomes core value as automation rises; artifacts + breadth = insurance. -->
 
 ---
@@ -200,8 +201,22 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
+# AI Replacement Risk
+## What AI Does vs What You Should Do
+
+- AI is getting fast at routine code in popular stacks
+- Raw speed in one framework is no longer a moat
+- Your edge: define the real problem before typing code
+- Surface constraints & risks early (latency, cost, ops, security)
+- Say “no / not yet” to extra services, libraries, abstractions
+- Record decisions (problem, options, criteria, choice, rejected alternatives)
+- Sample new paradigms now so you can judge fit quickly
+<!-- Speaker Notes: Keep it plain: AI accelerates average implementation. Differentiation shifts to upstream problem clarity, early constraint/risk detection, and disciplined non-adoption. Emphasize: senior judgment = deciding *not* to add tech. Prompt: This week, replace one auto-build impulse with a short decision record capturing a clear “not now.” -->
+
+---
+
 # Behavioral Patterns & Triggers
-### Recognizing the reflexes before changing them
+### Recognizing the Reflexes Before Changing Them
 <!-- Speaker Notes: Pivot from cost awareness to diagnostic mode: name the triggers and anti-patterns so they become observable and interruptible. Encourage note-taking of personal matches. -->
 
 ---
@@ -219,14 +234,14 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ## Common Anti-Patterns
 
-* Force-fit legacy framework: raises coupling & latency; hides paradigm mismatch
-* Premature comfort ergonomics: adds migration & cognitive debt before value
-* Missing calibrated first slice: drift (endless spikes) or gold-plating waste
-* Tool-first RFC: debate devolves to preferences; problem clarity lost
-* Anecdote-weighted risk: single scare blocks simpler, data-supported option
-* Deferring non-functionals: retrofitting cost/latency/operability later is expensive
-* Silo reinforcement: defensive reviews slow diffusion; team resilience drops
-* "Rewrite later" myth: placeholder hardens; rewrite budget never arrives
+* Force-Fitting Legacy Framework – raises coupling & latency; hides paradigm mismatch
+* Premature Comfort Ergonomics – adds migration & cognitive debt before value
+* Missing Calibrated First Slice – drift (endless spikes) or gold-plating waste
+* Tool-First RFC – debate devolves to preferences; problem clarity lost
+* Anecdote-Weighted Risk – single scare blocks simpler data-supported option
+* Deferring Non-Functionals – retrofitting cost/latency/operability later is expensive
+* Silo Reinforcement – defensive reviews slow diffusion; team resilience drops
+* Rewrite-Later Myth – placeholder hardens; rewrite budget never arrives
 <!-- Speaker Notes: Each bullet = Name: primary consequence. Use to map directly to counter-pattern slide. Prompt: Star TWO you personally slip into; those become your habit replacement targets. -->
 
 ---
@@ -241,8 +256,8 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 <!-- Section Divider -->
-# Skills beyond the Stack
-## Transferable Skills beyond syntax & frameworks
+# Skills Beyond the Stack
+## Transferable Skills Beyond Syntax & Frameworks
 <!-- Speaker Notes: Transition into the assets that transcend stacks; reframe identity around durable, compounding skills. Prompt audience to inventory their own. -->
 
 ---
@@ -272,13 +287,13 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Systems Thinking 
+# Systems Thinking
 
 - Define system boundary + external actors first
 - Surface invariant constraints (latency SLO, throughput, compliance)
 - Map critical flows
 - Identify coupling types (temporal, data, deploy)
-- Make feedback loops explicit (metrics -> alert -> response)
+- Make feedback loops explicit (metrics → alert → response)
 - Write failure narrative: "It’s 2am, what broke?" adjust design
 <!-- Speaker Notes: Boundary + invariants anchor later constraints; coupling + failure narrative expose hidden risk early. -->
 
@@ -295,7 +310,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-# Trade-off Articulation
+# Trade-Off Articulation
 
 - Make costs, benefits, risks explicit (write them, don’t imply)
 - Compare distinct shapes; avoid pseudo-choices (3 variants of same)
@@ -324,7 +339,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 - Rank hypotheses (prob × impact) → pick next test by info gain
 - Close visibility gap (add only needed observation before guessing)
 - Run smallest disproof & isolate variables (env, config, data, version)
-- Lock in learning: concise cause + guardrail + diffusion artifact
+- Lock in learning: concise cause + guardrail + diffusion decision record
 <!-- Speaker Notes: Tech-agnostic loop: frame → rank → observe → disprove → institutionalize. Emphasize INFORMATION GAIN and making learning portable (artifact + guardrail). Prompt: Which link do you skip? -->
 
 ---
@@ -363,17 +378,18 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
+
 # Adapting to Change and a Growth Mindset
 
 ---
 
 ## 30-Day Focus (Foundations)
 - Select 2 personal anti-patterns → map explicit counter-pattern replacements
-- Ship 1 thin slice in unfamiliar stack (record baseline cycle time)
+- Ship 1 thin slice in unfamiliar stack (record baseline slice cycle time)
 - Log 8 learning debt items; close ≥4 (track closure median)
-- Publish 2 lightweight decision artifacts (≤6 lines each)
+- Publish 2 lightweight decision records (≤6 lines each)
 - Pair / review outside comfort area weekly (4 reps)
-- Track 3 leading metrics: slice cycle time, artifacts count, diffusion (views / attendees)
+- Track 3 leading metrics: slice cycle time, decision record count, diffusion (views / attendees)
 <!-- Speaker Notes: Emphasis = habit installation & measurement baselines. Keep scope small; success = consistent cadence not volume. -->
 
 ---
@@ -381,8 +397,8 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ## 60-Day Focus (Depth & Diffusion)
 - Lead a small improvement / feature in new stack (2nd/3rd slice faster than baseline)
 - Facilitate 1 cross-team design or post-mortem (practice translation skill)
-- Expand artifact library: total ≥5 decision records + 1 internal primer
-- Mentor a peer through full adaptive loop (observe→diffuse)
+- Expand decision record library: total ≥5 decision records + 1 internal primer
+- Mentor a peer through full adaptive loop (observe → diffuse)
 - Reduce learning debt median closure time by 20% vs baseline
 <!-- Speaker Notes: Move from personal loop to facilitating others; introduce comparative improvement metric to show compounding. -->
 
@@ -390,7 +406,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ## 90-Day Focus (Leverage & Evidence)
 - Demonstrate sustained slice cycle time reduction (≥30% vs day-0)
-- Achieve ≥10 distinct consumers of artifacts (comments, views, attendees)
+- Achieve ≥10 distinct consumers of decision records (comments, views, attendees)
 - Maintain learning debt closure median < 14 days (no zombie items)
 - Be requested for ≥2 architecture / decision reviews outside team
 - Curate 3 judgment stories (context → options → decision → outcome) for performance review / promo packet
@@ -431,8 +447,8 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 <div class="columns">
 <div>
 
-# Refactor your identity ***continuously***
-## *not reactively*
+## Refactor Your Identity *Continuously*
+### Not Reactively
 
 </div>
 <div>
@@ -440,7 +456,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ## Follow Chris Ayers
 
 <i class="fa-brands fa-bluesky"></i> BlueSky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)
-<i class="fa-brands fa-linkedin"></i> LinkedIn: - [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
+<i class="fa-brands fa-linkedin"></i> LinkedIn: [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
 <i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)
 <i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
 <i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
