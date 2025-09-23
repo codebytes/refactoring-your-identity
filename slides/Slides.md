@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: custom-default
-footer: 'Refactoring your Developer Identity'
+footer: '@Chris_L_Ayers - https://chris-ayers.com'
 transition: reveal
 ---
 
