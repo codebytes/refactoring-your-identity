@@ -30,7 +30,7 @@ _Microsoft_
 
 ---
 
-## Agenda
+## <i class="fa-solid fa-list" aria-hidden="true"></i> Agenda
 - Problem & identity loop
 - Smells & quick self‑assessment
 - Costs: risk, opportunity, energy
@@ -43,12 +43,12 @@ _Microsoft_
 
 ---
 
-## Why This Talk
+## <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Why This Talk
 
 <div class="columns">
 <div>
 
-## Problem
+## <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Problem
 
 * Identity tied closely to tools or stacks
 * New tech feels uncomfortable or risky
@@ -57,7 +57,7 @@ _Microsoft_
 </div>
 <div>
 
-## Opportunity
+## <i class="fa-solid fa-seedling" aria-hidden="true"></i> Opportunity
 
 * Skills transfer across domains
 * Strong architecture & judgment multiply your impact
@@ -74,7 +74,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## How Technical Identity Forms
+## <i class="fa-solid fa-circle-nodes" aria-hidden="true"></i> How Technical Identity Forms
 
 **Loop**
 1. Early win → speed & praise
@@ -96,7 +96,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Identity Smells
+## <i class="fa-solid fa-stethoscope" aria-hidden="true"></i> Identity Smells
   
 
 - Introducing yourself by stack
@@ -120,7 +120,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 
-## Self-Assessment (Silent Exercise)
+## <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Self-Assessment (Silent Exercise)
 
 * List 3 tech areas you reflexively avoid
 
@@ -152,13 +152,13 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 
-## Cost & Risk Landscape
+## <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Cost & Risk Landscape
 
 <!-- Speaker Notes: Frame core thesis fast: identity over-fitted to stack shrinks leverage surface and erodes future optionality. Set urgency without shame. -->
 
 ---
 
-## Stack-Lock: Immediate Friction
+## <i class="fa-solid fa-lock" aria-hidden="true"></i> Stack-Lock: Immediate Friction
 
 - Pigeonholed into repetitive maintenance work
 - Late paradigm fit → rework & credibility drag
@@ -168,7 +168,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Compounding Opportunity Loss
+## <i class="fa-solid fa-chart-line" aria-hidden="true"></i> Compounding Opportunity Loss
 
 - Avoiding paradigms erodes future intuition
 - Fewer option/trade-off reps → slower trust for scope
@@ -178,7 +178,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Career & Resilience Risk Surface
+## <i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Career & Resilience Risk Surface
 
  - Platform / ecosystem shifts → slower safe redeploy
  - Cross-layer blind spots create collaboration friction
@@ -188,7 +188,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Energy & Motivation Risks
+## <i class="fa-solid fa-battery-quarter" aria-hidden="true"></i> Energy & Motivation Risks
 
 - Maintaining an “expert only” posture burns cognitive budget
 - Monotony lowers curiosity & intrinsic reward loops
@@ -198,7 +198,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## AI Replacement Risk
+## <i class="fa-solid fa-robot" aria-hidden="true"></i> AI Replacement Risk
 **What AI Does vs What You Should Do**
 
 - Recognize AI acceleration on routine popular‑stack code
@@ -212,13 +212,13 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Behavioral Patterns & Triggers
+## <i class="fa-solid fa-fingerprint" aria-hidden="true"></i> Behavioral Patterns & Triggers
 ### Recognizing the Reflexes Before Changing Them
 <!-- Speaker Notes: Pivot from cost awareness to diagnostic mode: name the triggers and anti-patterns so they become observable and interruptible. Encourage note-taking of personal matches. -->
 
 ---
 
-## Comfort Zone Triggers
+## <i class="fa-solid fa-bolt" aria-hidden="true"></i> Comfort Zone Triggers
 
 * New language / runtime → fluency drops; instinct: retreat to old stack
 * Paradigm shift (events, functional, streaming) → mental remap tax feels costly
@@ -229,7 +229,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Common Anti-Patterns
+## <i class="fa-solid fa-bug" aria-hidden="true"></i> Common Anti-Patterns
 
 * Force-Fitting Legacy Framework – raises coupling & latency; hides paradigm mismatch
 * Premature Comfort Ergonomics – adds migration & cognitive debt before value
@@ -243,7 +243,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Mini Story: Comfort Lock (.NET → AI Gap)
+## <i class="fa-solid fa-book-open" aria-hidden="true"></i> Mini Story: Comfort Lock (.NET → AI Gap)
 - Reliable .NET engineer defers tiny Python reps (“stay efficient” rationale)
 - Early AI prototypes (scripts, embeddings) ship without their input
 - Activation energy rises; avoidance loop strengthens
@@ -253,13 +253,13 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 <!-- Section Divider -->
-## Skills Beyond the Stack
+## <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Skills Beyond the Stack
 ## Transferable Skills Beyond Syntax & Frameworks
 <!-- Speaker Notes: Transition into the assets that transcend stacks; reframe identity around durable, compounding skills. Prompt audience to inventory their own. -->
 
 ---
 
-## Transferable Skills (Exercise)
+## <i class="fa-solid fa-dumbbell" aria-hidden="true"></i> Transferable Skills (Exercise)
 
 - List 3 non-stack skills you used this week
 - Star the one that most amplified team impact
@@ -284,7 +284,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Systems Thinking
+## <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Systems Thinking
 
 - Define system boundary + external actors first
 - Surface invariant constraints (latency SLO, throughput, compliance)
@@ -296,7 +296,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Risk / Cost / Constraint Awareness
+## <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Risk / Cost / Constraint Awareness
 
 - Surface non-negotiables first (SLOs, budget, compliance, headcount)
 - Quantify impact (latency +X ms, error %, spend delta) before solutioning
@@ -307,7 +307,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Trade-Off Articulation
+## <i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Trade-Off Articulation
 
 - Make costs, benefits, risks explicit (write them, don’t imply)
 - Compare distinct shapes; avoid pseudo-choices (3 variants of same)
@@ -318,7 +318,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Reversibility (One-Way vs Two-Way Doors)
+## <i class="fa-solid fa-door-open" aria-hidden="true"></i> Reversibility (One-Way vs Two-Way Doors)
 
 - Two-Way Door: low exit / rollback cost → bias toward fast, thin experiment
 - One-Way Door: high exit or irreversibility → deepen option set & criteria before commit
@@ -329,7 +329,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Structured Problem Solving
+## <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Structured Problem Solving
 
 - Restate problem w/ measurable impact (latency +X ms, error rate 3%)
 - Separate symptom vs root signal (timeline + first deviation)
@@ -341,7 +341,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Debugging Methodology (Structured Loop)
+## <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> Debugging Methodology (Structured Loop)
 
 - Frame failure: what / where / when / impact (baseline state)
 - Rank hypotheses (prob × impact) → pick next test by info gain
@@ -352,7 +352,8 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Debugging Loop Mnemonic (FRAME → RANK → OBSERVE → DISPROVE → RECORD)
+## <i class="fa-solid fa-repeat" aria-hidden="true"></i> Debugging Loop Mnemonic 
+### (FRAME → RANK → OBSERVE → DISPROVE → RECORD)
 
 1. FRAME: Define what changed, where it manifests, when it started, impact delta.
 2. RANK: Order hypotheses by (probability × impact × test effort) for maximum information gain.
@@ -365,7 +366,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Communication & Facilitation
+## <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation
 
 - Start with problem + impact before solution detail
 - Surface 3 assumptions explicitly; invite challenge early
@@ -377,7 +378,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Cross-Cutting Concerns (DevOps · Security · Identity · Observability)
+## <i class="fa-solid fa-sitemap" aria-hidden="true"></i> Cross-Cutting Concerns (DevOps · Security · Identity · Observability)
 
 - DevOps: automate build/test/deploy; track DORA (deploy freq, lead time, MTTR, CFR)
 - Security: shift-left reviews, least privilege, abuse cases, secret hygiene
@@ -388,7 +389,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Mentorship & Knowledge Sharing
+## <i class="fa-solid fa-user-group" aria-hidden="true"></i> Mentorship & Knowledge Sharing
 
 - Pair outside comfort weekly → bi-directional pattern transfer
 - Convert solved incident / decision into 5‑bullet internal post
@@ -400,11 +401,11 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 ---
 
 
-## Adapting to Change and a Growth Mindset
+## <i class="fa-solid fa-brain" aria-hidden="true"></i> Adapting to Change and a Growth Mindset
 
 ---
 
-## 30-Day Focus (Mindset Foundations)
+## <i class="fa-solid fa-calendar-day" aria-hidden="true"></i> 30-Day Focus (Mindset Foundations)
 - Notice default reactions: log brief notes when you reach for the familiar before reframing the problem
 - Practice deliberate problem framing: write a short context → impact → constraints → open questions outline before starting significant work
 - Cultivate curiosity: explore one unfamiliar pattern or technique and summarize its essence in plain language (when it helps / when it hurts)
@@ -416,7 +417,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## 60-Day Focus (Habit Deepening & Diffusion)
+## <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> 60-Day Focus (Habit Deepening & Diffusion)
 - Internalize framing reflex: pause autopilot starts; ensure every meaningful task begins with a written problem frame
 - Normalize experimentation: run small, time-boxed trials framed as questions (“If we try X, do we reduce Y friction?”) and capture adopt / defer reasoning
 - Embrace reversibility: revisit an earlier decision; document what changed and why adjustment was low-cost
@@ -428,7 +429,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## 90-Day Focus (Identity Shift & Sustainable Leverage)
+## <i class="fa-solid fa-calendar-check" aria-hidden="true"></i> 90-Day Focus (Identity Shift & Sustainable Leverage)
 - Operate from principles: articulate concise personal heuristics (e.g., “Frame before solution”, “Prefer reversible steps first”, “Surface trade-offs explicitly”)
 - Demonstrate adaptive judgment: compile short judgment stories emphasizing context shifts and calibrated pivots, not raw output
 - Institutionalize clarity: create or refine a lightweight shared template (problem frame → options → criteria → decision → revisit trigger) adopted by others
@@ -439,7 +440,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Common Pitfalls During Shift
+## <i class="fa-solid fa-road-barrier" aria-hidden="true"></i> Common Pitfalls During Shift
 - Passive Consumption Over Creation – defaulting to reading/watching instead of producing thin slices or decision records
 - Mastery Gatekeeping – waiting for 100% fluency before shipping a reversible slice
 - Error Concealment – hiding learning mistakes vs surfacing them as judgment stories / guardrails
@@ -449,7 +450,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Resources & Further Reading
+## <i class="fa-solid fa-book" aria-hidden="true"></i> Resources & Further Reading
 - Architecture Decision Record Patterns (templates, review cadences)
 - Post-Mortem & Incident Facilitation Guides (blameless synthesis, diffusion)
 - Systems Thinking & Design Primers (boundaries, flows, feedback loops)
@@ -459,7 +460,7 @@ Anchor themes (3): Architecture (upstream leverage), Judgment (trade-off clarity
 
 ---
 
-## Q&A / Discussion
+## <i class="fa-solid fa-circle-question" aria-hidden="true"></i> Q&A / Discussion
 - Where is your identity over‑attached to a tool or pattern?
 - Which transferable skill will you deliberately surface next month?
 - What is your first small reversible experiment and its success criterion?
