@@ -84,7 +84,7 @@ _Microsoft_
 
 ---
 
-## <i class="fa-solid fa-stethoscope" aria-hidden="true"></i> Identity Warning Signs
+# <i class="fa-solid fa-stethoscope" aria-hidden="true"></i> Identity Warning Signs
 
 * Lead introductions with tool or framework → identity anchored to stack
 * Default to familiar before scanning alternatives → constrains option space
@@ -103,7 +103,7 @@ Transition: Next we surface reflective prompts to expose comfort biases.
 ---
 
 
-## <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Identity Reflection Exercise
+# <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Identity Reflection Exercise
 
 * List 3 tech areas you reflexively avoid
 
@@ -137,7 +137,7 @@ Prompt: Box the fear that repeats most; reuse in 30‑day plan.
 
 ---
 
-## <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In: Hidden Costs
+# <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In: Hidden Costs
 
 * Maintenance loop crowds out exposure to new domains
 * Comfort pick hardens
@@ -154,7 +154,7 @@ Prompt: Which cost is already accruing interest for you? Mark it.
 
 ---
 
-## <i class="fa-solid fa-chart-line" aria-hidden="true"></i> Compounding Opportunity Loss
+# <i class="fa-solid fa-chart-line" aria-hidden="true"></i> Compounding Opportunity Loss
 
 * Deferred paradigm sampling
 * Sparse recorded trade‑offs
@@ -172,7 +172,7 @@ Prompt: Star the loss future-you would pay to have reversed now.
 
 ---
 
-## <i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Career Longevity Risks
+# <i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Career Longevity Risks
 
 * Scope ceiling
 * Judgment visibility gap (few captured trade-offs)
@@ -189,7 +189,7 @@ Prompt: Pick the risk limiting your next scope jump; convert to 60‑day experim
 
 ---
 
-## <i class="fa-solid fa-battery-quarter" aria-hidden="true"></i> Energy & Motivation Risks
+# <i class="fa-solid fa-battery-quarter" aria-hidden="true"></i> Energy & Motivation Risks
 
 * Defensive expert posture
 * Missing micro decision articulation
@@ -206,7 +206,7 @@ Prompt: Circle the drain you feel today; pair with one recovery ritual.
 
 ---
 
-## <i class="fa-solid fa-robot" aria-hidden="true"></i> AI Displacement Risks
+# <i class="fa-solid fa-robot" aria-hidden="true"></i> AI Displacement Risks
 
 * Narrow stack speed focus
 * Thin paradigm & constraint breadth
@@ -247,7 +247,7 @@ Transition: Next: framing & clarity triggers that bias premature implementation.
 
 ---
 
-## <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Framing & Clarity Triggers
+# <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Framing & Clarity Triggers
 
 * Ambiguous spec anxiety
 * Tool-first reflex
@@ -262,7 +262,7 @@ Transition: Final trigger category: hidden quality & risk defer patterns.
 
 ---
 
-## <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Quality & Risk Defer Triggers
+# <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Quality & Risk Defer Triggers
 
 * Deferred non-functionals (latency / cost / operability)
 * Force-fit legacy pattern
@@ -278,322 +278,113 @@ Transition: After naming triggers we pivot into transferable skills that counter
 ---
 
 <!-- Section Divider -->
-## <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Durable Leverage
+# <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Durable Leverage
 ## Portable Skills That Compound Across Stacks
 
 <!-- Speaker Notes: Transition into the assets that transcend stacks; reframe identity around durable, compounding skills. Prompt audience to inventory their own. -->
 
 ---
 
-## <i class="fa-solid fa-dumbbell" aria-hidden="true"></i> Transferable Skills (Exercise)
+## <i class="fa-solid fa-dumbbell" aria-hidden="true"></i> Transferable Skill Signals & Inventory
 
-- List 2 skills in each bucket (Technical Judgment · Collaboration & Communication · Learning & Adaptation)
-- Mark any that recently improved a decision, accelerated others, or reduced risk
-- Star one underused leverage skill; draft a 1‑line context→action→impact you’ll capture next month
+- Technical Judgment: systems framing, option & trade-off articulation, reversibility design patterns
+- Collaboration & Communication: facilitation, assumption surfacing, neutral translation, decision capture
+- Learning & Adaptation: thin experimentation, synthesis notes, risk surfacing, mentorship diffusion
 
 <!-- Speaker Notes:
-Examples to seed buckets:
-• Technical Judgment: systems framing, trade-off articulation, reversibility design, debugging loop.
-• Collaboration & Communication: facilitation, assumption surfacing, storytelling, conflict diffusion.
-• Learning & Adaptation: risk surfacing, thin experimentation, synthesis notes, mentoring diffusion.
-Evidence artifact pattern: 1 line context→action→impact OR 5-line decision comparison.
-Prompt: If stuck, scan last 2 weeks of calendar / PRs for moments you clarified, aligned, or de-risked something.
--->
-<!-- Speaker Notes: 60–75s silent exercise. Instructions: Fill buckets first (breadth), then circle leverage signals (decision quality / accelerate others / risk reduction), then star ONE underused leverage skill and write 1-line context→action→impact you will intentionally reproduce next month. Reinforce: Non-stack = would still matter if language/framework changed tomorrow. Show of hands: who found a leverage skill outside raw coding? Transition: reveal example inventory slide next to calibrate & fill gaps. -->
+60–75s silent. Seed examples (Judgment: systems framing, trade‑off articulation; Collaboration: facilitation, assumption surfacing; Learning: thin experiments, synthesis notes). Evidence artifact pattern: 1‑line CAI (context→action→impact) or 5‑line option comparison. Goal: Shift attention from stack to portable leverage.
+Impacts: Inventory surfaces existing leverage; markings highlight compounding signals; starred CAI line creates intentional repetition loop next month. Transition: Show refined categories next. -->
 
 ---
 
-# Transferable Skill Inventory 
+## <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Systems Framing & Constraints
 
-- Frame systems & surface constraints early → raise design signal
-- Articulate trade-offs with options & shared criteria → improve decision quality
-- Diffuse learning (debug loops, mentorship artifacts) → compound team capability
+- Boundary mapping: clarifies service edges & external actors early
+- Constraint surfacing: names latency / compliance / data invariants before design commits
+- Flow & failure path visualization: exposes operability gaps (idempotency, backpressure)
 
 <!-- Speaker Notes:
-Grouping: Frame → Decide → Diffuse.
-Stories: Boundary map prevented hidden data coupling; option comparison avoided premature queue; 5-bullet incident post reduced repeat outage class.
-Prompt: Which group is weakest? Plan two focused practice sessions.
--->
-<!-- Speaker Notes: Ordered from foundation → analysis → comparison → structured decision → diagnostic loop → alignment → horizontal quality → scaling via diffusion. Encourage audience to star their weakest two. -->
+Impacts: Boundary prevents hidden integration & scope creep; early invariants guide option pruning; flow + failure path exposes operability & resilience gaps (idempotency/backpressure). Ask: What invariant or actor is still fuzzy? -->
 
 ---
 
-## <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Systems Thinking
+## <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Risk, Cost & Uncertainty Management
 
-- Define boundary & external actors → avoid hidden integration debt
-- Surface invariant constraints early (latency, compliance) → guide design choices
-- Map one critical flow & failure path → expose operability gaps
+- Non‑negotiable anchoring: SLO / budget / compliance constraints made explicit
+- Quantified impact framing: latency, error %, run‑rate deltas replace preference
+- Uncertainty labeling & thin experiments: deliberate shrinkage of blind spots
 
 <!-- Speaker Notes:
-Example: Payment service boundary clarified PCI scope → avoided unnecessary encryption overhead.
-Failure path: "2am outage" narrative revealed missing idempotency on retry.
-Prompt: After this talk, sketch one service boundary before coding.
--->
-<!-- Speaker Notes: Part 1/2 – Establish boundary, invariants, and flows early; they anchor later trade-offs. -->
+Impacts: Non‑negotiables avoid late rework & pseudo-options; quantified deltas replace preference with evidence; thin experiments cheaply shrink blind spots. Three levers: Anchors, Numbers, Experiments. Prompt: Add one quantified impact + one explicit uncertainty to next RFC. -->
 
 ---
 
-## <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Systems Thinking (cont.)
+## <i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Trade-Offs & Reversibility
 
-- Identify coupling types (temporal, data, deploy) → reveal hidden risk propagation
-- Make feedback loop explicit (metric → alert → response) → accelerate detection & recovery
-- Write brief failure narrative → drive proactive guardrails
+- Option diversity: contrasts simplest / resilient / scalable patterns to expand solution space
+- Optionality engineering: flags, seams, adapters reduce exit cost of early choices
+- Decision logging with revisit triggers: prevents silent hardening & enables adaptive pivots
 
 <!-- Speaker Notes:
-Coupling: Temporal batch + API caused cascading latency; decoupling solved SLO misses.
-Feedback loop: Added error budget alert; triggered earlier capacity planning.
-Failure narrative: Imagined queue saturation; added backpressure strategy.
--->
-<!-- Speaker Notes: Part 2/2 – Coupling + feedback + failure narrative expose hidden risk and operability gaps early. -->
+Impacts: Option diversity broadens solution space; cheap exits preserve optionality; revisit trigger prevents silent hardening & enables adaptation. Prompt: Which current decision lacks a revisit signal? -->
 
 ---
 
-## <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Risk / Cost / Constraint Awareness
+## <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Structured Problem Solving & Decision Artifacts
 
-- Surface non-negotiables (SLOs, budget, compliance) → anchor feasible option space
-- Quantify impact (latency delta, error %, spend) → prevent preference-driven choices
-- Separate one-time vs run-rate (people & ops) → avoid hidden ongoing cost surprises
+- Problem reframing: context, measurable impact, constraints, open questions align scope
+- Constraint-first thinking: reduces biased narrowing before option generation
+- Rationale artifacts: criteria + rejected options build reusable judgment trail
 
 <!-- Speaker Notes:
-Story: Latency SLO declared post-design led to rework; surfacing early avoided wasted sprint.
-Run-rate: Cheap build, expensive operate queue cluster.
-Prompt: Add one cost quantification line to next RFC draft.
--->
-<!-- Speaker Notes: Part 1/2 – Non‑negotiables + quantified impact avert premature solution bias. -->
+Impacts: Clear restatement aligns scope fast; early constraints reduce biased narrowing; rationale artifact creates reusable judgment asset accelerating future pivots & narratives. -->
 
 ---
 
-## <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Risk / Cost / Constraint Awareness (cont.)
+## <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> Debugging Discipline (FRAME → RANK → OBSERVE → DISPROVE → RECORD)
 
-- Label uncertainty zones → target thin experiments & reduce blind spots
-- Surface hidden constraints (policy, residency, release cadence) → avoid late credibility hits
+- Failure framing: precise what / where / when / impact baselines scope
+- Prioritized hypothesis ranking: prob × impact × effort optimizes info gain
+- Isolating disproof pattern: smallest experiment with single variable change
+- Guardrail & diffusion capture: root cause recorded with preventative artifact
 
 <!-- Speaker Notes:
-Thin experiment: 2-day spike validated throughput assumption; prevented over-engineered sharding.
-Hidden constraint: Early data residency surfacing avoided compliance scramble.
--->
-<!-- Speaker Notes: Part 2/2 – Target uncertainty deliberately; surface hidden constraints to avoid late credibility hits. -->
+Impacts: Framing establishes precise scope; ranking maximizes info gain per step; smallest isolating disproof accelerates elimination cycle; recording + guardrail converts fix into reusable capability (e.g., validation test, alert, checklist). Prompt: Which loop step do you most often skip? Commit to one improvement. -->
 
 ---
 
-## <i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Trade-Off Articulation
+## <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation Levers
 
-- Write costs, benefits, risks explicitly → raise decision clarity
-- Compare distinct option shapes → expand solution space & reveal trade contours
-- Use shared criteria (cost, complexity, risk, time-to-value) → enable objective selection
+- Impact-first framing: problem + metric align shared context
+- Assumption surfacing: early challenge reduces hidden risk propagation
+- Structured divergence→convergence: time-box + criteria + explicit owner lowers churn
 
 <!-- Speaker Notes:
-Story: Explicit risk list revealed hidden ops burden in clever option; simpler path chosen.
-Option shapes: Simple cache vs CQRS vs streaming—criteria prevented pseudo-choice.
-Prompt: Include a criteria table in one decision this month.
--->
-<!-- Speaker Notes: Part 1/2 – Explicitness + diverse option shapes raise decision quality. -->
+Impacts: Leading with problem aligns context early; assumption surfacing flushes hidden risk sooner; structured divergence→convergence cuts meeting thrash. High-signal facilitation = Context → Assumptions → Criteria → Convergence. Prompt: Add a convergence time + criteria list to one meeting this week. -->
 
 ---
 
-## <i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Trade-Off Articulation (cont.)
+## <i class="fa-solid fa-sitemap" aria-hidden="true"></i> Cross-Cutting Quality & Governance
 
-- Flag irreversibility & exit cost early → inform evaluation depth
-- Record decision + revisit date → prevent silent hardening & enable adaptation
+- Delivery automation & DORA signal tracking: sustained velocity + reliability visibility
+- Shift‑left security & least privilege: reduced remediation cost and blast radius
+- Observability layering: metrics, logs, traces & SLO loop accelerate detection & learning
+- Lightweight guardrails: lint / templates scale consistent quality without heavy process
 
 <!-- Speaker Notes:
-Irreversibility: Data partition key choice locked scaling; deeper upfront evaluation saved migration.
-Revisit calendar: 90-day trigger retired unused queue.
--->
-<!-- Speaker Notes: Part 2/2 – Irreversibility framing + revisit trigger prevent silent hardening. -->
+Impacts: Delivery automation sustains velocity & reliability visibility; shift-left security reduces remediation cost & blast radius; observability trio accelerates detection & learning; lightweight guardrails scale consistency without heavy process—collectively freeing cognitive budget for judgment work. Ask: Which layer (delivery, security, observability, guardrails) is thinnest today? -->
 
 ---
 
-## <i class="fa-solid fa-door-open" aria-hidden="true"></i> Reversibility (One-Way vs Two-Way Doors)
+## <i class="fa-solid fa-user-group" aria-hidden="true"></i> Mentorship, Diffusion & Scaling Judgment
 
-- Label door type (two-way vs one-way) → calibrate speed vs rigor
-- Engineer cheap exits (flags, seams, adapters) → maintain optionality under change
-- Bias thin experiment for two-way doors → accelerate validated learning
-
-<!-- Speaker Notes:
-Story: Flagged risky feature path; rollback in minutes avoided outage.
-One-way door caution: Data model commit after contrasting 3 shapes with exit costs.
--->
-<!-- Speaker Notes: Part 1/2 – Name door type early; engineer cheap exits proactively. -->
-
----
-
-## <i class="fa-solid fa-door-open" aria-hidden="true"></i> Reversibility (cont.)
-
-- Stage migrations & use adapters → delay irreversible commitment
-- Delay one-way commits until forcing signal → reduce premature lock-in
-- Record door type + revisit trigger → ensure conscious re-evaluation
+- Cross-comfort pairing & rapid micro-teach: bi-directional pattern transfer & retention
+- Five-bullet decision / incident posts: concise public judgment trail & guardrail creation
+- Structured question framing (context → goal → constraint → ask): higher quality guidance & autonomy growth
+- Successor seeding path (shadow → co‑own → autonomous): reduces single points & scales leverage
 
 <!-- Speaker Notes:
-Staging: Phased migration uncovered schema issue early; avoided large rollback.
-Trigger: Deferred full graph adoption until fan-out metrics exceeded threshold.
--->
-<!-- Speaker Notes: Part 2/2 – Staging + explicit revisit triggers preserve optionality under change. Prompt: Pick one active decision to downgrade into a reversible slice. -->
-
----
-
-## <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Structured Problem Solving
-
-- Restate problem with measurable impact → align on urgency & scale
-- Separate symptom timeline vs root signal → avoid solution thrash
-- List constraints before options → prevent biased narrowing
-
-<!-- Speaker Notes:
-Example: Latency +140ms restatement unlocked performance budget convo.
-Symptom vs root: Error spike traced to config drift not code path.
-Constraint-first prevented over-engineered queue when headcount limited.
--->
-<!-- Speaker Notes: Part 1/2 – Clear impact + root vs symptom + constraints reduce false solution space. -->
-
----
-
-## <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Structured Problem Solving (cont.)
-
-- Generate distinct option shapes (simplest / resilient / scalable) → expose trade space
-- Compare with shared criteria → enable transparent selection
-- Capture rationale → create artifact for future adaptation
-
-<!-- Speaker Notes:
-Option triad: Simpler solution chosen with explicit deferral of scalable path until traffic threshold.
-Rationale artifact reused during capacity planning; saved re-litigating decision.
--->
-<!-- Speaker Notes: Part 2/2 – Option diversity + shared criteria + recorded rationale enable future adaptation. -->
-
----
-
-## <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> Debugging Methodology (Structured Loop)
-
-* Frame failure (what/where/when/impact) → establish baseline & scope
-* Rank hypotheses (prob × impact) → maximize information gain per test
-* Close visibility gap before guessing → reduce blind flailing
-
-<!-- Speaker Notes:
-Story: Framed outage revealed narrow blast radius; avoided system-wide restarts.
-Ranking prevented chasing rare edge case first.
-Visibility gap closure: Single trace span added unlocked immediate root cause.
-Prompt: Which step do you skip most? Commit to one improvement this week.
--->
-<!-- Speaker Notes: Part 1/2 – Framing + prioritized hypotheses + minimal visibility additions maximize information gain. -->
-
----
-
-## <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> Debugging Methodology (cont.)
-
-* Run smallest isolating disproof → accelerate elimination cycle
-* Isolate one variable at a time (env/config/data/version) → prevent confounded results
-* Record root cause + guardrail → convert fix into reusable capability
-
-<!-- Speaker Notes:
-Example: Single env variable change reproduced issue; prevented shotgun config edits.
-Guardrail: Added config validation test + diffusion snippet.
-Prompt: After next incident, write a 3-line cause/guardrail/diffusion record.
--->
-<!-- Speaker Notes: Part 2/2 – Disproof discipline + captured guardrail converts a fix into org capability. Prompt: Which link do you routinely skip? -->
-
----
-
-## <i class="fa-solid fa-repeat" aria-hidden="true"></i> Debugging Loop Mnemonic 
-### (FRAME → RANK → OBSERVE → DISPROVE → RECORD)
-
-1. FRAME: Define what changed, where it manifests, when it started, impact delta.
-2. RANK: Order hypotheses by (prob × impact × test effort) for maximum information gain.
-3. OBSERVE: Add only missing visibility (targeted log, metric, trace span) before acting.
-4. DISPROVE: Smallest isolating experiment; change one variable at a time.
-5. RECORD: Root cause, guardrail added, diffusion snippet (convert fix into capability).
-
-**Reminder**: Stop when remaining hypotheses have low expected info gain vs effort.
-<!-- Speaker Notes: Reinforces disciplined loop; turns ad-hoc debugging into repeatable method. -->
-
----
-
-## <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation
-
-* Lead with problem & impact → align context before solutioning
-* Surface key assumptions early → invite challenge & reduce hidden risk
-* Time-box divergence then converge with explicit decision point → reduce meeting thrash
-
-<!-- Speaker Notes:
-Story: Opening with impact metric shifted debate from tool preference to outcome.
-Assumption surfacing prevented late security surprise.
-Time-box produced criteria decision in 25 minutes vs prior 60-minute wander.
-Prompt: For next meeting, draft 3 assumptions + a convergence time.
--->
-<!-- Speaker Notes: Part 1/2 – Framing + explicit assumptions accelerate high-signal convergence. -->
-
----
-
-## <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation (cont.)
-
-* Capture decisions + owners live → prevent loss & ambiguity
-* Translate cross-domain concerns neutrally → sustain shared understanding
-* Close loop asynchronously with rationale → reduce re-litigation
-
-<!-- Speaker Notes:
-Live capture avoided conflicting recollections next day.
-Neutral translation prevented perf vs UX tension escalation.
-Async closure freed meeting time and preserved narrative.
-Prompt: Start a lightweight decision log doc this week.
--->
-<!-- Speaker Notes: Part 2/2 – Live capture + neutral translation + async closure reduce churn. -->
-
----
-
-## <i class="fa-solid fa-sitemap" aria-hidden="true"></i> Cross-Cutting Concerns (DevOps · Security · Identity · Observability)
-
-* DevOps automation + DORA signals → sustain velocity & reliability
-* Shift-left security + least privilege → reduce remediation cost
-* Central authn + audit trails → enable safer scale & compliance
-
-<!-- Speaker Notes:
-Pipeline automation cut MTTR; visible trend improved leadership trust.
-Abuse case review prevented insecure endpoint exposure.
-Authn centralization avoided duplicate token logic across services.
--->
-<!-- Speaker Notes: Part 1/2 – First three: deployment velocity + threat surface + access hygiene form baseline quality. -->
-
----
-
-## <i class="fa-solid fa-sitemap" aria-hidden="true"></i> Cross-Cutting Concerns (cont.)
-
-* Observability (metrics, logs, traces, SLO loop) → faster detection & learning
-* Lightweight governance policies → scale consistency without heavy process
-
-<!-- Speaker Notes:
-Single saturation metric prevented silent latency degradation.
-Lint guardrail blocked insecure config pattern early.
-Prompt: Add one missing RED/USE metric next week.
--->
-<!-- Speaker Notes: Part 2/2 – Observability + codified guardrails enable scale without quality decay. -->
-
----
-
-## <i class="fa-solid fa-user-group" aria-hidden="true"></i> Mentorship & Knowledge Sharing
-
-* Cross-comfort pairing → accelerates bi-directional pattern transfer
-* 5-bullet incident/decision posts → convert tacit fixes into shared capability
-* Micro-teach within 24h → reinforces learning & spreads vocabulary
-
-<!-- Speaker Notes:
-Weekly pairing dissolved silo; later co-led migration.
-Incident post reduced repeat outage class.
-Micro-teach cemented new cache invalidation mental model.
-Prompt: Schedule one micro-teach this week post-learning.
--->
-<!-- Speaker Notes: Part 1/2 – Pairing + rapid artifact + micro-teach accelerate pattern diffusion. -->
-
----
-
-## <i class="fa-solid fa-user-group" aria-hidden="true"></i> Mentorship & Knowledge Sharing (cont.)
-
-* Structured question framing (context → goal → constraint → ask) → improves answer quality
-* Successor seeding (shadow → co-own → autonomous) → scales judgment & reduces single points
-
-<!-- Speaker Notes:
-Well-framed cost question produced precise architectural guidance.
-Gradual handoff reduced hero dependency; freed senior engineer for strategic work.
-Prompt: Identify one successor candidate; plan shadow → co-own path.
--->
-<!-- Speaker Notes: Part 2/2 – Structured questions + intentional succession manufacture autonomy. -->
+Impacts: Pairing + rapid micro-teach accelerate pattern transfer & retention; 5-bullet posts build a public judgment trail; structured question framing increases answer quality & autonomy; successor seeding reduces single points & expands leverage. Diffusion multiplies impact: artifacts + rapid teaching convert isolated wins into org capability. Prompt: Schedule one micro-teach + write a 5-bullet decision record this week. -->
 
 ---
 
