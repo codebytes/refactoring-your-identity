@@ -399,24 +399,23 @@ Impacts: Pairing + rapid micro-teach accelerate pattern transfer & retention; 5-
 ---
 
 ## <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> 60-Day Focus (Application & Diffusion)
-
-<i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Balance Audit
-  - review last 30 artifacts; address underused pillar with planned reps. 
-
-<i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Cross-Pillar Artifact
-  - produce one option comparison combining constraints (Judgment) + assumption surfacing (Communication) + experiment plan (Adaptation). (Signal: artifact referenced in planning.)
-- <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Mentorship Micro-Teach: 10-min share of one leveraged skill & Q&A; capture 2 follow-up questions. (Signal: questions logged.)
-- <i class="fa-solid fa-gears" aria-hidden="true"></i> Optionality Injection: add seam/flag enabling reversible path in active design; document revert steps. (Signal: rollback note stored.)
-- <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Weekly Synthesis: consolidate top 3 leverage moments (skill applied → impact). (Signal: 4 published notes.)
+| Action Item | Description |
+| ----------- | ----------- |
+| <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Balance Audit | Review last 30 tagged artifacts; identify underused pillar and schedule targeted reps. |
+| <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Cross-Pillar Artifact | Create option comparison: constraints (Judgment) + assumption surfacing (Communication) + experiment plan (Adaptation). |
+| <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Mentorship Micro-Teach | 10‑min share of leveraged skill + Q&A; capture 2 follow-up questions. |
+| <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Weekly Synthesis | Consolidate top 3 leverage moments (skill applied → impact). |
 <!-- Speaker Notes: Shift = deliberate balance + integrative artifacts + diffusion. Prompt: Which pillar remains reactive vs intentional? Choose one proactive leverage action this week. -->
 
 ---
 
 ## <i class="fa-solid fa-calendar-check" aria-hidden="true"></i> 90-Day Focus (Institutionalize & Scale)
-- <i class="fa-solid fa-file-circle-check" aria-hidden="true"></i> Publish Template: frame → options → criteria → decision → revisit trigger adopted. (Signal: reused by others.)
-- <i class="fa-solid fa-book-open" aria-hidden="true"></i> Curate Judgment Stories: 3 narratives (situation → frame → trade-off → impact). (Signal: referenced in review.)
-- <i class="fa-solid fa-user-check" aria-hidden="true"></i> Delegate Medium Decision: peer owns; you review criteria only. (Signal: minimal rework + rationale.)
-- <i class="fa-solid fa-rotate-right" aria-hidden="true"></i> Fire Revisit Trigger: reassess earlier decision; pivot or reaffirm with evidence. (Signal: logged outcome.)
+| Action Item | Description |
+| ----------- | ----------- |
+| <i class="fa-solid fa-file-circle-check" aria-hidden="true"></i> Publish Template | Share lightweight template: frame → options → criteria → decision → revisit trigger; team adoption without prompting. (Signal: reused.) |
+| <i class="fa-solid fa-book-open" aria-hidden="true"></i> Curate Judgment Stories | 3 concise narratives (situation → frame → trade-off → impact) compiled & referenced. (Signal: cited in review.) |
+| <i class="fa-solid fa-user-check" aria-hidden="true"></i> Delegate Medium Decision | Peer frames & decides; you review only criteria & trade-offs. (Signal: minimal rework + recorded rationale.) |
+| <i class="fa-solid fa-rotate-right" aria-hidden="true"></i> Fire Revisit Trigger | Reassess earlier decision; pivot or explicitly reaffirm with evidence. (Signal: logged adjustment or confirmation.) |
 <!-- Speaker Notes: Objective = external identity shift: artifacts & diffusion show judgment > tools. Prompt: Pick one story to draft this week; don't wait for day 90. -->
 
 ---
