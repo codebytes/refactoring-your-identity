@@ -409,48 +409,9 @@ Impacts: Pairing + rapid micro-teach accelerate pattern transfer & retention; 5-
 
 ---
 
-## <i class="fa-solid fa-calendar-check" aria-hidden="true"></i> 90-Day Focus (Institutionalize & Scale)
-| Action Item | Description |
-| ----------- | ----------- |
-| <i class="fa-solid fa-file-circle-check" aria-hidden="true"></i> Publish Template | Share lightweight template: frame → options → criteria → decision → revisit trigger; team adoption without prompting. (Signal: reused.) |
-| <i class="fa-solid fa-book-open" aria-hidden="true"></i> Curate Judgment Stories | 3 concise narratives (situation → frame → trade-off → impact) compiled & referenced. (Signal: cited in review.) |
-| <i class="fa-solid fa-user-check" aria-hidden="true"></i> Delegate Medium Decision | Peer frames & decides; you review only criteria & trade-offs. (Signal: minimal rework + recorded rationale.) |
-| <i class="fa-solid fa-rotate-right" aria-hidden="true"></i> Fire Revisit Trigger | Reassess earlier decision; pivot or explicitly reaffirm with evidence. (Signal: logged adjustment or confirmation.) |
-<!-- Speaker Notes: Objective = external identity shift: artifacts & diffusion show judgment > tools. Prompt: Pick one story to draft this week; don't wait for day 90. -->
 
----
-
-## <i class="fa-solid fa-road-barrier" aria-hidden="true"></i> Common Pitfalls (Watch Throughout)
-- Consumption > Creation (antidote: minimum one artifact/day)
-- Waiting for Mastery (ship reversible slice early)
-- Invisible Decisions (always add revisit trigger)
-- Shiny Whiplash (define exit criterion before adopting tool)
-- Shallow Sampling (schedule depth reps; repeat pattern 3×)
-<!-- Speaker Notes: Use list as weekly retro scan. Pick one pitfall to actively counter next week; attach a concrete ritual. -->
-
----
-
-## <i class="fa-solid fa-book" aria-hidden="true"></i> Resources & Further Reading
-- Architecture Decision Record Patterns (templates, review cadences)
-- Post-Mortem & Incident Facilitation Guides (blameless synthesis, diffusion)
-- Systems Thinking & Design Primers (boundaries, flows, feedback loops)
-<!-- Speaker Notes: Part 1/2 – Focus on structural decision & systems references first. Encourage choosing ONE to operationalize. -->
-
----
-
-## <i class="fa-solid fa-book" aria-hidden="true"></i> Resources & Further Reading (cont.)
-
-- Cognitive Bias & Judgment References (bias interruption checklists)
-- Deliberate Practice & Learning Loop Sources (experiment design, reflection prompts)
-<!-- Speaker Notes: Part 2/2 – Bias & learning loop materials reinforce continuous judgment improvement. Prompt: Pick one and schedule a 30‑min implementation block. -->
-
----
-
-## <i class="fa-solid fa-circle-question" aria-hidden="true"></i> Q&A / Discussion
-- Where is your identity over‑attached to a tool or pattern?
-- Which transferable skill will you deliberately surface next month?
-- What is your first small reversible experiment and its success criterion?
-<!-- Speaker Notes: Capture public commitments (skill + experiment + success signal). Encourage writing experiment hypothesis format: "If we do X, we expect Y signal within Z timeframe." -->
+# <!-- fit --> Refactor Your Identity *Continuously*
+# Not Reactively
 
 ---
 
