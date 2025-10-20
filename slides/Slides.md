@@ -5,6 +5,12 @@ footer: '@Chris_L_Ayers - https://chris-ayers.com'
 transition: slide
 ---
 
+<!-- _footer: "@DeveloperDaysPL - developerdays.eu" -->
+
+![bg fit](./img/intro.png)
+
+---
+
 ![bg right alt: Illustration representing a code refactor concept (decorative)](./img/refactor.png)
 # Refactoring Your Identity
 
@@ -30,14 +36,17 @@ _Microsoft_
 ---
 
 # <!-- fit --> Who are you?
+<!-- Speaker Note: Prompt introspection; encourage audience to reflect beyond job title or current stack. This question seeds later reframing. -->
 
 ---
 
 # <!-- fit --> How do you define your technical identity?
+<!-- Speaker Note: Challenge assumption that identity equals tools; push toward underlying transferable patterns and behaviors. -->
 
 ---
 
 # <!-- fit --> Does it include a stack or tool?
+<!-- Speaker Note: Surface common pitfall—over-indexing on frameworks. Encourage noticing emotional attachment to tech labels. -->
 
 ---
 
@@ -46,6 +55,7 @@ _Microsoft_
 * Is your identity tied too closely to tools or stacks?
 * Does new technology feel uncomfortable or risky?
 * Do you solve all problems with the same approach?
+<!-- Speaker Note: Highlight risks of narrow pattern application—reduced adaptability and cognitive rigidity. Normalize discomfort with new tech. -->
 
 ---
 
@@ -58,10 +68,12 @@ _Microsoft_
 
 </div>
 </div>
+<!-- Speaker Note: Reframe from fear to leverage—transferable meta-skills compound. Documentation acts as an externalized memory enabling growth. -->
 
 ---
 
 # <i class="fa-solid fa-user-gear" aria-hidden="true"></i> How did we get here?
+<!-- Speaker Note: Transition to origin—identity forms through reinforcement loops. Invite reflection on career inertia. -->
 
 ---
 
@@ -71,6 +83,7 @@ _Microsoft_
 * You gain speed & receive praise
 * Requests start to funnel back to **"The Expert"**
 * Repetition deepens your comfort but narrows your scope
+<!-- Speaker Note: Positive feedback shapes specialization; celebrate growth but warn of narrowing exploration bandwidth. -->
 
 ---
 
@@ -79,6 +92,7 @@ _Microsoft_
 ## Coding Kata Meetup 😅🧑‍💻
 
 _Identity over exploration._
+<!-- Speaker Note: Anecdote illustrating choosing identity reinforcement over learning. Humanize the pattern—everyone does this. -->
 
 ---
 
@@ -87,6 +101,7 @@ _Identity over exploration._
 * Lead introductions with tool or framework
 * Default to familiar tools before gathering requirements or options
 * Avoid areas where you might lack skill
+<!-- Speaker Note: Encourage self-audit; these behaviors indicate comfort-preservation mode. Ask audience to note which resonates. -->
 
 ---
 
@@ -99,15 +114,18 @@ _Identity over exploration._
 * Identify a decision you biased toward comfort
 
 * What fear drove it? (status / time / exposure)
+<!-- Speaker Note: Actionable reflection—convert vague discomfort into explicit inventory. Fear labeling reduces its silent influence. -->
 
 ---
 
 # <!-- fit --> Refactor Your Career Potential 
 # *Before* Your Identity Hardens
+<!-- Speaker Note: Create urgency—early diversification is cheaper. Identity ossifies over time; preempt lock-in now. -->
 
 ---
 
 # <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Costs & Risks Of a Narrow Identity
+<!-- Speaker Note: Frame upcoming risk taxonomy—makes abstract downsides concrete to motivate change. -->
 
 ---
 
@@ -116,6 +134,7 @@ _Identity over exploration._
 * Doing the same thing reduces exposure to new domains
 * Comfort pick hardens into the default (silently narrowing options)
 * Curiosity and Exploration muscles atrophy
+<!-- Speaker Note: Emphasize atrophy metaphor—unused curiosity fades. Silent defaults shape future decisions unnoticed. -->
 
 ---
 
@@ -124,6 +143,7 @@ _Identity over exploration._
 * Delayed exposure to new paradigms
 * Few trade-off decisions captured
 * Little cross-stack horizon scanning & tech scouting
+<!-- Speaker Note: Missed paradigms delay pattern recognition; lack of decision artifacts erodes leverage. Opportunity cost is invisible. -->
 
 ---
 
@@ -132,6 +152,7 @@ _Identity over exploration._
 * Scope growth can stall with too much maintenance, little new paradigms
 * Judgment stays invisible with no documented rationale
 * Adaptation debt compounds with fewer early paradigm reps
+<!-- Speaker Note: Longevity requires visible judgment and adaptation reps. Without artifacts, promotable value stays hidden. -->
 
 ---
 
@@ -140,6 +161,7 @@ _Identity over exploration._
 * Energy drains defending a niche instead of exploring
 * Micro decisions go un-logged; progress feels invisible
 * Continuous output without reflection stalls learning
+<!-- Speaker Note: Emotional burnout from defending turf. Logging tiny wins restores momentum and learning velocity. -->
 
 ---
 
@@ -148,6 +170,7 @@ _Identity over exploration._
 * AI can implement standard patterns quickly
 * AI will implement what is asked, not what is needed
 * AI lacks your contextual judgment and creativity
+<!-- Speaker Note: Differentiator is judgment, not syntax. Strengthen interpretation and framing to stay irreplaceable. -->
 
 ---
 
@@ -156,15 +179,18 @@ _Identity over exploration._
 ## Team Re-Org 🔄🧩🤝💭
 
 _Identity over role._ 🔐 vs 🌱
+<!-- Speaker Note: Re-org story—identity rigidity increases transition friction. Flexibility accelerates integration. -->
 
 ---
 
 # <!-- fit --> Refactor Your Identity *Intentionally*
+<!-- Speaker Note: Intent beats accidental drift; design identity evolution like roadmap iterations. -->
 
 ---
 
 # <i class="fa-solid fa-fingerprint" aria-hidden="true"></i> Behavioral Patterns & Triggers
 ### Recognizing the Reflexes Before Changing Them
+<!-- Speaker Note: Awareness precedes refactor—identify trigger moments to insert alternative responses. -->
 
 ---
 
@@ -172,6 +198,7 @@ _Identity over role._ 🔐 vs 🌱
 
 * Fluency drop, perceived speed loss
 * Paradigm remap tax, cognitive load spike
+<!-- Speaker Note: Name the sensations—slower feeling and cognitive strain are signals of growth, not failure. -->
 
 ---
 
@@ -179,6 +206,7 @@ _Identity over role._ 🔐 vs 🌱
 
 * Ambiguous spec anxiety
 * Tool-first reflex
+<!-- Speaker Note: Ambiguity often drives premature tool selection. Encourage pausing to clarify problem framing first. -->
 
 ---
 
@@ -186,15 +214,18 @@ _Identity over role._ 🔐 vs 🌱
 
 * Non-functional requirements deferred until late in project
 * Legacy patterns forced into a mismatched context
+<!-- Speaker Note: Deferral pattern signals comfort bias. Surfacing quality constraints early expands solution space. -->
 
 ---
 
 # <!-- fit --> Refactor Your Identity *For Growth*
+<!-- Speaker Note: Shift focus to portable leverage—invest in cross-stack assets that survive tool churn. -->
 
 ---
 
 # <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Portable Skills
 ## That Compound Across Stacks
+<!-- Speaker Note: Introduce compounding concept—skills here generate multiplicative returns across environments. -->
 
 ---
 
@@ -204,6 +235,7 @@ _Identity over role._ 🔐 vs 🌱
 - Identify actors & contract definitions (inputs / outputs / rate limits)
 - Understand data flows
 - Architecture Decision Records (ADRs)
+<!-- Speaker Note: Stress modeling and explicit contracts—these abstractions unlock stack transitions with minimal friction. -->
 
 ---
 
@@ -212,6 +244,7 @@ _Identity over role._ 🔐 vs 🌱
 - Understand customer and business value
 - Align solutions to measurable outcomes
 - Prioritize work based on impact and effort
+<!-- Speaker Note: Anchor technical decisions in value; outcome fluency differentiates senior progression. -->
 
 ---
 
@@ -220,6 +253,7 @@ _Identity over role._ 🔐 vs 🌱
 - Weigh options against constraints
 - Consider long-term implications and trade-offs
 - Evaluate reversibility and adaptability
+<!-- Speaker Note: Teach reversible vs irreversible decisions—reduces paralysis and increases strategic velocity. -->
 
 ---
 
@@ -228,6 +262,7 @@ _Identity over role._ 🔐 vs 🌱
 - Structured reframing
 - Root cause analysis
 - Failure mode analysis
+<!-- Speaker Note: Artifact creation externalizes reasoning—amplifies judgment visibility and mentoring impact. -->
 
 ---
 
@@ -237,6 +272,7 @@ _Identity over role._ 🔐 vs 🌱
 - Trace-based failure analysis
 - Smallest isolating disproof experiment
 - Bug Reproduction strategy
+<!-- Speaker Note: Emphasize scientific method—tight feedback loops reduce time-to-insight and build trust. -->
 
 ---
 
@@ -246,6 +282,7 @@ _Identity over role._ 🔐 vs 🌱
 - Effective meeting facilitation
 - Clear written communication
 - Active listening and empathy
+<!-- Speaker Note: Communication multiplies technical impact—diagrams and facilitation accelerate shared clarity. -->
 
 ---
 
@@ -254,6 +291,7 @@ _Identity over role._ 🔐 vs 🌱
 - Delivery automation & DORA signals
 - Shift-left security & least privilege
 - Layered observability
+<!-- Speaker Note: Governance fluency elevates scope—shows readiness for broader system stewardship beyond code. -->
 
 ---
 
@@ -262,14 +300,17 @@ _Identity over role._ 🔐 vs 🌱
 - Foster a culture of learning and growth
 - Provide guidance and support to team members
 - Encourage knowledge sharing and collaboration
+<!-- Speaker Note: Leadership emerges through enabling others—identity expands when you scale your patterns via people. -->
 
 ---
 
 # <!-- fit --> Refactor Your Identity *Continuously*
+<!-- Speaker Note: Reinforce cadence—identity work is a recurring practice, not an annual overhaul. -->
 
 ---
 
 # <i class="fa-solid fa-brain" aria-hidden="true"></i> Adapting to Change and a Growth Mindset
+<!-- Speaker Note: Growth mindset reframes friction as signal to lean in. Adaptation is a practiced muscle, not an innate trait. -->
 
 ---
 
@@ -281,6 +322,7 @@ _Identity over role._ 🔐 vs 🌱
 | <i class="fa-solid fa-file-circle-plus" aria-hidden="true"></i> Judgment Amplification | Create one decision record highlighting explicit criteria & rejected option. |
 | <i class="fa-solid fa-handshake-simple" aria-hidden="true"></i> Communication Lift | Run assumption surfacing in one meeting. |
 | <i class="fa-solid fa-seedling" aria-hidden="true"></i> Adaptation Loop | Thin experiment in unfamiliar area + 5-line synthesis. |
+<!-- Speaker Note: Short sprint—build awareness, produce one artifact, run one facilitation, and synthesize learning for compounding. -->
 
 ---
 
@@ -291,11 +333,13 @@ _Identity over role._ 🔐 vs 🌱
 | <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Cross-Pillar Artifact | Create option comparison: constraints (Judgment) + assumption surfacing (Communication) + experiment plan (Adaptation). |
 | <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Mentorship Micro-Teach | 10‑min share of leveraged skill + Q&A; capture 2 follow-up questions. |
 | <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Weekly Synthesis | Consolidate top 3 leverage moments (skill applied → impact). |
+<!-- Speaker Note: Second cycle diffuses skill—combine pillars, teach others, and audit balance to avoid drift. -->
 
 ---
 
 # <!-- fit --> Refactor Your Identity *Continuously*
 # Not Reactively
+<!-- Speaker Note: Contrast proactive vs reactive—continuous identity work prevents crisis pivots under external pressure. -->
 
 ---
 
@@ -316,4 +360,8 @@ _Identity over role._ 🔐 vs 🌱
 
 </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<!-- Speaker Note: Close with reinforcement and call to action—invite one small experiment this week and artifact creation. Thank audience & open for questions. -->
+
+---
+
+![bg fit](./img/feedback.png)
