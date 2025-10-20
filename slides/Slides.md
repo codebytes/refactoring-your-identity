@@ -44,8 +44,7 @@ _Microsoft_
 
 # <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> This matters because it could be a problem.
 
-
-* Is your identity tied closely to tools or stacks?
+* Is your identity tied too closely to tools or stacks?
 * Does new technology feel uncomfortable or risky?
 * Are familiar solutions stretched too far?
 
@@ -84,11 +83,19 @@ _Microsoft_
 
 ---
 
+# 🧵 Story Time
+
+## Coding Kata Meetup 😅🧑‍💻
+
+_Identity over exploration._
+
+---
+
 # <i class="fa-solid fa-stethoscope" aria-hidden="true"></i> Identity Warning Signs
 
-* Lead introductions with tool or framework → identity anchored to stack
-* Default to familiar before scanning alternatives → constrains option space
-* Equate single‑stack speed with seniority → masks breadth & judgment gaps
+* Lead introductions with tool or framework
+* Default to familiar before gathering requirements or options
+* Avoid areas where you might lack skill
 
 <!-- Speaker Notes:
 Frame: Gentle diagnostic signals—not moral failings.
@@ -129,7 +136,8 @@ Prompt: Box the fear that repeats most; reuse in 30‑day plan.
 
 ---
 
-# <!-- fit --> Refactor Your Identity
+# <!-- fit --> Refactor Your Career Potential 
+# *Before* Your Identity Hardens
 
 ---
 
@@ -137,7 +145,7 @@ Prompt: Box the fear that repeats most; reuse in 30‑day plan.
 
 ---
 
-# <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In: Hidden Costs
+# <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In Costs
 
 * Maintenance loop crowds out exposure to new domains
 * Comfort pick hardens
@@ -223,6 +231,16 @@ Transition: Next: behavioral triggers driving these risks.
 
 ---
 
+# 🧵 Story Time
+
+## Team Re-Org 🔄🧩🤝💭
+
+_Identity over role._ 🔐 vs 🌱
+
+<!-- Optional emoji alternatives: 🔧 (tools), 🪜 (ladder), 🧭 (direction), ♻️ (change cycle). Choose 2–3 max if you want to reduce visual noise. -->
+
+---
+
 # <!-- fit --> Refactor Your Identity *Intentionally*
 
 ---
@@ -278,8 +296,8 @@ Transition: After naming triggers we pivot into transferable skills that counter
 ---
 
 <!-- Section Divider -->
-# <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Durable Leverage
-## Portable Skills That Compound Across Stacks
+# <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Portable Skills
+## That Compound Across Stacks
 
 <!-- Speaker Notes: Transition into the assets that transcend stacks; reframe identity around durable, compounding skills. Prompt audience to inventory their own. -->
 
@@ -308,7 +326,7 @@ Impacts: Anchors kill pseudo-options; numbers replace preference; thin experimen
 
 ---
 
-## <i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Trade-Offs & Reversibility
+# <i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Trade-Offs & Reversibility
 
 - Expand option space (simple vs resilient vs scalable)
 - Engineer optionality (flags, seams, adapters for cheap exits)
@@ -319,7 +337,7 @@ Impacts: Option diversity broadens solution space; cheap exits preserve optional
 
 ---
 
-## <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Structured Problem Solving & Decision Artifacts
+# <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Structured Problem Solving & Decision Artifacts
 
 - Reframe problems (context → impact → constraints → open questions)
 - Start with constraints before generating options
@@ -330,7 +348,7 @@ Impacts: Clear restatement aligns scope fast; early constraints reduce biased na
 
 ---
 
-## <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> Debugging Discipline
+# <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> Debugging Discipline
 
 - Frame failure precisely (what / where / when / impact)
 - Rank hypotheses (prob × impact × effort) for info gain
@@ -342,7 +360,7 @@ Impacts: Framing establishes precise scope; ranking maximizes info gain per step
 
 ---
 
-## <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation Levers
+# <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation Levers
 
 - Lead with impact (problem + metric)
 - Surface assumptions early to reduce hidden risk propagation
@@ -353,7 +371,7 @@ Impacts: Leading with problem aligns context early; assumption surfacing flushes
 
 ---
 
-## <i class="fa-solid fa-sitemap" aria-hidden="true"></i> Cross-Cutting Quality & Governance
+# <i class="fa-solid fa-sitemap" aria-hidden="true"></i> Cross-Cutting Quality & Governance
 
 - Automate delivery & track DORA signals
 - Shift‑left security & apply least privilege
@@ -365,7 +383,7 @@ Impacts: Delivery automation sustains velocity & reliability visibility; shift-l
 
 ---
 
-## <i class="fa-solid fa-user-group" aria-hidden="true"></i> Mentorship, Diffusion & Scaling Judgment
+# <i class="fa-solid fa-user-group" aria-hidden="true"></i> Mentorship, Diffusion & Scaling Judgment
 
 - Cross-comfort pairing + rapid micro-teach for pattern transfer
 - 5-bullet decision / incident records create public judgment trail & guardrails
@@ -381,7 +399,7 @@ Impacts: Pairing + rapid micro-teach accelerate pattern transfer & retention; 5-
 
 ---
 
-## <i class="fa-solid fa-brain" aria-hidden="true"></i> Adapting to Change and a Growth Mindset
+# <i class="fa-solid fa-brain" aria-hidden="true"></i> Adapting to Change and a Growth Mindset
 
 ---
 
@@ -398,7 +416,7 @@ Impacts: Pairing + rapid micro-teach accelerate pattern transfer & retention; 5-
 
 ---
 
-## <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> 60-Day Focus (Application & Diffusion)
+# <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> 60-Day Focus (Application & Diffusion)
 | Action Item | Description |
 | ----------- | ----------- |
 | <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Balance Audit | Review last 30 tagged artifacts; identify underused pillar and schedule targeted reps. |
