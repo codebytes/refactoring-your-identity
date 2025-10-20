@@ -2,7 +2,7 @@
 marp: true
 theme: custom-default
 footer: '@Chris_L_Ayers - https://chris-ayers.com'
-transition: reveal
+transition: slide
 ---
 
 ![bg right alt: Illustration representing a code refactor concept (decorative)](./img/refactor.png)
@@ -27,7 +27,6 @@ _Microsoft_
 <i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
 ~~<i class="fa-brands fa-twitter"></i> Twitter: @Chris_L_Ayers~~
 
-
 ---
 
 # <!-- fit --> Who are you?
@@ -46,15 +45,15 @@ _Microsoft_
 
 * Is your identity tied too closely to tools or stacks?
 * Does new technology feel uncomfortable or risky?
-* Are familiar solutions stretched too far?
+* Do you solve all problems with the same approach?
 
 ---
-
 
 # <i class="fa-solid fa-seedling" aria-hidden="true"></i> Or an Opportunity
 
 * You have skills that can transfer across domains
-* Experience with strong architecture & judgment multiplies your impact
+* You keep curious and explore new technologies and approaches
+* You document decisions and processes
 * Being adaptable makes you durable
 
 </div>
@@ -68,14 +67,12 @@ _Microsoft_
 
 # <i class="fa-solid fa-circle-nodes" aria-hidden="true"></i> How Technical Identity Forms
 
-* Early wins
-* Speed & praise
-* Requests funnel back to **"The Expert"**
-* Repetition deepens comfort but narrows your scope
-* The risk of discomfort feels higher, leading to avoidance
+* There are early wins
+* You gain speed & receive praise
+* Requests start to funnel back to **"The Expert"**
+* Repetition deepens your comfort but narrows your scope
 
-<!-- Speaker Notes: 
-
+<!-- Speaker Notes:
 - "This isn't a flaw-it's human psychology. We all like to stick with what we're praised for."
 - "Teams and orgs reinforce it too-once you're branded the X expert, people keep pulling you back there."
 - "That's how identity calcifies. Not because of weakness, but because of perfectly normal incentives."
@@ -94,7 +91,7 @@ _Identity over exploration._
 # <i class="fa-solid fa-stethoscope" aria-hidden="true"></i> Identity Warning Signs
 
 * Lead introductions with tool or framework
-* Default to familiar before gathering requirements or options
+* Default to familiar tools before gathering requirements or options
 * Avoid areas where you might lack skill
 
 <!-- Speaker Notes:
@@ -147,7 +144,7 @@ Prompt: Box the fear that repeats most; reuse in 30‑day plan.
 
 # <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In Costs
 
-* Maintenance loop crowds out exposure to new domains
+* Doing the same thing reduces exposure to new domains
 * Comfort pick hardens
 * Shrinking option space
 
