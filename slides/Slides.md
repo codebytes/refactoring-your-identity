@@ -53,6 +53,18 @@ _Microsoft_
 
 ---
 
+# 🧵 Story Time
+
+## Coding Kata Meetup 😅🧑‍💻
+
+> I'm not a ____________ developer. I'm a .NET Developer.
+
+_Identity over exploration._
+
+<!-- Speaker Note: Anecdote illustrating choosing identity reinforcement over learning. Humanize the pattern—everyone does this. -->
+
+---
+
 # <i class="fa-solid fa-seedling" aria-hidden="true"></i> Or an Opportunity
 
 * You have skills that can transfer across domains
@@ -80,18 +92,6 @@ _Microsoft_
 <!-- Speaker Note: Positive feedback shapes specialization; celebrate growth but warn of narrowing exploration bandwidth. -->
 
 ![bg right fit](./img/circle.png)
-
----
-
-# 🧵 Story Time
-
-## Coding Kata Meetup 😅🧑‍💻
-
-> I'm not a ____________ developer. I'm a .NET Developer.
-
-_Identity over exploration._
-
-<!-- Speaker Note: Anecdote illustrating choosing identity reinforcement over learning. Humanize the pattern—everyone does this. -->
 
 ---
 
@@ -196,7 +196,7 @@ _Identity over exploration._
 
 ## Team Re-Org 🔄🧩🤝💭
 
-_Identity over role._ 🔐 vs 🌱
+_Identity over role._ Lock-In 🔐 vs Growth 🌱
 <!-- Speaker Note: Re-org story—identity rigidity increases transition friction. Flexibility accelerates integration. -->
 
 ---
@@ -214,16 +214,17 @@ _Identity over role._ 🔐 vs 🌱
 
 # <i class="fa-solid fa-bolt" aria-hidden="true"></i> Comfort Zone Triggers
 
-* Fluency drop, perceived speed loss
-* Paradigm remap tax, cognitive load spike
+* Fluency drop and
+* Perceived speed loss
+* "Paradigm remap tax" - extra cognitive load need for mapping new concepts
 <!-- Speaker Note: Name the sensations—slower feeling and cognitive strain are signals of growth, not failure. -->
 
 ---
 
 # <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Framing & Clarity Triggers
 
-* Ambiguous spec anxiety
-* Tool-first reflex
+* Ambiguous spec anxiety—feeling stuck because goals or specs aren’t clear
+* Tool-first reflex—reaching for a favorite framework before knowing the problem
 <!-- Speaker Note: Ambiguity often drives premature tool selection. Encourage pausing to clarify problem framing first. -->
 
 ---
@@ -239,6 +240,7 @@ _Identity over role._ 🔐 vs 🌱
 # Micro-Interventions at the Moment of Choice
 
 * Insert a 2-minute "options scan" before picking tools
+* What has changed since last decision?
 * Ask: "What’s the smallest experiment I can run here?"
 * Capture one decision in 5 lines after key meetings
 <!-- Speaker Note: Translate trigger awareness into tiny, repeatable behaviors that shift identity from fixed to experimental. -->
@@ -253,6 +255,17 @@ _Identity over role._ 🔐 vs 🌱
 # <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Portable Skills
 ## That Compound Across Stacks
 <!-- Speaker Note: Introduce compounding concept—skills here generate multiplicative returns across environments. -->
+
+---
+
+![bg right:40% fit](./img/range-book.jpg)
+
+# Range & Generalists
+
+- David Epstein’s *Range* argues that generalists thrive in complex, changing domains
+- Breadth of experience + pattern-matching beats hyper-specialization in many careers
+- Portable skills are how you build **useful range** without burning everything down
+<!-- Speaker Note: Connect the talk to *Range*: reinforce that broad, transferable skills and experimentation across contexts create long-term advantage, especially as tools and stacks churn. -->
 
 ---
 
@@ -349,22 +362,65 @@ _Identity over role._ 🔐 vs 🌱
 
 ---
 
+# Connecting the Pillars: Judgment
+
+- Systems design + business value → visible judgment
+- You design **for** specific outcomes, not just elegant diagrams
+- Your trade-offs are expressed in customer and business language
+- Leaders can see how you turn constraints into deliberate choices
+<!-- Speaker Note: Show how pairing architecture thinking with value fluency makes judgment legible and promotable—people can point to your decisions, not just your delivery. -->
+
+---
+
+# Connecting the Pillars: Problem Solving
+
+- Trade-offs + debugging → trusted problem solver
+- You can explain **why** you chose a path when things break
+- Your debugging is faster because you remember the constraints you optimized for
+- Teams call you in when stakes are high, not just when syntax is hard
+<!-- Speaker Note: Emphasize that deliberate trade-off calls plus strong debugging discipline build deep trust under pressure—people feel safer shipping when you’re in the loop. -->
+
+---
+
+# Connecting the Pillars: Impact
+
+- Communication + mentorship → force multiplier
+- Your diagrams and narratives let others reuse your thinking without you
+- People around you level up faster because you teach **how** you decide
+- Your identity shifts from “the expert who does” to “the person who grows experts”
+<!-- Speaker Note: Highlight that clear communication plus mentorship scales your patterns through others—this is where identity shifts from individual contributor to multiplier and becomes resilient to stack changes. -->
+
+---
+
 # <!-- fit --> Refactor Your Identity *Continuously*
 <!-- Speaker Note: Reinforce cadence—identity work is a recurring practice, not an annual overhaul. -->
 
 ---
 
 # <i class="fa-solid fa-brain" aria-hidden="true"></i> Adapting to Change and a Growth Mindset
-<!-- Speaker Note: Growth mindset reframes friction as signal to lean in. Adaptation is a practiced muscle, not an innate trait. -->
+* Treat discomfort as a signal, not a stop sign
+* Measure progress by experiments run, not perfection
+* Narrate your own reframes: "*I don’t know this… yet.*"
+* *Yes, and…* your identity is a work in progress
+<!-- Speaker Note: Ground growth mindset in concrete practices that align with earlier triggers and micro-interventions. -->
 
 ---
 
 # From Concept to Practice
 
 * You don’t need a full career rebrand
-* You do need small, repeated reps that compound
+* You do need small, repeated reps that compound into identity
 * Let’s start with 30 days of tiny, deliberate moves
 <!-- Speaker Note: Bridge from ideas to action—set up the 30/60-day focus as structured, low-friction practice. -->
+
+---
+
+# Start Where You Are
+
+* You don't have to quit your current job; shift **how** you practice inside and outside it
+* Borrow problems from your team, community, or open source to experiment on
+* Use meetups, conferences, and online groups as low-risk sandboxes
+<!-- Speaker Note: Explicitly remove "burn it all down" pressure. Emphasize starting from today’s role and constraints, using community and side experiments instead of dramatic exits. -->
 
 ---
 
@@ -372,10 +428,10 @@ _Identity over role._ 🔐 vs 🌱
 
 | Action Item         | Description |
 | ------------------- | ----------- |
-| <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i> Skill Inventory | List 3 current strengths + 1 growth target. |
-| <i class="fa-solid fa-file-circle-plus" aria-hidden="true"></i> Judgment Amplification | Create one decision record highlighting explicit criteria & rejected option. |
-| <i class="fa-solid fa-handshake-simple" aria-hidden="true"></i> Communication Lift | Run assumption surfacing in one meeting. |
-| <i class="fa-solid fa-seedling" aria-hidden="true"></i> Adaptation Loop | Thin experiment in unfamiliar area + 5-line synthesis. |
+| <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i> Skill Inventory | List 3 current strengths + 1 growth target you can practice. |
+| <i class="fa-solid fa-file-circle-plus" aria-hidden="true"></i> Judgment Amplification | Create one decision record: context, options, criteria, rejected option, outcome (work or community). |
+| <i class="fa-solid fa-handshake-simple" aria-hidden="true"></i> Communication Lift | Run assumption surfacing in one meeting, 1:1, or study group. |
+| <i class="fa-solid fa-seedling" aria-hidden="true"></i> Adaptation Loop | Thin experiment: new tool, language, or domain at home + 5-line synthesis. |
 <!-- Speaker Note: Short sprint—build awareness, produce one artifact, run one facilitation, and synthesize learning for compounding. -->
 
 ---
@@ -383,10 +439,10 @@ _Identity over role._ 🔐 vs 🌱
 # <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> 60-Day Focus (Application & Diffusion)
 | Action Item | Description |
 | ----------- | ----------- |
-| <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Balance Audit | Review last 30 tagged artifacts; identify underused pillar and schedule targeted reps. |
-| <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Cross-Pillar Artifact | Create option comparison: constraints (Judgment) + assumption surfacing (Communication) + experiment plan (Adaptation). |
-| <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Mentorship Micro-Teach | 10‑min share of leveraged skill + Q&A; capture 2 follow-up questions. |
-| <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Weekly Synthesis | Consolidate top 3 leverage moments (skill applied → impact). |
+| <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Balance Audit | Review last 30 tagged artifacts; find an underused pillar to practice in your current role or community. |
+| <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Cross-Pillar Artifact | Create one option comparison (work task, OSS issue, or meetup talk) combining: constraints (Judgment) + surfaced assumptions (Communication) + experiment plan (Adaptation). |
+| <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Mentorship Micro-Teach | 10‑min share of a leveraged skill at work, a meetup, or online; capture 2 follow-up questions. |
+| <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Weekly Synthesis | Consolidate top 3 leverage moments (skill applied → impact) from job, home projects, or community. |
 <!-- Speaker Note: Second cycle diffuses skill—combine pillars, teach others, and audit balance to avoid drift. -->
 
 ---
