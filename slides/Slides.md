@@ -5,12 +5,6 @@ footer: '@Chris_L_Ayers - https://chris-ayers.com'
 transition: slide
 ---
 
-<!-- _footer: "@DeveloperDaysPL - developerdays.eu" -->
-
-![bg fit](./img/intro.png)
-
----
-
 ![bg right alt: Illustration representing a code refactor concept (decorative)](./img/refactor.png)
 # Refactoring Your Identity
 
@@ -85,13 +79,18 @@ _Microsoft_
 * Repetition deepens your comfort but narrows your scope
 <!-- Speaker Note: Positive feedback shapes specialization; celebrate growth but warn of narrowing exploration bandwidth. -->
 
+![bg right fit](./img/circle.png)
+
 ---
 
 # 🧵 Story Time
 
 ## Coding Kata Meetup 😅🧑‍💻
 
+> I'm not a ____________ developer. I'm a .NET Developer.
+
 _Identity over exploration._
+
 <!-- Speaker Note: Anecdote illustrating choosing identity reinforcement over learning. Humanize the pattern—everyone does this. -->
 
 ---
@@ -361,7 +360,3 @@ _Identity over role._ 🔐 vs 🌱
 </div>
 </div>
 <!-- Speaker Note: Close with reinforcement and call to action—invite one small experiment this week and artifact creation. Thank audience & open for questions. -->
-
----
-
-![bg fit](./img/feedback.png)
