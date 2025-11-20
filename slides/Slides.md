@@ -95,6 +95,15 @@ _Identity over exploration._
 
 ---
 
+# Deconstructing That Moment
+
+* What belief was I protecting? ("I'm a .NET Developer.")
+* What experiment did I avoid in that moment?
+* What signal did I send to myself and others?
+<!-- Speaker Note: Make the story actionable—help audience map this pattern to their own moments of choosing identity over exploration. -->
+
+---
+
 # <i class="fa-solid fa-stethoscope" aria-hidden="true"></i> Identity Warning Signs
 
 * Lead introductions with tool or framework
@@ -114,6 +123,16 @@ _Identity over exploration._
 
 * What fear drove it? (status / time / exposure)
 <!-- Speaker Note: Actionable reflection—convert vague discomfort into explicit inventory. Fear labeling reduces its silent influence. -->
+
+---
+
+# Share & Normalize (Optional)
+
+* Does anyone want to share **one** reflexive avoidance area
+* Listen for patterns, not prescriptions or fixes
+* Capture one small experiment you'd be willing to try next
+
+<!-- Speaker Note: Light social commitment—normalize these patterns and convert reflection into a tiny, realistic next step. Skip or shorten if time is tight. -->
 
 ---
 
