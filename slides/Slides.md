@@ -236,6 +236,15 @@ _Identity over role._ 🔐 vs 🌱
 
 ---
 
+# Micro-Interventions at the Moment of Choice
+
+* Insert a 2-minute "options scan" before picking tools
+* Ask: "What’s the smallest experiment I can run here?"
+* Capture one decision in 5 lines after key meetings
+<!-- Speaker Note: Translate trigger awareness into tiny, repeatable behaviors that shift identity from fixed to experimental. -->
+
+---
+
 # <!-- fit --> Refactor Your Identity *For Growth*
 <!-- Speaker Note: Shift focus to portable leverage—invest in cross-stack assets that survive tool churn. -->
 
@@ -254,6 +263,15 @@ _Identity over role._ 🔐 vs 🌱
 - Understand data flows
 - Architecture Decision Records (ADRs)
 <!-- Speaker Note: Stress modeling and explicit contracts—these abstractions unlock stack transitions with minimal friction. -->
+
+---
+
+# Systems Design in Any Stack
+
+- Same boundaries, different frameworks
+- Same contracts, different protocols
+- Same failure modes, different mitigations
+<!-- Speaker Note: Make portability explicit—systems thinking survives tool churn and enables faster adoption of new stacks. -->
 
 ---
 
@@ -304,6 +322,15 @@ _Identity over role._ 🔐 vs 🌱
 
 ---
 
+# High-Leverage Communication Patterns
+
+- "What I’m hearing is…" to surface and align assumptions
+- "Options, constraints, recommendation" format for proposals
+- Visual first, words second for complex flows
+<!-- Speaker Note: Provide reusable scripts that immediately raise perceived judgment and leadership, regardless of stack. -->
+
+---
+
 # <i class="fa-solid fa-sitemap" aria-hidden="true"></i> Cross-Cutting Quality & Governance
 
 - Delivery automation & DORA signals
@@ -329,6 +356,15 @@ _Identity over role._ 🔐 vs 🌱
 
 # <i class="fa-solid fa-brain" aria-hidden="true"></i> Adapting to Change and a Growth Mindset
 <!-- Speaker Note: Growth mindset reframes friction as signal to lean in. Adaptation is a practiced muscle, not an innate trait. -->
+
+---
+
+# From Concept to Practice
+
+* You don’t need a full career rebrand
+* You do need small, repeated reps that compound
+* Let’s start with 30 days of tiny, deliberate moves
+<!-- Speaker Note: Bridge from ideas to action—set up the 30/60-day focus as structured, low-friction practice. -->
 
 ---
 
