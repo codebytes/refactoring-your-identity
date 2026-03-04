@@ -16,7 +16,7 @@ transition: slide
 
 ## Chris Ayers
 
-_Senior Software Engineer_  
+_Principal Software Engineer_  
 _Azure CXP AzRel_  
 _Microsoft_
 
