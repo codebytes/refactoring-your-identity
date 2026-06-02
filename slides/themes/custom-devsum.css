@@ -78,9 +78,9 @@ section {
   On light slides a CSS filter invert makes it dark navy.
   On dark slides (title / invert / section-divider) no filter is applied.
 
-  If Marp CLI cannot resolve the relative path, use the absolute path option:
-    background-image: url('/path/to/slides/img/devsum/DevSum_White.svg');
-  or embed a base64 data URI.
+  If Marp CLI cannot resolve the relative path, use an absolute path
+  (e.g. /absolute/path/to/slides/img/devsum/DevSum_White.svg) or embed a
+  base64 data URI in the background-image rule below.
 */
 section::before {
   content: '';
@@ -90,7 +90,7 @@ section::before {
   left: 56px;
   width: 140px;
   height: 24px;
-  background-image: url('../img/devsum/DevSum_White.svg');
+  background-image: url('./img/devsum/DevSum_White.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
@@ -557,7 +557,7 @@ img[alt~="right"] {
 .devsum-logo {
   width: 160px;
   height: 28px;
-  background-image: url('../img/devsum/DevSum_White.svg');
+  background-image: url('./img/devsum/DevSum_White.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
@@ -566,7 +566,7 @@ img[alt~="right"] {
 .devsum-logo-dark {
   width: 160px;
   height: 28px;
-  background-image: url('../img/devsum/DevSum_White.svg');
+  background-image: url('./img/devsum/DevSum_White.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;

@@ -2,7 +2,6 @@
 marp: true
 theme: custom-devsum
 footer: '@Chris_L_Ayers - https://chris-ayers.com'
-transition: slide
 ---
 
 <!-- _footer: '' --->
@@ -168,8 +167,12 @@ _Identity over exploration._
 
 ---
 
-# <!-- fit --> Refactor Your Career Potential
-# *Before* Your Identity Hardens
+<!-- _class: invert -->
+
+![bg brightness:0.4 alt: A chain and padlock on a gate, representing identity lock-in before it sets](./img/stock/lock-in.jpg)
+
+# <!-- fit --> Refactor Your Identity
+# *Before* It Hardens
 <!-- Speaker Note: Create urgency—early diversification is cheaper. Identity ossifies over time; preempt lock-in now. Frame upcoming risk taxonomy—makes abstract downsides concrete to motivate change. -->
 
 ---
@@ -222,34 +225,27 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 ---
 
+![bg right:40% alt: Railway tracks diverging between trees, representing reflexive choice points](./img/stock/opportunity-loss.jpg)
+
 # <i class="fa-solid fa-fingerprint" aria-hidden="true"></i> Behavioral Patterns & Triggers
 ### Recognizing the Reflexes Before Changing Them
-<!-- Speaker Note: Awareness precedes refactor—identify trigger moments to insert alternative responses. -->
+<!-- Speaker Note: Awareness precedes refactor—identify trigger moments to insert alternative responses. The next slide names the three reflexes to watch for. -->
 
 ---
 
-# <i class="fa-solid fa-bolt" aria-hidden="true"></i> Comfort Zone Triggers
+![bg right:38% alt: Railway tracks diverging between trees, representing reflexive choice points](./img/stock/opportunity-loss.jpg)
 
-* Fluency drop and perceived speed loss
-* "Paradigm remap tax" — extra cognitive load needed for mapping new concepts
-* The slower feeling is a signal of growth, not failure
-<!-- Speaker Note: Name the sensations—feeling slower and cognitively strained are signals of growth, not incompetence. Normalizing this reduces avoidance. -->
+# <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Trigger Moments to Watch For
 
----
+**<i class="fa-solid fa-bolt" aria-hidden="true"></i> Comfort zone** — fluency drops, you feel slower
+* The "paradigm remap tax" is a signal of growth, not failure
 
-# <i class="fa-solid fa-compass" aria-hidden="true"></i> Framing & Clarity Triggers
+**<i class="fa-solid fa-compass" aria-hidden="true"></i> Framing & clarity** — specs feel ambiguous
+* Tool-first reflex: reaching for a favorite framework too early
 
-* Ambiguous spec anxiety—feeling stuck because goals or specs aren't clear
-* Tool-first reflex—reaching for a favorite framework before knowing the problem
-<!-- Speaker Note: Ambiguity often drives premature tool selection. Encourage pausing to clarify problem framing first. -->
-
----
-
-# <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Quality & Risk Defer Triggers
-
-* Non-functional requirements deferred until late in project
+**<i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Quality & risk defer** — non-functionals pushed late
 * Legacy patterns forced into a mismatched context
-<!-- Speaker Note: Deferral pattern signals comfort bias. Surfacing quality constraints early expands solution space. -->
+<!-- Speaker Note: Three reflexes grouped: (1) Comfort zone—feeling slower and cognitively strained are growth signals, not incompetence. (2) Framing—ambiguity drives premature tool selection; pause to clarify the problem first. (3) Quality/risk defer—deferral signals comfort bias; surfacing constraints early expands the solution space. -->
 
 ---
 
@@ -333,6 +329,32 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 ---
 
+# <i class="fa-solid fa-map" aria-hidden="true"></i> The Portable Pillars at a Glance
+
+<div class="columns">
+<div>
+
+- <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> **Systems design**
+- <i class="fa-solid fa-bullseye" aria-hidden="true"></i> **Business value**
+- <i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> **Trade-offs**
+- <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> **Problem solving**
+
+</div>
+<div>
+
+- <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> **Debugging discipline**
+- <i class="fa-solid fa-comments" aria-hidden="true"></i> **Communication**
+- <i class="fa-solid fa-sitemap" aria-hidden="true"></i> **Quality & governance**
+- <i class="fa-solid fa-user-group" aria-hidden="true"></i> **Mentorship & leadership**
+
+</div>
+</div>
+
+_None of these are tied to a stack. All of them compound._
+<!-- Speaker Note: Give the audience a map before the deep-dive so the next run of slides feels like a tour, not a list. Each pillar survives tool churn; we'll take them one at a time and then connect them into judgment, trust, and impact. -->
+
+---
+
 ![bg right:40% fit](./img/range-book.jpg)
 
 # Range & Generalists
@@ -346,20 +368,10 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 # <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Systems Design
 
-- Identify boundaries & contexts
-- Identify actors & contract definitions (inputs / outputs / rate limits)
-- Understand data flows
-- Architecture Decision Records (ADRs)
-<!-- Speaker Note: Stress modeling and explicit contracts—these abstractions unlock stack transitions with minimal friction. -->
-
----
-
-# Systems Design in Any Stack
-
-- Same boundaries, different frameworks
-- Same contracts, different protocols
-- Same failure modes, different mitigations
-<!-- Speaker Note: Make portability explicit—systems thinking survives tool churn and enables faster adoption of new stacks. -->
+- Identify boundaries, contexts, actors & contracts (inputs / outputs / rate limits)
+- Understand data flows; capture decisions in ADRs
+- **Portable:** same boundaries, contracts, and failure modes — different frameworks, protocols, and mitigations
+<!-- Speaker Note: Stress modeling and explicit contracts—these abstractions unlock stack transitions with minimal friction. Systems thinking survives tool churn: the boundaries, contracts, and failure modes are the same across stacks; only the frameworks, protocols, and mitigations differ. -->
 
 ---
 
@@ -402,20 +414,11 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 # <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation Levers
 
-- Good at diagramming
-- Effective meeting facilitation
-- Clear written communication
-- Active listening and empathy
-<!-- Speaker Note: Communication multiplies technical impact—diagrams and facilitation accelerate shared clarity. -->
-
----
-
-# High-Leverage Communication Patterns
-
-- "What I'm hearing is…" to surface and align assumptions
-- "Options, constraints, recommendation" format for proposals
+- Diagramming, facilitation, clear writing, active listening & empathy
+- **"What I'm hearing is…"** to surface and align assumptions
+- **"Options, constraints, recommendation"** format for proposals
 - Visual first, words second for complex flows
-<!-- Speaker Note: Provide reusable scripts that immediately raise perceived judgment and leadership, regardless of stack. -->
+<!-- Speaker Note: Communication multiplies technical impact—diagrams and facilitation accelerate shared clarity. The reusable scripts (assumption-surfacing, options/constraints/recommendation, visual-first) immediately raise perceived judgment and leadership, regardless of stack. -->
 
 ---
 
