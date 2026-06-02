@@ -39,29 +39,17 @@ _Microsoft_
 
 ---
 
-# <!-- fit --> Does it include a stack or tool?
+# <!-- fit --> Does it include a stack or tool or specific technology?
 <!-- Speaker Note: Surface common pitfall—over-indexing on frameworks. Encourage noticing emotional attachment to tech labels. -->
 
 ---
 
 # <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> This matters because it could be a problem.
 
-* Is your identity tied too closely to tools or stacks?
+* Is your identity tied too closely to tools, stacks, or a specific technology?
 * Does new technology feel uncomfortable or risky?
 * Do you solve all problems with the same approach?
 <!-- Speaker Note: Highlight risks of narrow pattern application—reduced adaptability and cognitive rigidity. Normalize discomfort with new tech. -->
-
----
-
-# 🧵 Story Time
-
-## Coding Kata Meetup 😅🧑‍💻
-
-> I'm not a ____________ developer. I'm a .NET Developer.
-
-_Identity over exploration._
-
-<!-- Speaker Note: Anecdote illustrating choosing identity reinforcement over learning. Humanize the pattern—everyone does this. -->
 
 ---
 
@@ -72,9 +60,21 @@ _Identity over exploration._
 * You document decisions and processes
 * Being adaptable makes you durable
 
-</div>
-</div>
 <!-- Speaker Note: Reframe from fear to leverage—transferable meta-skills compound. Documentation acts as an externalized memory enabling growth. -->
+
+---
+
+# 🧵 Story Time
+
+## Coding Kata Meetup 😅🧑‍💻
+
+> I'm not a ____________ developer. I'm a XXXXXXXXXXXX Developer.
+
+_Identity over exploration._
+* Don't shut out a learning opportunity because of labels
+* Seek learning and ideas from where ever you find them
+  
+<!-- Speaker Note: Anecdote illustrating choosing identity reinforcement over learning. Humanize the pattern—everyone does this. -->
 
 ---
 
@@ -91,25 +91,39 @@ _Identity over exploration._
 * Repetition deepens your comfort but narrows your scope
 <!-- Speaker Note: Positive feedback shapes specialization; celebrate growth but warn of narrowing exploration bandwidth. -->
 
-![bg right fit](./img/circle.png)
+![bg right fit](./img/tech-identity.drawio.png)
 
 ---
 
 # Deconstructing That Moment
 
-* What belief was I protecting? ("I'm a Java Developer.")
+* What belief was I protecting? ("I'm a _____ Developer.")
 * What experiment did I avoid in that moment?
 * What signal did I send to myself and others?
+* Did I pass something up to hold onto that label?
+
 <!-- Speaker Note: Make the story actionable—help audience map this pattern to their own moments of choosing identity over exploration. -->
 
 ---
 
 # <i class="fa-solid fa-stethoscope" aria-hidden="true"></i> Identity Warning Signs
 
-* Lead introductions with tool or framework
+* Lead introductions with tool, stack, or technology
 * Default to familiar tools before gathering requirements or options
 * Avoid areas where you might lack skill
 <!-- Speaker Note: Encourage self-audit; these behaviors indicate comfort-preservation mode. Ask audience to note which resonates. -->
+
+---
+
+# <i class="fa-solid fa-arrow-down" aria-hidden="true"></i> Depth Is Not the Problem
+
+* The goal is **not** to abandon specialization
+* It's to avoid making depth your **entire** identity
+* Think **T-shaped**: durable depth + adaptable breadth
+* Your expertise is a foundation, not a ceiling
+
+![bg right:50% fit](./img/t-shaped.drawio.png)
+<!-- Speaker Note: Proactively address the concern that this talk is anti-specialization. Deep expertise is valuable — the refactor is about expanding identity's surface area, not replacing your core. Frame as T-shaped to give a mental model. -->
 
 ---
 
@@ -132,18 +146,13 @@ _Identity over exploration._
 * Listen for patterns, not prescriptions or fixes
 * Capture one small experiment you'd be willing to try next
 
-<!-- Speaker Note: Light social commitment—normalize these patterns and convert reflection into a tiny, realistic next step. Skip or shorten if time is tight. -->
+<!-- Speaker Note: Light social commitment—normalize these patterns and convert reflection into a tiny, realistic next step. Skip or shorten if time is tight. Can also do a quick show-of-hands instead. -->
 
 ---
 
-# <!-- fit --> Refactor Your Career Potential 
+# <!-- fit --> Refactor Your Career Potential
 # *Before* Your Identity Hardens
-<!-- Speaker Note: Create urgency—early diversification is cheaper. Identity ossifies over time; preempt lock-in now. -->
-
----
-
-# <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Costs & Risks Of a Narrow Identity
-<!-- Speaker Note: Frame upcoming risk taxonomy—makes abstract downsides concrete to motivate change. -->
+<!-- Speaker Note: Create urgency—early diversification is cheaper. Identity ossifies over time; preempt lock-in now. Frame upcoming risk taxonomy—makes abstract downsides concrete to motivate change. -->
 
 ---
 
@@ -187,8 +196,21 @@ _Identity over exploration._
 
 * AI can implement standard patterns quickly
 * AI will implement what is asked, not what is needed
-* AI lacks your contextual judgment and creativity
-<!-- Speaker Note: Differentiator is judgment, not syntax. Strengthen interpretation and framing to stay irreplaceable. -->
+* Syntax memorization is less valuable — judgment and framing are more valuable
+<!-- Speaker Note: Differentiator is judgment, not syntax. AI reduces the advantage of memorizing APIs and boilerplate; it increases the advantage of knowing what to build, why, and how to evaluate trade-offs. -->
+
+---
+
+# <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI as Opportunity & Amplifier
+
+* AI lowers the barrier to experiment across stacks and languages
+* AI handles boilerplate — freeing you for architecture, judgment, and framing
+* New paths are emerging: AI-assisted design, prompt engineering, human-AI collaboration
+* Adaptable engineers gain **more** from AI — it amplifies portable skills
+* The engineers who thrive will be those who can **direct** AI, not just use it
+
+![bg right:40% fit](./img/ai-amplifier.drawio.png)
+<!-- Speaker Note: Reframe AI from threat to force multiplier. The same portable skills in this talk—judgment, systems thinking, communication—are exactly what let you leverage AI effectively. AI is creating more opportunities than it displaces for those who are adaptable. -->
 
 ---
 
@@ -196,8 +218,12 @@ _Identity over exploration._
 
 ## Team Re-Org 🔄🧩🤝💭
 
+> After the re-org, half the team clung to their old titles and tooling.
+> The ones who adapted fastest weren't the strongest coders —
+> they were the ones who could map old patterns to new contexts.
+
 _Identity over role._ Lock-In 🔐 vs Growth 🌱
-<!-- Speaker Note: Re-org story—identity rigidity increases transition friction. Flexibility accelerates integration. -->
+<!-- Speaker Note: Re-org story—identity rigidity increases transition friction. The people who defined themselves by what they delivered (judgment, problem-solving) integrated fast. The ones who defined themselves by what they coded struggled with the loss of familiar territory. Flexibility accelerates integration. -->
 
 ---
 
@@ -214,16 +240,16 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 # <i class="fa-solid fa-bolt" aria-hidden="true"></i> Comfort Zone Triggers
 
-* Fluency drop and
-* Perceived speed loss
-* "Paradigm remap tax" - extra cognitive load need for mapping new concepts
-<!-- Speaker Note: Name the sensations—slower feeling and cognitive strain are signals of growth, not failure. -->
+* Fluency drop and perceived speed loss
+* "Paradigm remap tax" — extra cognitive load needed for mapping new concepts
+* The slower feeling is a signal of growth, not failure
+<!-- Speaker Note: Name the sensations—feeling slower and cognitively strained are signals of growth, not incompetence. Normalizing this reduces avoidance. -->
 
 ---
 
-# <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Framing & Clarity Triggers
+# <i class="fa-solid fa-compass" aria-hidden="true"></i> Framing & Clarity Triggers
 
-* Ambiguous spec anxiety—feeling stuck because goals or specs aren’t clear
+* Ambiguous spec anxiety—feeling stuck because goals or specs aren't clear
 * Tool-first reflex—reaching for a favorite framework before knowing the problem
 <!-- Speaker Note: Ambiguity often drives premature tool selection. Encourage pausing to clarify problem framing first. -->
 
@@ -241,7 +267,7 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 * Insert a 2-minute "options scan" before picking tools
 * What has changed since last decision?
-* Ask: "What’s the smallest experiment I can run here?"
+* Ask: "What's the smallest experiment I can run here?"
 * Capture one decision in 5 lines after key meetings
 <!-- Speaker Note: Translate trigger awareness into tiny, repeatable behaviors that shift identity from fixed to experimental. -->
 
@@ -262,7 +288,7 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 # Range & Generalists
 
-- David Epstein’s *Range* argues that generalists thrive in complex, changing domains
+- David Epstein's *Range* argues that generalists thrive in complex, changing domains
 - Breadth of experience + pattern-matching beats hyper-specialization in many careers
 - Portable skills are how you build **useful range** without burning everything down
 <!-- Speaker Note: Connect the talk to *Range*: reinforce that broad, transferable skills and experimentation across contexts create long-term advantage, especially as tools and stacks churn. -->
@@ -288,7 +314,7 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 ---
 
-# <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Business Value
+# <i class="fa-solid fa-bullseye" aria-hidden="true"></i> Business Value
 
 - Understand customer and business value
 - Align solutions to measurable outcomes
@@ -337,7 +363,7 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 # High-Leverage Communication Patterns
 
-- "What I’m hearing is…" to surface and align assumptions
+- "What I'm hearing is…" to surface and align assumptions
 - "Options, constraints, recommendation" format for proposals
 - Visual first, words second for complex flows
 <!-- Speaker Note: Provide reusable scripts that immediately raise perceived judgment and leadership, regardless of stack. -->
@@ -362,6 +388,8 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 ---
 
+![bg right:40% fit](./img/connecting-pillars.drawio.png)
+
 # Connecting the Pillars: Judgment
 
 - Systems design + business value → visible judgment
@@ -378,7 +406,7 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 - You can explain **why** you chose a path when things break
 - Your debugging is faster because you remember the constraints you optimized for
 - Teams call you in when stakes are high, not just when syntax is hard
-<!-- Speaker Note: Emphasize that deliberate trade-off calls plus strong debugging discipline build deep trust under pressure—people feel safer shipping when you’re in the loop. -->
+<!-- Speaker Note: Emphasize that deliberate trade-off calls plus strong debugging discipline build deep trust under pressure—people feel safer shipping when you're in the loop. -->
 
 ---
 
@@ -387,8 +415,24 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 - Communication + mentorship → force multiplier
 - Your diagrams and narratives let others reuse your thinking without you
 - People around you level up faster because you teach **how** you decide
-- Your identity shifts from “the expert who does” to “the person who grows experts”
+- Your identity shifts from "the expert who does" to "the person who grows experts"
 <!-- Speaker Note: Highlight that clear communication plus mentorship scales your patterns through others—this is where identity shifts from individual contributor to multiplier and becomes resilient to stack changes. -->
+
+---
+
+![bg right:45% fit](./img/cross-stack-bridge.drawio.png)
+
+# 🧵 A Different Story
+
+## Cross-Stack Win 🌉✨
+
+> A systems design habit from backend work — contracts, boundaries, failure modes —
+> turned out to be exactly what a struggling front-end team needed.
+> The stack was unfamiliar. The thinking was portable.
+
+_Portable skills compound across contexts._
+
+<!-- Speaker Note: Positive proof case — show that portable skills taught in this talk actually work across domains. The audience needs to see someone succeed by applying transferable thinking, not just hear warnings about staying narrow. Adapt this to your own real story for maximum impact. -->
 
 ---
 
@@ -400,7 +444,7 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 # <i class="fa-solid fa-brain" aria-hidden="true"></i> Adapting to Change and a Growth Mindset
 * Treat discomfort as a signal, not a stop sign
 * Measure progress by experiments run, not perfection
-* Narrate your own reframes: "*I don’t know this… yet.*"
+* Narrate your own reframes: "*I don't know this… yet.*"
 * *Yes, and…* your identity is a work in progress
 <!-- Speaker Note: Ground growth mindset in concrete practices that align with earlier triggers and micro-interventions. -->
 
@@ -408,9 +452,9 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 # From Concept to Practice
 
-* You don’t need a full career rebrand
+* You don't need a full career rebrand
 * You do need small, repeated reps that compound into identity
-* Let’s start with 30 days of tiny, deliberate moves
+* Let's start with 30 days of tiny, deliberate moves
 <!-- Speaker Note: Bridge from ideas to action—set up the 30/60-day focus as structured, low-friction practice. -->
 
 ---
@@ -420,7 +464,7 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 * You don't have to quit your current job; shift **how** you practice inside and outside it
 * Borrow problems from your team, community, or open source to experiment on
 * Use meetups, conferences, and online groups as low-risk sandboxes
-<!-- Speaker Note: Explicitly remove "burn it all down" pressure. Emphasize starting from today’s role and constraints, using community and side experiments instead of dramatic exits. -->
+<!-- Speaker Note: Explicitly remove "burn it all down" pressure. Emphasize starting from today's role and constraints, using community and side experiments instead of dramatic exits. -->
 
 ---
 
