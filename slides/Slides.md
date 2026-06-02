@@ -176,67 +176,25 @@ _Identity over exploration._
 
 ![bg right:40% alt: A chain and padlock on a gate, representing identity lock-in](./img/stock/lock-in.jpg)
 
-# <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In Costs
+# <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In & Opportunity Loss
 
 * Doing the same thing reduces exposure to new domains
-* Comfort pick hardens into the default (silently narrowing options)
-* Curiosity and Exploration muscles atrophy
-<!-- Speaker Note: Emphasize atrophy metaphor—unused curiosity fades. Silent defaults shape future decisions unnoticed. -->
-
----
-
-![bg right:40% alt: Railway tracks disappearing between trees, representing diverging paths and missed opportunities](./img/stock/opportunity-loss.jpg)
-
-# <i class="fa-solid fa-chart-line" aria-hidden="true"></i> Compounding Opportunity Loss
-
-* Delayed exposure to new paradigms
-* Few trade-off decisions captured
-* Little cross-stack horizon scanning & tech scouting
-<!-- Speaker Note: Missed paradigms delay pattern recognition; lack of decision artifacts erodes leverage. Opportunity cost is invisible. -->
-
----
-
-# <i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Career Longevity Risks
-
-* Scope growth can stall with too much maintenance, little new paradigms
-* Judgment stays invisible with no documented rationale
-* Adaptation debt compounds with fewer early paradigm reps
-<!-- Speaker Note: Longevity requires visible judgment and adaptation reps. Without artifacts, promotable value stays hidden. -->
+* The comfort pick hardens into the default — silently narrowing options
+* Curiosity and exploration muscles atrophy
+* Delayed exposure to new paradigms; few trade-offs captured
+<!-- Speaker Note: Combine lock-in and opportunity loss—unused curiosity fades, silent defaults shape future decisions, and missed paradigms delay pattern recognition. Opportunity cost is invisible. -->
 
 ---
 
 ![bg right:40% alt: A single glowing light bulb in the dark, representing waning energy](./img/stock/energy-motivation.jpg)
 
-# <i class="fa-solid fa-battery-quarter" aria-hidden="true"></i> Energy & Motivation Risks
+# <i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Career Longevity & Energy Risks
 
+* Scope growth stalls — lots of maintenance, few new paradigms
+* Judgment stays invisible with no documented rationale
 * Energy drains defending a niche instead of exploring
-* Micro decisions go un-logged; progress feels invisible
-* Continuous output without reflection stalls learning
-<!-- Speaker Note: Emotional burnout from defending turf. Logging tiny wins restores momentum and learning velocity. -->
-
----
-
-![bg right:40% alt: Close-up of a circuit board, representing AI and automation](./img/stock/ai-displacement.jpg)
-
-# <i class="fa-solid fa-robot" aria-hidden="true"></i> AI Displacement Risks
-
-* AI can implement standard patterns quickly
-* AI will implement what is asked, not what is needed
-* Syntax memorization is less valuable — judgment and framing are more valuable
-<!-- Speaker Note: Differentiator is judgment, not syntax. AI reduces the advantage of memorizing APIs and boilerplate; it increases the advantage of knowing what to build, why, and how to evaluate trade-offs. -->
-
----
-
-# <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI as Opportunity & Amplifier
-
-* AI lowers the barrier to experiment across stacks and languages
-* AI handles boilerplate — freeing you for architecture, judgment, and framing
-* New paths are emerging: AI-assisted design, prompt engineering, human-AI collaboration
-* Adaptable engineers gain **more** from AI — it amplifies portable skills
-* The engineers who thrive will be those who can **direct** AI, not just use it
-
-![bg right:40% fit](./img/ai-amplifier.drawio.png)
-<!-- Speaker Note: Reframe AI from threat to force multiplier. The same portable skills in this talk—judgment, systems thinking, communication—are exactly what let you leverage AI effectively. AI is creating more opportunities than it displaces for those who are adaptable. -->
+* Output without reflection stalls learning and feels invisible
+<!-- Speaker Note: Longevity requires visible judgment and adaptation reps. Defending turf burns energy; logging tiny wins restores momentum and makes promotable value visible. -->
 
 ---
 
@@ -307,10 +265,63 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 <!-- _class: invert -->
 
+![bg brightness:0.4 alt: Close-up of a circuit board with glowing traces, representing artificial intelligence](./img/stock/ai-displacement.jpg)
+
+# <!-- fit --> Refactor Your Identity in the *Age of AI*
+<!-- Speaker Note: Dedicated AI section—AI is the biggest forcing function for identity refactoring right now. Placed here as the hinge into portable skills: frame AI as both displacement pressure and the single largest amplifier of the durable skills that follow. -->
+
+---
+
+![bg right:40% alt: Close-up of a circuit board, representing AI and automation](./img/stock/ai-displacement.jpg)
+
+# <i class="fa-solid fa-robot" aria-hidden="true"></i> Where AI Applies Pressure
+
+* AI implements standard patterns and boilerplate quickly
+* AI does what is **asked**, not what is **needed**
+* Syntax and API memorization lose value
+* Identities built on "I type the code" are most exposed
+<!-- Speaker Note: Name the threat honestly. AI erodes the advantage of memorizing APIs and producing boilerplate. The differentiator shifts from typing speed to judgment, framing, and knowing what to build and why. -->
+
+---
+
+# <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI as Opportunity & Amplifier
+
+* AI lowers the barrier to experiment across stacks and languages
+* AI handles boilerplate — freeing you for architecture, judgment, and framing
+* New paths emerge: AI-assisted design, prompt engineering, human-AI collaboration
+* Adaptable engineers gain **more** from AI — it amplifies portable skills
+
+![bg right:40% fit](./img/ai-amplifier.drawio.png)
+<!-- Speaker Note: Reframe AI from threat to force multiplier. The portable skills in this talk—judgment, systems thinking, communication—are exactly what let you leverage AI well. AI creates more opportunity than it displaces for those who are adaptable. -->
+
+---
+
+# <i class="fa-solid fa-user-shield" aria-hidden="true"></i> What AI Won't Replace
+
+* Framing the **right** problem before any code is written
+* Trade-off decisions under real-world constraints
+* Judging whether AI output is correct, safe, and appropriate
+* Communicating intent and aligning humans around a direction
+<!-- Speaker Note: The durable core. AI accelerates the typing; it doesn't own the thinking. Every item here maps directly to a portable-skill pillar in the very next section—call that forward. -->
+
+---
+
+# <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i> Direct AI, Don't Just Use It
+
+* Treat AI as a fast junior pair — you stay the architect
+* Bring the context, constraints, and acceptance criteria
+* Review and challenge output; own the result
+* The engineers who thrive will **direct** AI, not just prompt it
+<!-- Speaker Note: Practical close to the AI section. The skill is direction and evaluation, not prompting tricks. The same judgment that makes you AI-effective makes you stack-agnostic—this hands straight into the portable-skills section that follows. -->
+
+---
+
+<!-- _class: invert -->
+
 ![bg brightness:0.4 alt: A staircase ascending toward light, representing growth](./img/stock/refactor-growth.jpg)
 
 # <!-- fit --> Refactor Your Identity *For Growth*
-<!-- Speaker Note: Shift focus to portable leverage—invest in cross-stack assets that survive tool churn. -->
+<!-- Speaker Note: Shift focus to portable leverage—invest in cross-stack assets that survive tool churn. These are exactly the "what AI won't replace" skills just named. -->
 
 ---
 
