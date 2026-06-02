@@ -1,8 +1,14 @@
 ---
 marp: true
-theme: custom-default
+theme: custom-devsum
 footer: '@Chris_L_Ayers - https://chris-ayers.com'
 transition: slide
+---
+
+<!-- _footer: '' --->
+
+![bg](./img/devsum/title-slide.png)
+
 ---
 
 ![bg right alt: Illustration representing a code refactor concept (decorative)](./img/refactor.png)
@@ -515,3 +521,9 @@ _Portable skills compound across contexts._
 </div>
 </div>
 <!-- Speaker Note: Close with reinforcement and call to action—invite one small experiment this week and artifact creation. Thank audience & open for questions. -->
+
+---
+
+<!-- _footer: '' --->
+
+![bg](./img/devsum/feedback-slide.png)
