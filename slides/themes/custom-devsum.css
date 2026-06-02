@@ -1,0 +1,659 @@
+/* custom-devsum.css */
+/* @theme custom-devsum */
+/*
+  DevSum 2026 Marp Theme
+  ─────────────────────────────────────────────────────────────────────────────
+  Brand colors extracted from devsum_presentation_templete_2026_.pptx
+  (ppt/theme/theme1.xml clrScheme):
+
+    --devsum-navy:    #44546A  (dk2  — dark background, primary text on light)
+    --devsum-blue:    #4472C4  (accent1 — primary brand blue)
+    --devsum-sky:     #5B9BD5  (accent5 — lighter blue, sub-headings)
+    --devsum-orange:  #ED7D31  (accent2 — secondary accent)
+    --devsum-gold:    #FFC000  (accent4 — highlight / badge)
+    --devsum-gray:    #A5A5A5  (accent3 — muted / meta)
+    --devsum-light:   #E7E6E6  (lt2   — light section backgrounds)
+    --devsum-white:   #FFFFFF  (lt1   — text on dark, card bg)
+    --devsum-black:   #000000  (dk1   — maximum contrast text)
+
+  Primary font: IBM Plex Sans (extracted from actual slide text runs)
+  Heading fallback: Calibri Light → system-ui → sans-serif
+  Logo: slides/img/devsum/DevSum_White.svg (white, for dark backgrounds)
+        slides/img/devsum/DevSum_White.png (white PNG variant)
+        slides/img/devsum/DevSum_Blue.png  (blue variant for light backgrounds)
+
+  Usage (Marp frontmatter):
+    ---
+    marp: true
+    theme: custom-devsum
+    ---
+
+  Slide class variants:
+    <!-- _class: title           -->  dark cover / opening slide
+    <!-- _class: section-divider -->  inter-section break (blue accent)
+    <!-- _class: invert          -->  dark content slide
+    <!-- _class: quote           -->  pull-quote slide
+    <!-- _class: columns         -->  two-column layout (inline)
+    <!-- _class: columns3        -->  three-column layout (inline)
+*/
+
+/* ─── External imports ──────────────────────────────────────────────────── */
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
+
+/* ─── CSS custom properties ─────────────────────────────────────────────── */
+section {
+  --devsum-navy:   #44546A;
+  --devsum-blue:   #4472C4;
+  --devsum-sky:    #5B9BD5;
+  --devsum-orange: #ED7D31;
+  --devsum-gold:   #FFC000;
+  --devsum-gray:   #A5A5A5;
+  --devsum-light:  #E7E6E6;
+  --devsum-white:  #FFFFFF;
+  --devsum-black:  #000000;
+  --devsum-footer-height: 36px;
+  --devsum-accent-bar:    4px;
+}
+
+/* ─── Base section (light / content slides) ─────────────────────────────── */
+section {
+  font-family: 'IBM Plex Sans', 'Calibri', 'Segoe UI', system-ui, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+  color: #44546A;
+  padding: 60px 72px 80px 72px;  /* extra bottom padding for footer bar */
+  position: relative;
+
+  /* DevSum accent line — bottom edge */
+  border-bottom: var(--devsum-accent-bar) solid #4472C4;
+}
+
+/* ─── Logo mark in top-left header area ─────────────────────────────────── */
+/*
+  The DevSum logo (white SVG) is positioned in the top-left of every slide.
+  On light slides a CSS filter invert makes it dark navy.
+  On dark slides (title / invert / section-divider) no filter is applied.
+
+  If Marp CLI cannot resolve the relative path, use the absolute path option:
+    background-image: url('/path/to/slides/img/devsum/DevSum_White.svg');
+  or embed a base64 data URI.
+*/
+section::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 56px;
+  width: 140px;
+  height: 24px;
+  background-image: url('../img/devsum/DevSum_White.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  /* Invert the white SVG to navy on light backgrounds */
+  filter: invert(32%) sepia(14%) saturate(758%) hue-rotate(171deg) brightness(87%) contrast(88%);
+  z-index: 10;
+}
+
+/* ─── Marp pagination (page number) override ────────────────────────────── */
+section::after {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.55em;
+  color: #A5A5A5;
+  bottom: 14px;
+  right: 72px;
+}
+
+/* ─── Headings ──────────────────────────────────────────────────────────── */
+h1 {
+  font-family: 'IBM Plex Sans', 'Calibri Light', 'Segoe UI Light', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 1.85em;
+  line-height: 1.2;
+  color: #44546A;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  /* Accent underline */
+  padding-bottom: 0.2em;
+  border-bottom: 3px solid #4472C4;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', 'Calibri Light', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 1.35em;
+  color: #4472C4;
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+
+h3 {
+  font-family: 'IBM Plex Sans', 'Calibri', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #5B9BD5;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+h4, h5, h6 {
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  font-weight: 500;
+  color: #44546A;
+}
+
+/* ─── Paragraphs, lists ─────────────────────────────────────────────────── */
+p {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+ul, ol {
+  padding-left: 1.4em;
+  margin: 0.3em 0;
+}
+
+li {
+  margin-bottom: 0.2em;
+}
+
+li::marker {
+  color: #4472C4;
+}
+
+/* ─── Links ─────────────────────────────────────────────────────────────── */
+a {
+  color: #0563C1;
+  text-decoration: underline;
+  text-decoration-color: #5B9BD5;
+}
+
+a:hover {
+  color: #4472C4;
+}
+
+/* ─── Code ──────────────────────────────────────────────────────────────── */
+code {
+  font-family: 'IBM Plex Mono', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 0.82em;
+  background-color: #E7E6E6;
+  color: #44546A;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  border: 1px solid #c8c6c6;
+}
+
+pre {
+  font-family: 'IBM Plex Mono', 'Cascadia Code', 'Consolas', monospace;
+  background-color: #1e2a38;   /* deep navy code background */
+  color: #d4e0f0;
+  padding: 1em 1.2em;
+  border-radius: 6px;
+  border-left: 4px solid #4472C4;
+  overflow-x: auto;
+  font-size: 0.75em;
+  line-height: 1.55;
+}
+
+pre code {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font-size: 1em;
+}
+
+/* Syntax highlight accents inside pre */
+pre .hljs-keyword   { color: #5B9BD5; }
+pre .hljs-string    { color: #FFC000; }
+pre .hljs-comment   { color: #6a7f96; font-style: italic; }
+pre .hljs-number    { color: #ED7D31; }
+pre .hljs-function  { color: #70AD47; }
+
+/* ─── Blockquote ─────────────────────────────────────────────────────────── */
+blockquote {
+  border-left: 5px solid #4472C4;
+  margin: 0.8em 0;
+  padding: 0.5em 1.2em;
+  background-color: #f0f3f8;
+  color: #44546A;
+  font-style: italic;
+  border-radius: 0 4px 4px 0;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+/* ─── Tables ─────────────────────────────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88em;
+  margin: 0.6em 0;
+}
+
+thead tr {
+  background-color: #4472C4;
+  color: #FFFFFF;
+}
+
+thead th {
+  padding: 0.6em 0.9em;
+  font-weight: 600;
+  text-align: left;
+  border: 1px solid #3a62aa;
+}
+
+tbody tr {
+  border-bottom: 1px solid #E7E6E6;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f6f8;
+}
+
+tbody tr:hover {
+  background-color: #e8edf5;
+}
+
+tbody td {
+  padding: 0.5em 0.9em;
+  border: 1px solid #E7E6E6;
+  color: #44546A;
+}
+
+/* ─── Horizontal rule ────────────────────────────────────────────────────── */
+hr {
+  border: none;
+  border-top: 2px solid #4472C4;
+  margin: 0.8em 0;
+}
+
+/* ─── Footer (Marp `footer:` frontmatter) ───────────────────────────────── */
+footer {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.55em;
+  color: #A5A5A5;
+  position: absolute;
+  bottom: 14px;
+  left: 72px;
+  right: 72px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #E7E6E6;
+  padding-top: 6px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SLIDE CLASS VARIANTS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── section.title — Cover / opening slide ─────────────────────────────── */
+/*
+  Usage: <!-- _class: title -->
+  Renders a full-bleed dark navy slide with centered white text.
+  Place the DevSum logo in the top-left (handled by ::before with no filter).
+  Add a hero image by setting a background-image in the slide's HTML/CSS override:
+    <!-- _backgroundImage: url('./img/my-hero.jpg') -->
+    <!-- _backgroundColor: #44546A -->
+*/
+section.title {
+  background-color: #44546A;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 80px;
+  border-bottom: var(--devsum-accent-bar) solid #ED7D31;
+}
+
+section.title::before {
+  /* White logo — no inversion needed on dark background */
+  filter: none;
+  top: 24px;
+  left: 56px;
+}
+
+section.title h1 {
+  color: #FFFFFF;
+  font-size: 2.4em;
+  font-weight: 700;
+  border-bottom: 3px solid #ED7D31;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.4em;
+  text-align: center;
+  width: 100%;
+}
+
+section.title h2 {
+  color: #E7E6E6;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-top: 0;
+  text-align: center;
+}
+
+section.title h3 {
+  color: #A5A5A5;
+  font-size: 0.95em;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+section.title p {
+  color: #E7E6E6;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+section.title footer {
+  color: #A5A5A5;
+  border-top-color: #5B6E82;
+}
+
+section.title::after {
+  color: #6a7f96;
+}
+
+/* ─── section.section-divider — Chapter / section break ─────────────────── */
+/*
+  Usage: <!-- _class: section-divider -->
+  Blue accent background, large centered label.
+*/
+section.section-divider {
+  background-color: #4472C4;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 80px;
+  border-bottom: var(--devsum-accent-bar) solid #ED7D31;
+}
+
+section.section-divider::before {
+  filter: none;   /* white logo on blue background */
+}
+
+section.section-divider h1 {
+  color: #FFFFFF;
+  font-size: 2.2em;
+  font-weight: 700;
+  border-bottom: 3px solid rgba(255,255,255,0.4);
+  padding-bottom: 0.3em;
+  text-align: center;
+  width: 100%;
+}
+
+section.section-divider h2 {
+  color: #E7E6E6;
+  font-size: 1.1em;
+  font-weight: 400;
+  text-align: center;
+}
+
+section.section-divider p {
+  color: #dce8f8;
+  text-align: center;
+}
+
+section.section-divider footer {
+  color: rgba(255,255,255,0.6);
+  border-top-color: rgba(255,255,255,0.25);
+}
+
+section.section-divider::after {
+  color: rgba(255,255,255,0.5);
+}
+
+/* ─── section.invert — Dark content slide ───────────────────────────────── */
+/*
+  Usage: <!-- _class: invert -->
+  Deep navy background for emphasis, code-heavy, or dramatic slides.
+*/
+section.invert {
+  background-color: #1e2a38;
+  color: #d4e0f0;
+  border-bottom: var(--devsum-accent-bar) solid #5B9BD5;
+}
+
+section.invert::before {
+  filter: none;   /* white logo works on dark bg */
+}
+
+section.invert h1 {
+  color: #FFFFFF;
+  border-bottom-color: #5B9BD5;
+}
+
+section.invert h2 {
+  color: #5B9BD5;
+}
+
+section.invert h3 {
+  color: #ED7D31;
+}
+
+section.invert code {
+  background-color: #2d3e50;
+  color: #d4e0f0;
+  border-color: #3d5268;
+}
+
+section.invert pre {
+  background-color: #111c25;
+  border-left-color: #5B9BD5;
+}
+
+section.invert blockquote {
+  border-left-color: #5B9BD5;
+  background-color: #263445;
+  color: #d4e0f0;
+}
+
+section.invert a {
+  color: #5B9BD5;
+}
+
+section.invert footer {
+  color: #6a7f96;
+  border-top-color: #2d3e50;
+}
+
+section.invert::after {
+  color: #6a7f96;
+}
+
+section.invert table thead tr {
+  background-color: #2d4a7a;
+}
+
+section.invert table tbody tr:nth-child(even) {
+  background-color: #253344;
+}
+
+section.invert table tbody td {
+  color: #d4e0f0;
+  border-color: #2d3e50;
+}
+
+/* ─── section.quote — Pull-quote / highlight slide ──────────────────────── */
+/*
+  Usage: <!-- _class: quote -->
+  Light blue tint with large centered blockquote.
+*/
+section.quote {
+  background-color: #f0f4fb;
+  color: #44546A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: var(--devsum-accent-bar) solid #4472C4;
+}
+
+section.quote blockquote {
+  background-color: transparent;
+  border-left: none;
+  border-top: 4px solid #4472C4;
+  border-bottom: 4px solid #4472C4;
+  padding: 1.2em 2em;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #44546A;
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LAYOUT UTILITIES
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── Two-column layout ──────────────────────────────────────────────────── */
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+/* ─── Three-column layout ────────────────────────────────────────────────── */
+.columns3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+/* ─── Centered images ────────────────────────────────────────────────────── */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+img[alt~="right"] {
+  display: block;
+  margin-left: auto;
+}
+
+/* ─── DevSum logo helper class ───────────────────────────────────────────── */
+/*
+  If you want to place the DevSum logo manually inside slide content,
+  add an empty div with class="devsum-logo" or "devsum-logo-dark".
+
+  Example:
+    <div class="devsum-logo"></div>      (white logo — for dark slides)
+    <div class="devsum-logo-dark"></div> (dark/navy logo — for light slides)
+*/
+.devsum-logo {
+  width: 160px;
+  height: 28px;
+  background-image: url('../img/devsum/DevSum_White.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+
+.devsum-logo-dark {
+  width: 160px;
+  height: 28px;
+  background-image: url('../img/devsum/DevSum_White.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  /* CSS filter to shift white→navy (#44546A) */
+  filter: invert(32%) sepia(14%) saturate(758%) hue-rotate(171deg) brightness(87%) contrast(88%);
+}
+
+/* ─── Badge / pill utility ───────────────────────────────────────────────── */
+.badge {
+  display: inline-block;
+  background-color: #4472C4;
+  color: #FFFFFF;
+  font-size: 0.65em;
+  font-weight: 600;
+  padding: 0.2em 0.7em;
+  border-radius: 3px;
+  vertical-align: middle;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.badge-orange  { background-color: #ED7D31; }
+.badge-gold    { background-color: #FFC000; color: #44546A; }
+.badge-navy    { background-color: #44546A; }
+.badge-sky     { background-color: #5B9BD5; }
+
+/* ─── Highlight / callout boxes ──────────────────────────────────────────── */
+.callout {
+  background-color: #f0f4fb;
+  border-left: 4px solid #4472C4;
+  padding: 0.6em 1em;
+  border-radius: 0 4px 4px 0;
+  margin: 0.6em 0;
+}
+
+.callout-orange {
+  background-color: #fdf3ec;
+  border-left-color: #ED7D31;
+}
+
+.callout-gold {
+  background-color: #fffae8;
+  border-left-color: #FFC000;
+}
+
+/* ─── FontAwesome icon color helpers (matching custom-default.css) ───────── */
+.fa-bluesky        { color: deepskyblue; }
+.fa-twitter        { color: aqua; }
+.fa-mastodon       { color: purple; }
+.fa-linkedin       { color: blue; }
+.fa-window-maximize { color: skyblue; }
+
+/* DevSum-specific icon tints */
+.fa-devsum-blue   { color: #4472C4; }
+.fa-devsum-orange { color: #ED7D31; }
+.fa-devsum-gold   { color: #FFC000; }
+.fa-devsum-navy   { color: #44546A; }
+
+/* ─── Mermaid diagram sizing ──────────────────────────────────────────────── */
+svg[id^="mermaid-"] {
+  max-width: 960px;
+  max-height: 580px;
+}
+
+/* ─── Lead / large text ──────────────────────────────────────────────────── */
+.lead {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #44546A;
+  line-height: 1.6;
+}
+
+section.invert .lead {
+  color: #d4e0f0;
+}
+
+/* ─── Small / meta text ──────────────────────────────────────────────────── */
+small, .small {
+  font-size: 0.7em;
+  color: #A5A5A5;
+}
+
+/* ─── Accent text color helpers ──────────────────────────────────────────── */
+.text-blue   { color: #4472C4; }
+.text-sky    { color: #5B9BD5; }
+.text-orange { color: #ED7D31; }
+.text-gold   { color: #FFC000; }
+.text-navy   { color: #44546A; }
+.text-gray   { color: #A5A5A5; }
+.text-white  { color: #FFFFFF; }
