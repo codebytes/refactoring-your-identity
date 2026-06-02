@@ -17,7 +17,7 @@ transition: slide
 ## Chris Ayers
 
 _Principal Software Engineer_  
-_Azure CXP AzRel_  
+_Azure EngOps AzRel_  
 _Microsoft_
 
 <i class="fa-brands fa-bluesky"></i> BlueSky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)
@@ -97,7 +97,7 @@ _Identity over exploration._
 
 # Deconstructing That Moment
 
-* What belief was I protecting? ("I'm a .NET Developer.")
+* What belief was I protecting? ("I'm a Java Developer.")
 * What experiment did I avoid in that moment?
 * What signal did I send to myself and others?
 <!-- Speaker Note: Make the story actionable—help audience map this pattern to their own moments of choosing identity over exploration. -->
