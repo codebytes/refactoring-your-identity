@@ -35,6 +35,10 @@ _Microsoft_
 
 ---
 
+<!-- _class: invert -->
+
+![bg brightness:0.35 alt: Silhouette of a person against light, representing the question of identity](./img/stock/who-are-you.jpg)
+
 # <!-- fit --> Who are you?
 <!-- Speaker Note: Prompt introspection; encourage audience to reflect beyond job title or current stack. This question seeds later reframing. -->
 
@@ -59,6 +63,8 @@ _Microsoft_
 
 ---
 
+![bg right:40% alt: A green seedling sprouting from soil, representing growth opportunity](./img/stock/opportunity-seedling.jpg)
+
 # <i class="fa-solid fa-seedling" aria-hidden="true"></i> Or an Opportunity
 
 * You have skills that can transfer across domains
@@ -69,6 +75,8 @@ _Microsoft_
 <!-- Speaker Note: Reframe from fear to leverage—transferable meta-skills compound. Documentation acts as an externalized memory enabling growth. -->
 
 ---
+
+![bg right:40% alt: People collaborating at a whiteboard at a developer meetup](./img/stock/kata-meetup.jpg)
 
 # 🧵 Story Time
 
@@ -83,6 +91,10 @@ _Identity over exploration._
 <!-- Speaker Note: Anecdote illustrating choosing identity reinforcement over learning. Humanize the pattern—everyone does this. -->
 
 ---
+
+<!-- _class: invert -->
+
+![bg brightness:0.4 alt: Aerial view of a winding road through a forest, representing the path that led here](./img/stock/how-did-we-get-here.jpg)
 
 # <i class="fa-solid fa-user-gear" aria-hidden="true"></i> How did we get here?
 <!-- Speaker Note: Transition to origin—identity forms through reinforcement loops. Invite reflection on career inertia. -->
@@ -162,6 +174,8 @@ _Identity over exploration._
 
 ---
 
+![bg right:40% alt: A chain and padlock on a gate, representing identity lock-in](./img/stock/lock-in.jpg)
+
 # <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In Costs
 
 * Doing the same thing reduces exposure to new domains
@@ -170,6 +184,8 @@ _Identity over exploration._
 <!-- Speaker Note: Emphasize atrophy metaphor—unused curiosity fades. Silent defaults shape future decisions unnoticed. -->
 
 ---
+
+![bg right:40% alt: Railway tracks disappearing between trees, representing diverging paths and missed opportunities](./img/stock/opportunity-loss.jpg)
 
 # <i class="fa-solid fa-chart-line" aria-hidden="true"></i> Compounding Opportunity Loss
 
@@ -189,6 +205,8 @@ _Identity over exploration._
 
 ---
 
+![bg right:40% alt: A single glowing light bulb in the dark, representing waning energy](./img/stock/energy-motivation.jpg)
+
 # <i class="fa-solid fa-battery-quarter" aria-hidden="true"></i> Energy & Motivation Risks
 
 * Energy drains defending a niche instead of exploring
@@ -197,6 +215,8 @@ _Identity over exploration._
 <!-- Speaker Note: Emotional burnout from defending turf. Logging tiny wins restores momentum and learning velocity. -->
 
 ---
+
+![bg right:40% alt: Close-up of a circuit board, representing AI and automation](./img/stock/ai-displacement.jpg)
 
 # <i class="fa-solid fa-robot" aria-hidden="true"></i> AI Displacement Risks
 
@@ -220,6 +240,8 @@ _Identity over exploration._
 
 ---
 
+![bg right:40% alt: Sticky notes on a wall used for planning, representing a team re-org](./img/stock/team-reorg.jpg)
+
 # 🧵 Story Time
 
 ## Team Re-Org 🔄🧩🤝💭
@@ -232,6 +254,10 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 <!-- Speaker Note: Re-org story—identity rigidity increases transition friction. The people who defined themselves by what they delivered (judgment, problem-solving) integrated fast. The ones who defined themselves by what they coded struggled with the loss of familiar territory. Flexibility accelerates integration. -->
 
 ---
+
+<!-- _class: invert -->
+
+![bg brightness:0.4 alt: An architectural blueprint, representing intentional design](./img/stock/refactor-intentionally.jpg)
 
 # <!-- fit --> Refactor Your Identity *Intentionally*
 <!-- Speaker Note: Intent beats accidental drift; design identity evolution like roadmap iterations. -->
@@ -279,10 +305,16 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 
 ---
 
+<!-- _class: invert -->
+
+![bg brightness:0.4 alt: A staircase ascending toward light, representing growth](./img/stock/refactor-growth.jpg)
+
 # <!-- fit --> Refactor Your Identity *For Growth*
 <!-- Speaker Note: Shift focus to portable leverage—invest in cross-stack assets that survive tool churn. -->
 
 ---
+
+![bg right:40% alt: Tools arranged on a workshop wall, representing portable skills](./img/stock/portable-skills.jpg)
 
 # <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Portable Skills
 ## That Compound Across Stacks
@@ -442,6 +474,10 @@ _Portable skills compound across contexts._
 
 ---
 
+<!-- _class: invert -->
+
+![bg brightness:0.33 alt: Long-exposure ocean waves, representing continuous motion](./img/stock/refactor-continuously.jpg)
+
 # <!-- fit --> Refactor Your Identity *Continuously*
 <!-- Speaker Note: Reinforce cadence—identity work is a recurring practice, not an annual overhaul. -->
 
@@ -464,6 +500,8 @@ _Portable skills compound across contexts._
 <!-- Speaker Note: Bridge from ideas to action—set up the 30/60-day focus as structured, low-friction practice. -->
 
 ---
+
+![bg right:40% alt: An open monthly planner on a desk, representing starting a deliberate practice](./img/stock/thirty-sixty-day.jpg)
 
 # Start Where You Are
 
@@ -514,9 +552,18 @@ _Portable skills compound across contexts._
 </div>
 <div>
 
-## Follow Chris Ayers
+## Chris Ayers
 
-![w:350px](./img/chris_ayers.svg)
+_Principal Software Engineer_
+_Azure CXP AzRel_
+_Microsoft_
+
+<i class="fa-brands fa-bluesky"></i> BlueSky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)  
+<i class="fa-brands fa-linkedin"></i> LinkedIn: - [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)  
+<i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)  
+<i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)  
+<i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
+~~<i class="fa-brands fa-twitter"></i> Twitter: [@Chris_L_Ayers](https://twitter.com/Chris_L_Ayers)~~  
 
 </div>
 </div>
