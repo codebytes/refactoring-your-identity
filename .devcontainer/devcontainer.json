@@ -1,43 +1,47 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Debian",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"name": "Marp Slides",
+	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
 	"features": {
-		// uncomment this to allow pptx or pdf export
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "24"
+		}
+		// Uncomment this feature (and add a comma above) for PDF/PPTX export.
 		// "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
 		// 	"packages": "chromium"
 		// }
 	},
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
-	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+	"postCreateCommand": "npm install --global @marp-team/marp-cli@4.5.0",
+	// Run outside the workspace so host-only worktree pointers do not break startup.
+	"postStartCommand": "git -C / config --global --add safe.directory \"${containerWorkspaceFolder}\"",
 	
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"markdown.marp.diagnostics.slideContentOverflow": true,
 				"markdown.marp.html": "all",
+				"markdown.marp.mathTypesetting": "mathjax",
+				"markdown.marp.exportType": "html",
 				"markdown.marp.themes": [
 					"./slides/themes/custom.css",
 					"./slides/themes/custom-default.css",
+					"./slides/themes/custom-devsum.css",
 					"./slides/themes/custom-gaia.css",
 					"./slides/themes/custom-uncover.css"
-				  ]
+				]
 			},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"yzhang.markdown-all-in-one",
 				"marp-team.marp-vscode",
-				"bierner.markdown-mermaid"
+				"bierner.markdown-mermaid",
+				"hediet.vscode-drawio"
 			]
 		}
 	}

@@ -1,13 +1,7 @@
 ---
 marp: true
-theme: custom-devsum
+theme: custom-default
 footer: '@Chris_L_Ayers - https://chris-ayers.com'
----
-
-<!-- _footer: '' --->
-
-![bg](./img/devsum/title-slide.png)
-
 ---
 
 ![bg right alt: Illustration representing a code refactor concept (decorative)](./img/refactor.png)
@@ -15,17 +9,22 @@ footer: '@Chris_L_Ayers - https://chris-ayers.com'
 
 ### Chris Ayers
 
+<!--
+Allow about 60 minutes, excluding Q&A. Keep the opening questions and section
+breaks brief so there is time for the stories and reflection exercise.
+-->
+
 ---
 
 ![bg left:40% alt: Speaker portrait of Chris Ayers](./img/portrait.png)
 
 ## Chris Ayers
 
-_Principal Software Engineer_  
-_Azure EngOps AzRel_  
+_Principal Software Engineer_\
+_Azure EngOps AzRel_\
 _Microsoft_
 
-<i class="fa-brands fa-bluesky"></i> BlueSky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)
+<i class="fa-brands fa-bluesky"></i> Bluesky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)
 <i class="fa-brands fa-linkedin"></i> LinkedIn: [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
 <i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)
 <i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
@@ -39,26 +38,26 @@ _Microsoft_
 ![bg brightness:0.35 alt: Silhouette of a person against light, representing the question of identity](./img/stock/who-are-you.jpg)
 
 # <!-- fit --> Who are you?
-<!-- Speaker Note: Prompt introspection; encourage audience to reflect beyond job title or current stack. This question seeds later reframing. -->
+
+<!-- Speaker Note: Pause here. Ask people to think beyond their job title or current stack. -->
 
 ---
 
 # <!-- fit --> How do you define your technical identity?
-<!-- Speaker Note: Challenge assumption that identity equals tools; push toward underlying transferable patterns and behaviors. -->
+
+Is it a language, a framework, or something broader?
+
+<!-- Speaker Note: A technology label can be useful shorthand. Ask when it becomes a limit on the work someone will consider. -->
 
 ---
 
-# <!-- fit --> Does it include a stack or tool or specific technology?
-<!-- Speaker Note: Surface common pitfall—over-indexing on frameworks. Encourage noticing emotional attachment to tech labels. -->
+# <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Why It Matters
 
----
+* Is your identity tied to a particular technology?
+* Does unfamiliar work feel risky?
+* Do you reach for the same solution every time?
 
-# <i class="fa-solid fa-lightbulb" aria-hidden="true"></i> This matters because it could be a problem.
-
-* Is your identity tied too closely to tools, stacks, or a specific technology?
-* Does new technology feel uncomfortable or risky?
-* Do you solve all problems with the same approach?
-<!-- Speaker Note: Highlight risks of narrow pattern application—reduced adaptability and cognitive rigidity. Normalize discomfort with new tech. -->
+<!-- Speaker Note: Familiarity saves time, but it can also keep us from considering a better approach. Let people recognize the pattern without treating discomfort as a character flaw. -->
 
 ---
 
@@ -66,16 +65,15 @@ _Microsoft_
 
 # <i class="fa-solid fa-seedling" aria-hidden="true"></i> Or an Opportunity
 
-* You have skills that can transfer across domains
-* You keep curious and explore new technologies and approaches
-* You document decisions and processes
-* Being adaptable makes you durable
+* Your skills can transfer to other kinds of work
+* Curiosity gives you reasons to try
+* Recording decisions helps you reuse what you learn
 
-<!-- Speaker Note: Reframe from fear to leverage—transferable meta-skills compound. Documentation acts as an externalized memory enabling growth. -->
+<!-- Speaker Note: Keep the opportunity alongside the risk. The audience already has experience to draw on; they do not have to start from nothing. -->
 
 ---
 
-![bg right:40% alt: People collaborating at a whiteboard at a developer meetup](./img/stock/kata-meetup.jpg)
+![bg left:40% alt: People collaborating at a whiteboard at a developer meetup](./img/stock/kata-meetup.jpg)
 
 # 🧵 Story Time
 
@@ -84,10 +82,15 @@ _Microsoft_
 > I'm not a ____________ developer. I'm a XXXXXXXXXXXX Developer.
 
 _Identity over exploration._
-* Don't shut out a learning opportunity because of labels
-* Seek learning and ideas from where ever you find them
-  
-<!-- Speaker Note: Anecdote illustrating choosing identity reinforcement over learning. Humanize the pattern—everyone does this. -->
+
+* Don't pass up a learning opportunity because of a label
+* Look for useful ideas wherever you find them
+
+<!--
+Speaker Note: The blanks and Xs are intentional talk-track prompts. Keep them.
+Tell the meetup exchange and supply the technologies aloud. Ask what someone
+could learn from the exercise even with unfamiliar syntax.
+-->
 
 ---
 
@@ -96,74 +99,74 @@ _Identity over exploration._
 ![bg brightness:0.4 alt: Aerial view of a winding road through a forest, representing the path that led here](./img/stock/how-did-we-get-here.jpg)
 
 # <i class="fa-solid fa-user-gear" aria-hidden="true"></i> How did we get here?
-<!-- Speaker Note: Transition to origin—identity forms through reinforcement loops. Invite reflection on career inertia. -->
+
+<!-- Speaker Note: Move from the meetup story to the habits that make a technology feel like part of who we are. -->
 
 ---
 
 # <i class="fa-solid fa-circle-nodes" aria-hidden="true"></i> How Technical Identity Forms
 
-* There are early wins
-* You gain speed & receive praise
-* Requests start to funnel back to **"The Expert"**
-* Repetition deepens your comfort but narrows your scope
-<!-- Speaker Note: Positive feedback shapes specialization; celebrate growth but warn of narrowing exploration bandwidth. -->
+* Early wins build confidence
+* You get faster and receive praise
+* Work comes back to **"The Expert"**
+* Repetition builds comfort and narrows your range
 
 ![bg right fit](./img/tech-identity.drawio.png)
+
+<!-- Speaker Note: Walk through the feedback loop. Getting good at a kind of work is useful; the restriction appears when everyone assumes it is the only work you can do. -->
 
 ---
 
 # Deconstructing That Moment
 
 * What belief was I protecting? ("I'm a _____ Developer.")
-* What experiment did I avoid in that moment?
-* What signal did I send to myself and others?
-* Did I pass something up to hold onto that label?
+* What experiment did I avoid?
+* What did that choice tell the people around me?
 
-<!-- Speaker Note: Make the story actionable—help audience map this pattern to their own moments of choosing identity over exploration. -->
+<!-- Speaker Note: Bring the questions back to the meetup. Invite people to recall a similar moment of their own. -->
 
 ---
 
 # <i class="fa-solid fa-stethoscope" aria-hidden="true"></i> Identity Warning Signs
 
-* Lead introductions with tool, stack, or technology
-* Default to familiar tools before gathering requirements or options
-* Avoid areas where you might lack skill
-<!-- Speaker Note: Encourage self-audit; these behaviors indicate comfort-preservation mode. Ask audience to note which resonates. -->
+* Introduce yourself mainly through a tool or stack
+* Choose familiar tools before considering the requirements
+* Avoid work where you'd need help
+
+<!-- Speaker Note: Ask which behavior feels familiar. Choosing a known tool can be sensible; the warning is choosing it before considering the problem. -->
 
 ---
 
 # <i class="fa-solid fa-arrow-down" aria-hidden="true"></i> Depth Is Not the Problem
 
-* The goal is **not** to abandon specialization
-* It's to avoid making depth your **entire** identity
-* Think **T-shaped**: durable depth + adaptable breadth
-* Your expertise is a foundation, not a ceiling
+* Keep your specialization
+* Make room for work outside it
+* Think **T-shaped**: deep expertise with room to branch out
 
-![bg right:50% fit](./img/t-shaped.drawio.png)
-<!-- Speaker Note: Proactively address the concern that this talk is anti-specialization. Deep expertise is valuable — the refactor is about expanding identity's surface area, not replacing your core. Frame as T-shaped to give a mental model. -->
+![bg left:50% fit](./img/t-shaped.drawio.png)
+
+<!-- Speaker Note: Expertise takes years. The goal is to use that depth in more situations, not become equally good at everything. -->
 
 ---
 
 # <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Identity Reflection Exercise
 
-* List 3 tech areas you reflexively avoid
+* List 3 tech areas you tend to avoid
+* Recall the last time you shipped in an unfamiliar stack
+* Name a decision where comfort influenced your choice
+* What worried you? Status, time, or being seen to struggle?
 
-* Note the last time you shipped in an unfamiliar stack
-
-* Identify a decision you biased toward comfort
-
-* What fear drove it? (status / time / exposure)
-<!-- Speaker Note: Actionable reflection—convert vague discomfort into explicit inventory. Fear labeling reduces its silent influence. -->
+<!-- Speaker Note: Give people time to write. They do not have to share the personal parts. Choose one example to return to when discussing a small experiment. -->
 
 ---
 
 # Share & Normalize (Optional)
 
-* Does anyone want to share **one** reflexive avoidance area
-* Listen for patterns, not prescriptions or fixes
-* Capture one small experiment you'd be willing to try next
+* Share one area you've avoided
+* Listen for a pattern you recognize
+* Choose one small experiment you'd be willing to try
 
-<!-- Speaker Note: Light social commitment—normalize these patterns and convert reflection into a tiny, realistic next step. Skip or shorten if time is tight. Can also do a quick show-of-hands instead. -->
+<!-- Speaker Note: Take a few volunteers, or use a show of hands. Keep this brief if time is tight; the reflection can remain private. -->
 
 ---
 
@@ -173,31 +176,30 @@ _Identity over exploration._
 
 # <!-- fit --> Refactor Your Identity
 # *Before* It Hardens
-<!-- Speaker Note: Create urgency—early diversification is cheaper. Identity ossifies over time; preempt lock-in now. Frame upcoming risk taxonomy—makes abstract downsides concrete to motivate change. -->
+
+<!-- Speaker Note: It is easier to try unfamiliar work before a role change forces the issue. -->
 
 ---
-
-![bg right:40% alt: A chain and padlock on a gate, representing identity lock-in](./img/stock/lock-in.jpg)
 
 # <i class="fa-solid fa-lock" aria-hidden="true"></i> Identity Lock-In & Opportunity Loss
 
-* Doing the same thing reduces exposure to new domains
-* The comfort pick hardens into the default — silently narrowing options
-* Curiosity and exploration muscles atrophy
-* Delayed exposure to new paradigms; few trade-offs captured
-<!-- Speaker Note: Combine lock-in and opportunity loss—unused curiosity fades, silent defaults shape future decisions, and missed paradigms delay pattern recognition. Opportunity cost is invisible. -->
+* Repeating the same work limits exposure to other problems
+* The familiar choice becomes the default
+* You get less practice comparing approaches
+
+<!-- Speaker Note: The cost is often an opportunity you never hear about or consider. Ask what work people have quietly ruled themselves out of. -->
 
 ---
 
-![bg right:40% alt: A single glowing light bulb in the dark, representing waning energy](./img/stock/energy-motivation.jpg)
+![bg left:40% alt: A single glowing light bulb in the dark, representing waning energy](./img/stock/energy-motivation.jpg)
 
 # <i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Career Longevity & Energy Risks
 
-* Scope growth stalls — lots of maintenance, few new paradigms
-* Judgment stays invisible with no documented rationale
-* Energy drains defending a niche instead of exploring
-* Output without reflection stalls learning and feels invisible
-<!-- Speaker Note: Longevity requires visible judgment and adaptation reps. Defending turf burns energy; logging tiny wins restores momentum and makes promotable value visible. -->
+* Maintenance fills the time you could spend learning
+* Your judgment is hard to see if nobody knows why you made a choice
+* Defending a niche can become exhausting
+
+<!-- Speaker Note: Connect the career concern to everyday work. A short record of a decision can make learning and judgment visible without creating another reporting job. -->
 
 ---
 
@@ -212,7 +214,8 @@ _Identity over exploration._
 > they were the ones who could map old patterns to new contexts.
 
 _Identity over role._ Lock-In 🔐 vs Growth 🌱
-<!-- Speaker Note: Re-org story—identity rigidity increases transition friction. The people who defined themselves by what they delivered (judgment, problem-solving) integrated fast. The ones who defined themselves by what they coded struggled with the loss of familiar territory. Flexibility accelerates integration. -->
+
+<!-- Speaker Note: Tell the re-org story and describe what changed about the work. Your FTA-to-AzRel move is documented at https://chris-ayers.com/posts/new-team-new-focus/. Focus on the habits that helped with the transition. -->
 
 ---
 
@@ -221,41 +224,49 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 ![bg brightness:0.4 alt: An architectural blueprint, representing intentional design](./img/stock/refactor-intentionally.jpg)
 
 # <!-- fit --> Refactor Your Identity *Intentionally*
-<!-- Speaker Note: Intent beats accidental drift; design identity evolution like roadmap iterations. -->
+
+<!-- Speaker Note: Move from recognizing the pattern to changing a decision at the moment it happens. -->
 
 ---
-
-![bg right:40% alt: Railway tracks diverging between trees, representing reflexive choice points](./img/stock/opportunity-loss.jpg)
-
-# <i class="fa-solid fa-fingerprint" aria-hidden="true"></i> Behavioral Patterns & Triggers
-### Recognizing the Reflexes Before Changing Them
-<!-- Speaker Note: Awareness precedes refactor—identify trigger moments to insert alternative responses. The next slide names the three reflexes to watch for. -->
-
----
-
-![bg right:38% alt: Railway tracks diverging between trees, representing reflexive choice points](./img/stock/opportunity-loss.jpg)
 
 # <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Trigger Moments to Watch For
 
-**<i class="fa-solid fa-bolt" aria-hidden="true"></i> Comfort zone** — fluency drops, you feel slower
-* The "paradigm remap tax" is a signal of growth, not failure
+<div class="columns3">
+<div>
 
-**<i class="fa-solid fa-compass" aria-hidden="true"></i> Framing & clarity** — specs feel ambiguous
-* Tool-first reflex: reaching for a favorite framework too early
+**<i class="fa-solid fa-bolt" aria-hidden="true"></i> You feel slower**
 
-**<i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Quality & risk defer** — non-functionals pushed late
-* Legacy patterns forced into a mismatched context
-<!-- Speaker Note: Three reflexes grouped: (1) Comfort zone—feeling slower and cognitively strained are growth signals, not incompetence. (2) Framing—ambiguity drives premature tool selection; pause to clarify the problem first. (3) Quality/risk defer—deferral signals comfort bias; surfacing constraints early expands the solution space. -->
+* Is the work unfamiliar, or is the approach wrong?
+
+</div>
+<div>
+
+**<i class="fa-solid fa-compass" aria-hidden="true"></i> The problem is unclear**
+
+* Are you picking a tool before asking enough questions?
+
+</div>
+<div>
+
+**<i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Risk gets deferred**
+
+* Are you forcing old patterns into a different context?
+
+</div>
+</div>
+
+<!-- Speaker Note: These are moments to pause. Feeling slower can be part of learning; it is still worth checking whether the approach fits. Bring quality and operating constraints into the discussion early. -->
 
 ---
 
-# Micro-Interventions at the Moment of Choice
+# Small Interventions at the Moment of Choice
 
-* Insert a 2-minute "options scan" before picking tools
-* What has changed since last decision?
-* Ask: "What's the smallest experiment I can run here?"
-* Capture one decision in 5 lines after key meetings
-<!-- Speaker Note: Translate trigger awareness into tiny, repeatable behaviors that shift identity from fixed to experimental. -->
+* Spend 2 minutes considering another option
+* Ask what has changed since the last decision
+* Choose the smallest useful experiment
+* Capture one decision in 5 lines
+
+<!-- Speaker Note: Keep these small enough to use in a real meeting. A brief pause or note is more useful than a process nobody has time to follow. -->
 
 ---
 
@@ -264,51 +275,51 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 ![bg brightness:0.4 alt: Close-up of a circuit board with glowing traces, representing artificial intelligence](./img/stock/ai-displacement.jpg)
 
 # <!-- fit --> Refactor Your Identity in the *Age of AI*
-<!-- Speaker Note: Dedicated AI section—AI is the biggest forcing function for identity refactoring right now. Placed here as the hinge into portable skills: frame AI as both displacement pressure and the single largest amplifier of the durable skills that follow. -->
+
+<!-- Speaker Note: AI makes this question more immediate. Routine implementation is easier to generate, and evaluating the result requires more than knowing the syntax. -->
 
 ---
 
-![bg right:40% alt: Close-up of a circuit board, representing AI and automation](./img/stock/ai-displacement.jpg)
-
 # <i class="fa-solid fa-robot" aria-hidden="true"></i> Where AI Applies Pressure
 
-* AI implements standard patterns and boilerplate quickly
-* AI does what is **asked**, not what is **needed**
-* Syntax and API memorization lose value
-* Identities built on "I type the code" are most exposed
-<!-- Speaker Note: Name the threat honestly. AI erodes the advantage of memorizing APIs and producing boilerplate. The differentiator shifts from typing speed to judgment, framing, and knowing what to build and why. -->
+* AI can produce routine code quickly
+* A fluent answer can still misunderstand the problem
+* Memorizing syntax and APIs becomes less of an advantage
+
+<!-- Speaker Note: Be direct about the pressure on routine implementation without predicting which jobs disappear. Knowing what to build and whether it works remains part of the job. -->
 
 ---
 
 # <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI as Opportunity & Amplifier
 
-* AI lowers the barrier to experiment across stacks and languages
-* AI handles boilerplate — freeing you for architecture, judgment, and framing
-* New paths emerge: AI-assisted design, prompt engineering, human-AI collaboration
-* Adaptable engineers gain **more** from AI — it amplifies portable skills
+* Explore code in an unfamiliar stack
+* Use a draft to get an experiment started
+* Spend the saved time on design and reviewing the result
 
 ![bg right:40% fit](./img/ai-amplifier.drawio.png)
-<!-- Speaker Note: Reframe AI from threat to force multiplier. The portable skills in this talk—judgment, systems thinking, communication—are exactly what let you leverage AI well. AI creates more opportunity than it displaces for those who are adaptable. -->
+
+<!-- Speaker Note: AI can lower the cost of trying something unfamiliar. The useful part is the chance to learn and compare approaches, not accepting whatever it produces. -->
 
 ---
 
-# <i class="fa-solid fa-user-shield" aria-hidden="true"></i> What AI Won't Replace
+# <i class="fa-solid fa-user-shield" aria-hidden="true"></i> What You Still Own
 
-* Framing the **right** problem before any code is written
-* Trade-off decisions under real-world constraints
-* Judging whether AI output is correct, safe, and appropriate
-* Communicating intent and aligning humans around a direction
-<!-- Speaker Note: The durable core. AI accelerates the typing; it doesn't own the thinking. Every item here maps directly to a portable-skill pillar in the very next section—call that forward. -->
+* Deciding which problem to solve
+* Choosing trade-offs under real constraints
+* Checking whether the output is correct and safe
+* Getting people to agree on a direction
+
+<!-- Speaker Note: Keep this about responsibility, not a claim about what AI will never do. These are the same skills that help when changing stacks. -->
 
 ---
 
 # <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i> Direct AI, Don't Just Use It
 
-* Treat AI as a fast junior pair — you stay the architect
-* Bring the context, constraints, and acceptance criteria
-* Review and challenge output; own the result
-* The engineers who thrive will **direct** AI, not just prompt it
-<!-- Speaker Note: Practical close to the AI section. The skill is direction and evaluation, not prompting tricks. The same judgment that makes you AI-effective makes you stack-agnostic—this hands straight into the portable-skills section that follows. -->
+* Give it context, constraints, and acceptance criteria
+* Ask for alternatives and challenge the answer
+* Review the result and own the decision
+
+<!-- Speaker Note: The rubber-duck comparison can help here: explaining the problem is useful before any answer arrives. See https://chris-ayers.com/posts/copilot-or-rubber-ducky/. -->
 
 ---
 
@@ -317,15 +328,8 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 ![bg brightness:0.4 alt: A staircase ascending toward light, representing growth](./img/stock/refactor-growth.jpg)
 
 # <!-- fit --> Refactor Your Identity *For Growth*
-<!-- Speaker Note: Shift focus to portable leverage—invest in cross-stack assets that survive tool churn. These are exactly the "what AI won't replace" skills just named. -->
 
----
-
-![bg right:40% alt: Tools arranged on a workshop wall, representing portable skills](./img/stock/portable-skills.jpg)
-
-# <i class="fa-solid fa-layer-group" aria-hidden="true"></i> Portable Skills
-## That Compound Across Stacks
-<!-- Speaker Note: Introduce compounding concept—skills here generate multiplicative returns across environments. -->
+<!-- Speaker Note: Turn to the skills people can carry into another stack or role. -->
 
 ---
 
@@ -350,8 +354,7 @@ _Identity over role._ Lock-In 🔐 vs Growth 🌱
 </div>
 </div>
 
-_None of these are tied to a stack. All of them compound._
-<!-- Speaker Note: Give the audience a map before the deep-dive so the next run of slides feels like a tour, not a list. Each pillar survives tool churn; we'll take them one at a time and then connect them into judgment, trust, and impact. -->
+<!-- Speaker Note: Give the audience the map, then move on. Ask them to notice one strength and one skill they want more practice using. -->
 
 ---
 
@@ -359,116 +362,123 @@ _None of these are tied to a stack. All of them compound._
 
 # Range & Generalists
 
-- David Epstein's *Range* argues that generalists thrive in complex, changing domains
-- Breadth of experience + pattern-matching beats hyper-specialization in many careers
-- Portable skills are how you build **useful range** without burning everything down
-<!-- Speaker Note: Connect the talk to *Range*: reinforce that broad, transferable skills and experimentation across contexts create long-term advantage, especially as tools and stacks churn. -->
+- David Epstein's *Range* makes the case for breadth in complex, changing work
+- Experience in another field can help you recognize a useful pattern
+- Build on what you know while trying something outside it
+
+<!-- Speaker Note: Connect the book to the talk without treating generalization as a rule for every career. Depth still matters. -->
 
 ---
 
 # <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Systems Design
 
-- Identify boundaries, contexts, actors & contracts (inputs / outputs / rate limits)
-- Understand data flows; capture decisions in ADRs
-- **Portable:** same boundaries, contracts, and failure modes — different frameworks, protocols, and mitigations
-<!-- Speaker Note: Stress modeling and explicit contracts—these abstractions unlock stack transitions with minimal friction. Systems thinking survives tool churn: the boundaries, contracts, and failure modes are the same across stacks; only the frameworks, protocols, and mitigations differ. -->
+- Identify boundaries, actors, and contracts
+- Trace the data and record the decisions
+- Recognize familiar failure modes in a different stack
+
+<!-- Speaker Note: The framework may change while the questions about boundaries and failure remain useful. Use an example from the talk track rather than explaining every architecture term. -->
 
 ---
 
 # <i class="fa-solid fa-bullseye" aria-hidden="true"></i> Business Value
 
-- Understand customer and business value
-- Align solutions to measurable outcomes
-- Prioritize work based on impact and effort
-<!-- Speaker Note: Anchor technical decisions in value; outcome fluency differentiates senior progression. -->
+- Understand what the customer needs
+- Define what an improvement would look like
+- Compare the benefit with the effort
+
+<!-- Speaker Note: Bring the tool discussion back to the people using the result. The same questions apply in customer work, platform work, and a community project. -->
 
 ---
 
 # <i class="fa-solid fa-scale-unbalanced" aria-hidden="true"></i> Trade-Offs
 
-- Weigh options against constraints
-- Consider long-term implications and trade-offs
-- Evaluate reversibility and adaptability
-<!-- Speaker Note: Teach reversible vs irreversible decisions—reduces paralysis and increases strategic velocity. -->
+- Compare options against the constraints
+- Include the cost of operating and changing them
+- Know which decisions are easy to reverse
+
+<!-- Speaker Note: A reversible choice does not need the same process as one that is expensive to undo. Explain the trade-off rather than presenting a favorite tool as the answer. -->
 
 ---
 
-# <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Structured Problem Solving & Decision Artifacts
+# <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Structured Problem Solving
 
-- Structured reframing
-- Root cause analysis
-- Failure mode analysis
-<!-- Speaker Note: Artifact creation externalizes reasoning—amplifies judgment visibility and mentoring impact. -->
+- Reframe the problem before choosing a solution
+- Look for root causes
+- Consider how a fix could fail
+
+<!-- Speaker Note: A short diagram or decision record makes the reasoning easier for someone else to follow. -->
 
 ---
 
 # <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> Debugging Discipline
 
-- Hypothesis-driven investigation
-- Trace-based failure analysis
-- Smallest isolating disproof experiment
-- Bug Reproduction strategy
-<!-- Speaker Note: Emphasize scientific method—tight feedback loops reduce time-to-insight and build trust. -->
+- Form a hypothesis
+- Reproduce the failure and follow the evidence
+- Run the smallest test that could prove you wrong
+
+<!-- Speaker Note: Knowing how to investigate is useful before you know every API. Separate what you observed from what you think explains it. -->
 
 ---
 
-# <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation Levers
+# <i class="fa-solid fa-comments" aria-hidden="true"></i> Communication & Facilitation
 
-- Diagramming, facilitation, clear writing, active listening & empathy
-- **"What I'm hearing is…"** to surface and align assumptions
-- **"Options, constraints, recommendation"** format for proposals
-- Visual first, words second for complex flows
-<!-- Speaker Note: Communication multiplies technical impact—diagrams and facilitation accelerate shared clarity. The reusable scripts (assumption-surfacing, options/constraints/recommendation, visual-first) immediately raise perceived judgment and leadership, regardless of stack. -->
+- Check assumptions: **"What I'm hearing is..."**
+- Explain the options, constraints, and recommendation
+- Use a diagram when it explains more than prose
+
+<!-- Speaker Note: Listen before settling on an interpretation. Match the explanation to the person who needs to act on it. -->
 
 ---
 
 # <i class="fa-solid fa-sitemap" aria-hidden="true"></i> Cross-Cutting Quality & Governance
 
-- Delivery automation & DORA signals
-- Shift-left security & least privilege
-- Layered observability
-<!-- Speaker Note: Governance fluency elevates scope—shows readiness for broader system stewardship beyond code. -->
+- Automate delivery and watch its results
+- Address security early; use least privilege
+- Make failures visible through observability
+
+<!-- Speaker Note: Keep the original delivery, DORA, security, and observability examples in the talk track. These concerns follow the application across stacks. -->
 
 ---
 
 # <i class="fa-solid fa-user-group" aria-hidden="true"></i> Mentorship and Leadership
 
-- Foster a culture of learning and growth
-- Provide guidance and support to team members
-- Encourage knowledge sharing and collaboration
-<!-- Speaker Note: Leadership emerges through enabling others—identity expands when you scale your patterns via people. -->
+- Make room for people to learn
+- Explain the reasoning behind your choices
+- Share work that others can reuse
+
+<!-- Speaker Note: In your consulting post: "I want them to learn and apply it after I'm gone." Use that practical test of a handoff. https://chris-ayers.com/posts/snake-oil-devops-beware/ -->
 
 ---
 
-![bg right:40% fit](./img/connecting-pillars.drawio.png)
+![bg left:40% fit](./img/connecting-pillars.drawio.png)
 
 # Connecting the Pillars: Judgment
 
-- Systems design + business value → visible judgment
-- You design **for** specific outcomes, not just elegant diagrams
-- Your trade-offs are expressed in customer and business language
-- Leaders can see how you turn constraints into deliberate choices
-<!-- Speaker Note: Show how pairing architecture thinking with value fluency makes judgment legible and promotable—people can point to your decisions, not just your delivery. -->
+- Combine systems design with business value
+- Explain why the design fits the customer's needs
+- Make the trade-offs visible
+
+<!-- Speaker Note: Use the diagram to show how skills work together. A design becomes easier to judge when its choices are connected to a specific outcome. -->
 
 ---
 
 # Connecting the Pillars: Problem Solving
 
-- Trade-offs + debugging → trusted problem solver
-- You can explain **why** you chose a path when things break
-- Your debugging is faster because you remember the constraints you optimized for
-- Teams call you in when stakes are high, not just when syntax is hard
-<!-- Speaker Note: Emphasize that deliberate trade-off calls plus strong debugging discipline build deep trust under pressure—people feel safer shipping when you're in the loop. -->
+- Combine trade-offs with debugging
+- Revisit the assumptions when something breaks
+- Use the decision history to guide the investigation
+
+<!-- Speaker Note: The earlier constraints help explain why a choice was made and when it needs to change. -->
 
 ---
 
 # Connecting the Pillars: Impact
 
-- Communication + mentorship → force multiplier
-- Your diagrams and narratives let others reuse your thinking without you
-- People around you level up faster because you teach **how** you decide
-- Your identity shifts from "the expert who does" to "the person who grows experts"
-<!-- Speaker Note: Highlight that clear communication plus mentorship scales your patterns through others—this is where identity shifts from individual contributor to multiplier and becomes resilient to stack changes. -->
+- Combine communication with mentorship
+- Leave enough context for others to use your work
+- Teach how you reached the decision
+
+<!-- Speaker Note: Focus on what another person can do afterward. Reusable explanations save people from needing the same help repeatedly. -->
 
 ---
 
@@ -484,7 +494,7 @@ _None of these are tied to a stack. All of them compound._
 
 _Portable skills compound across contexts._
 
-<!-- Speaker Note: Positive proof case — show that portable skills taught in this talk actually work across domains. The audience needs to see someone succeed by applying transferable thinking, not just hear warnings about staying narrow. Adapt this to your own real story for maximum impact. -->
+<!-- Speaker Note: Tell the cross-stack example. Spend time on the habit that helped and how it was applied, rather than repeating the list of skills. -->
 
 ---
 
@@ -493,67 +503,62 @@ _Portable skills compound across contexts._
 ![bg brightness:0.33 alt: Long-exposure ocean waves, representing continuous motion](./img/stock/refactor-continuously.jpg)
 
 # <!-- fit --> Refactor Your Identity *Continuously*
-<!-- Speaker Note: Reinforce cadence—identity work is a recurring practice, not an annual overhaul. -->
+
+<!-- Speaker Note: Use the "one cup at a time" idea from your blog: make an improvement, look at the result, and make another. https://chris-ayers.com/posts/how-do-you-boil-the-ocean/ -->
 
 ---
 
 # <i class="fa-solid fa-brain" aria-hidden="true"></i> Adapting to Change and a Growth Mindset
-* Treat discomfort as a signal, not a stop sign
-* Measure progress by experiments run, not perfection
-* Narrate your own reframes: "*I don't know this… yet.*"
-* *Yes, and…* your identity is a work in progress
-<!-- Speaker Note: Ground growth mindset in concrete practices that align with earlier triggers and micro-interventions. -->
+
+* Expect some discomfort while learning
+* Judge progress by what you've tried and learned
+* Say **"I don't know this yet"** and choose a next step
+
+<!-- Speaker Note: Return to the reflexes from earlier. Treat discomfort as something to examine, not an automatic reason to stop. -->
 
 ---
 
-# From Concept to Practice
-
-* You don't need a full career rebrand
-* You do need small, repeated reps that compound into identity
-* Let's start with 30 days of tiny, deliberate moves
-<!-- Speaker Note: Bridge from ideas to action—set up the 30/60-day focus as structured, low-friction practice. -->
-
----
-
-![bg right:40% alt: An open monthly planner on a desk, representing starting a deliberate practice](./img/stock/thirty-sixty-day.jpg)
+![bg left:40% alt: An open monthly planner on a desk, representing starting a deliberate practice](./img/stock/thirty-sixty-day.jpg)
 
 # Start Where You Are
 
-* You don't have to quit your current job; shift **how** you practice inside and outside it
-* Borrow problems from your team, community, or open source to experiment on
-* Use meetups, conferences, and online groups as low-risk sandboxes
-<!-- Speaker Note: Explicitly remove "burn it all down" pressure. Emphasize starting from today's role and constraints, using community and side experiments instead of dramatic exits. -->
+* Keep your current job; change what you practice
+* Borrow a problem from your team, community, or open source
+* Pick one small experiment for the next 30 days
+
+<!-- Speaker Note: A meetup, conference exercise, study group, or personal project can be a low-risk place to start. Bring back the example people chose in the reflection exercise. -->
 
 ---
 
-# <i class="fa-solid fa-calendar-day" aria-hidden="true"></i> 30-Day Focus (Skill Awareness & Leverage)
+# <i class="fa-solid fa-calendar-day" aria-hidden="true"></i> 30-Day Focus (Skill Awareness & Practice)
 
-| Action Item         | Description |
-| ------------------- | ----------- |
-| <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i> Skill Inventory | List 3 current strengths + 1 growth target you can practice. |
-| <i class="fa-solid fa-file-circle-plus" aria-hidden="true"></i> Judgment Amplification | Create one decision record: context, options, criteria, rejected option, outcome (work or community). |
-| <i class="fa-solid fa-handshake-simple" aria-hidden="true"></i> Communication Lift | Run assumption surfacing in one meeting, 1:1, or study group. |
-| <i class="fa-solid fa-seedling" aria-hidden="true"></i> Adaptation Loop | Thin experiment: new tool, language, or domain at home + 5-line synthesis. |
-<!-- Speaker Note: Short sprint—build awareness, produce one artifact, run one facilitation, and synthesize learning for compounding. -->
-
----
-
-# <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> 60-Day Focus (Application & Diffusion)
 | Action Item | Description |
-| ----------- | ----------- |
-| <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Balance Audit | Review last 30 tagged artifacts; find an underused pillar to practice in your current role or community. |
-| <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Cross-Pillar Artifact | Create one option comparison (work task, OSS issue, or meetup talk) combining: constraints (Judgment) + surfaced assumptions (Communication) + experiment plan (Adaptation). |
-| <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Mentorship Micro-Teach | 10‑min share of a leveraged skill at work, a meetup, or online; capture 2 follow-up questions. |
-| <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Weekly Synthesis | Consolidate top 3 leverage moments (skill applied → impact) from job, home projects, or community. |
-<!-- Speaker Note: Second cycle diffuses skill—combine pillars, teach others, and audit balance to avoid drift. -->
+| --- | --- |
+| <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i> Skill Inventory | List 3 strengths and 1 growth target you can practice. |
+| <i class="fa-solid fa-file-circle-plus" aria-hidden="true"></i> Decision Record | Capture context, options, criteria, a rejected option, and the outcome. |
+| <i class="fa-solid fa-handshake-simple" aria-hidden="true"></i> Clear Communication | Check shared assumptions in a meeting, 1:1, or study group. |
+| <i class="fa-solid fa-seedling" aria-hidden="true"></i> Small Experiment | Try an unfamiliar tool, language, or domain. Write 5 lines about what you learned. |
+
+<!-- Speaker Note: Choose a realistic starting point. The record can live beside the work; it does not need a new reporting system. -->
 
 ---
 
-# <!-- fit --> Refactor Your Identity *Continuously*
-# Not Reactively
-<!-- Speaker Note: Contrast proactive vs reactive—continuous identity work prevents crisis pivots under external pressure. -->
+<!-- _class: small -->
+
+# <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> 60-Day Focus (Application & Sharing)
+
+| Action Item | Description |
+| --- | --- |
+| <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Balance Audit | Review work from the past 30 days. Choose an underused skill to practice. |
+| <i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Combine Skills | Compare options for a real problem using constraints, a discussion, and a small experiment. |
+| <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Teach Something | Share a skill for 10 minutes. Capture 2 follow-up questions. |
+| <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Weekly Review | Note 3 moments where a skill helped and what changed. |
+
+<!-- Speaker Note: Use the second month to apply and share what you learned. Review the work you actually have, rather than aiming for an arbitrary number of documents. -->
 
 ---
+
+<!-- _class: small -->
 
 # Thank You
 
@@ -568,23 +573,18 @@ _Portable skills compound across contexts._
 
 ## Chris Ayers
 
-_Principal Software Engineer_
-_Azure CXP AzRel_
+_Principal Software Engineer_\
+_Azure EngOps AzRel_\
 _Microsoft_
 
-<i class="fa-brands fa-bluesky"></i> BlueSky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)  
-<i class="fa-brands fa-linkedin"></i> LinkedIn: - [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)  
-<i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)  
-<i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)  
+<i class="fa-brands fa-bluesky"></i> Bluesky: [@chris-ayers.com](https://bsky.app/profile/chris-ayers.com)\
+<i class="fa-brands fa-linkedin"></i> LinkedIn: [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)\
+<i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://chris-ayers.com/)\
+<i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)\
 <i class="fa-brands fa-mastodon"></i> Mastodon: [@Chrisayers@hachyderm.io](https://hachyderm.io/@Chrisayers)
-~~<i class="fa-brands fa-twitter"></i> Twitter: [@Chris_L_Ayers](https://twitter.com/Chris_L_Ayers)~~  
+~~<i class="fa-brands fa-twitter"></i> Twitter: [@Chris_L_Ayers](https://twitter.com/Chris_L_Ayers)~~
 
 </div>
 </div>
-<!-- Speaker Note: Close with reinforcement and call to action—invite one small experiment this week and artifact creation. Thank audience & open for questions. -->
 
----
-
-<!-- _footer: '' --->
-
-![bg](./img/devsum/feedback-slide.png)
+<!-- Speaker Note: Close with the original message and one small experiment to try. Thank the audience and open for questions. -->
