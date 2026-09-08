@@ -1,47 +1,98 @@
-name: Deploy marp site to Pages
+name: Build and deploy Marp slides
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.ref }}"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - name: Copy images
-        run: mkdir build && cp -R slides/img build/img && cp -R slides/themes build/themes
 
-      - name: Marp Build (README)
-        uses: docker://marpteam/marp-cli:latest
+      - name: Copy slide assets
+        run: |
+          mkdir -p build
+          cp -R slides/img slides/themes build/
+
+      - name: Marp build (HTML)
+        uses: docker://marpteam/marp-cli:v4.5.0
         with:
           args: --theme-set slides/themes -o build/index.html --html -- slides/Slides.md
         env:
           MARP_USER: root:root
-      - name: Setup Pages
-        uses: actions/configure-pages@v6
-      - name: Upload artifact
+
+      - name: Marp build (PDF)
+        uses: docker://marpteam/marp-cli:v4.5.0
+        with:
+          args: --theme-set slides/themes -o build/Slides.pdf --pdf --html --allow-local-files -- slides/Slides.md
+        env:
+          MARP_USER: root:root
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: slides-pdf
+          path: build/Slides.pdf
+          if-no-files-found: error
+          overwrite: true
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          # Upload entire repository
-          path: 'build'
+          path: build
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Set up Pages
+        uses: actions/configure-pages@v6
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+  release:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download PDF artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: slides-pdf
+          path: release
+
+      - name: Publish versioned PDF release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: slides-${{ github.run_number }}-${{ github.run_attempt }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          mv release/Slides.pdf release/refactoring-your-identity.pdf
+          gh release create "$RELEASE_TAG" \
+            release/refactoring-your-identity.pdf \
+            --target "$COMMIT_SHA" \
+            --title "Refactoring Your Identity - $RELEASE_TAG" \
+            --generate-notes
