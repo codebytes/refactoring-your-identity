@@ -75,9 +75,9 @@ someone is willing to consider.
 
 # <i class="fa-solid fa-seedling" aria-hidden="true"></i> One Strength. One Experiment.
 
-* Find a skill you can use somewhere unfamiliar
-* Choose one small experiment for the next 30 days
-* Leave with a five-line record you can reuse
+- Find a skill you can use somewhere unfamiliar
+- Choose one small experiment for the next 30 days
+- Leave with a five-line record you can reuse
 
 <!--
 Make the audience promise explicit. They already have experience to draw on;
@@ -100,10 +100,10 @@ considering another approach. Discomfort is not a character flaw.
 
 # <i class="fa-solid fa-circle-nodes" aria-hidden="true"></i> How Technical Identity Forms
 
-* Early wins build confidence
-* You get faster and receive praise
-* Work comes back to **"The Expert"**
-* Repetition builds comfort and narrows your range
+- Early wins build confidence
+- You get faster and receive praise
+- Work comes back to **"The Expert"**
+- Repetition builds comfort and narrows your range
 
 ![bg right:50% fit alt: Comfort leads to praise, a label, the cost of change, fear, and a return to comfort](./img/tech-identity.drawio.svg)
 
@@ -158,9 +158,9 @@ considering the problem. Constraints and available support matter too.
 
 # <i class="fa-solid fa-arrow-down" aria-hidden="true"></i> Depth Is Not the Problem
 
-* Keep your specialization
-* Make room for work outside it
-* Think **T-shaped**: deep expertise with room to branch out
+- Keep your specialization
+- Make room for work outside it
+- Think **T-shaped**: deep expertise with room to branch out
 
 ![bg left:50% fit alt: T-shaped expertise combines adaptable breadth with deep specialization](./img/t-shaped.drawio.svg)
 
@@ -172,7 +172,7 @@ considering the problem. Constraints and available support matter too.
 
 # Range & Generalists
 
-- David Epstein's *Range* makes the case for breadth in complex, changing work
+- David Epstein's *Range- makes the case for breadth in complex, changing work
 - Experience elsewhere can help you recognize a useful pattern
 - Build on your depth while trying something outside it
 
@@ -205,9 +205,9 @@ Return to this same note at the trigger discussion, skill map, and closing.
 
 # Share & Normalize (Optional)
 
-* Share one area you've avoided
-* Listen for a pattern you recognize
-* Keep the personal parts private if you prefer
+- Share one area you've avoided
+- Listen for a pattern you recognize
+- Keep the personal parts private if you prefer
 
 <!--
 Take a few volunteers or use a show of hands. Keep this brief if time is tight.
@@ -223,7 +223,7 @@ later; for now, keep the same example.
 ![bg brightness:0.4 alt: A chain and padlock on a gate, representing identity lock-in before it sets](./img/stock/lock-in.jpg)
 
 # <!-- fit --> Refactor Your Identity
-# *Before* It Hardens
+# *Before- It Hardens
 
 <!-- Speaker Note: It is easier to try unfamiliar work before a role change forces the issue. -->
 
@@ -318,21 +318,21 @@ people were supposedly the strongest coders or fastest to adapt.
 
 **<i class="fa-solid fa-bolt" aria-hidden="true"></i> You feel slower**
 
-* Is the work unfamiliar, or is the approach wrong?
+- Is the work unfamiliar, or is the approach wrong?
 
 </div>
 <div>
 
 **<i class="fa-solid fa-compass" aria-hidden="true"></i> The problem is unclear**
 
-* Are you picking a tool before asking enough questions?
+- Are you picking a tool before asking enough questions?
 
 </div>
 <div>
 
 **<i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Risk gets deferred**
 
-* Are you forcing old patterns into a different context?
+- Are you forcing old patterns into a different context?
 
 </div>
 </div>
@@ -348,10 +348,10 @@ into the discussion early.
 
 # Small Interventions at the Moment of Choice
 
-* Spend 2 minutes considering another option
-* Ask what has changed since the last decision
-* Choose the smallest useful experiment
-* Capture one decision in 5 lines
+- Spend 2 minutes considering another option
+- Ask what has changed since the last decision
+- Choose the smallest useful experiment
+- Capture one decision in 5 lines
 
 <!--
 Keep these small enough to use in a real meeting. A brief pause or note is
@@ -365,9 +365,9 @@ produce a plausible answer in seconds.
 
 # <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI Lowers the Cost of Trying
 
-* Map unfamiliar code before editing it
-* Compare patterns with what you already know
-* Try a small change you can explain and test
+- Map unfamiliar code before editing it
+- Compare patterns with what you already know
+- Try a small change you can explain and test
 
 ![bg right:50% fit alt: You supply context, AI drafts alternatives, and you review and decide](./img/ai-amplifier.drawio.svg)
 
@@ -418,10 +418,10 @@ Source: https://chris-ayers.com/posts/copilot-or-rubber-ducky/.
 
 # <i class="fa-solid fa-user-shield" aria-hidden="true"></i> What You Still Own
 
-* Deciding which problem to solve
-* Choosing trade-offs under real constraints
-* Checking whether the output is correct and safe
-* Getting people to agree on a direction
+- Deciding which problem to solve
+- Choosing trade-offs under real constraints
+- Checking whether the output is correct and safe
+- Getting people to agree on a direction
 
 **If you cannot explain the change, keep investigating.**
 
@@ -630,9 +630,9 @@ care than a reversible experiment. Explain constraints rather than a favorite to
 
 # <i class="fa-solid fa-bug-slash" aria-hidden="true"></i> Investigation: Follow the Evidence
 
-* **Hypothesis:** one intent reached the write path twice
-* **Evidence:** correlate operation keys, requests, and writes
-* **Experiment:** delay the response after a write, then retry
+- **Hypothesis:** one intent reached the write path twice
+- **Evidence:** correlate operation keys, requests, and writes
+- **Experiment:** delay the response after a write, then retry
 
 **What would distinguish a double-click from a network retry?**
 
@@ -799,9 +799,9 @@ Expect discomfort and judge progress by what was tried and learned.
 
 # Start Where You Are
 
-* Keep your current job; change what you practice
-* Borrow a problem from your team, community, or open source
-* Pick one small experiment for the next 30 days
+- Keep your current job; change what you practice
+- Borrow a problem from your team, community, or open source
+- Pick one small experiment for the next 30 days
 
 <!--
 A meetup, conference exercise, study group, or personal project can be a
