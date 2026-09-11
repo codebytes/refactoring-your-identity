@@ -1,0 +1,37 @@
+{
+  "title": "Breadth builds on durable depth",
+  "description": "A T shape combines an adaptable horizontal breadth with a deep vertical specialization. Your specialization supplies durable depth; breadth makes room to apply it in other contexts.",
+  "background": "#ffffff",
+  "padding": 20,
+  "nodes": [
+    {
+      "id": "depth",
+      "label": "Your\nspecialization\n\nDurable\ndepth",
+      "x": 200,
+      "y": 120,
+      "width": 240,
+      "height": 420,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 32
+    },
+    {
+      "id": "breadth",
+      "label": "Adaptable breadth",
+      "x": 20,
+      "y": 20,
+      "width": 600,
+      "height": 140,
+      "shape": "rounded",
+      "fill": "#24496b",
+      "stroke": "#24496b",
+      "fontColor": "#ffffff",
+      "strokeWidth": 3,
+      "fontSize": 36
+    }
+  ],
+  "edges": []
+}
