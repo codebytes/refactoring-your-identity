@@ -1,0 +1,110 @@
+{
+  "title": "Portable thinking connects different stacks",
+  "description": "Three parallel connections carry Contracts, Boundaries, and Failure modes from a Familiar stack to a New stack. These are transferable ways of thinking, not claims about a particular project or framework.",
+  "background": "#ffffff",
+  "padding": 20,
+  "nodes": [
+    {
+      "id": "familiar-stack",
+      "label": "Familiar\nstack",
+      "x": 20,
+      "y": 100,
+      "width": 220,
+      "height": 100,
+      "shape": "rounded",
+      "fill": "#24496b",
+      "stroke": "#24496b",
+      "fontColor": "#ffffff",
+      "strokeWidth": 3,
+      "fontSize": 32
+    },
+    {
+      "id": "contracts",
+      "label": "Contracts",
+      "x": 380,
+      "y": 20,
+      "width": 240,
+      "height": 72,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 30
+    },
+    {
+      "id": "boundaries",
+      "label": "Boundaries",
+      "x": 380,
+      "y": 114,
+      "width": 240,
+      "height": 72,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 30
+    },
+    {
+      "id": "failure-modes",
+      "label": "Failure modes",
+      "x": 380,
+      "y": 208,
+      "width": 240,
+      "height": 72,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 30
+    },
+    {
+      "id": "new-stack",
+      "label": "New\nstack",
+      "x": 760,
+      "y": 100,
+      "width": 220,
+      "height": 100,
+      "shape": "rounded",
+      "fill": "#fff0df",
+      "stroke": "#a46125",
+      "fontColor": "#63380f",
+      "strokeWidth": 3,
+      "fontSize": 32
+    }
+  ],
+  "edges": [
+    {
+      "source": "familiar-stack",
+      "target": "contracts",
+      "strokeWidth": 3
+    },
+    {
+      "source": "familiar-stack",
+      "target": "boundaries",
+      "strokeWidth": 3
+    },
+    {
+      "source": "familiar-stack",
+      "target": "failure-modes",
+      "strokeWidth": 3
+    },
+    {
+      "source": "contracts",
+      "target": "new-stack",
+      "strokeWidth": 3
+    },
+    {
+      "source": "boundaries",
+      "target": "new-stack",
+      "strokeWidth": 3
+    },
+    {
+      "source": "failure-modes",
+      "target": "new-stack",
+      "strokeWidth": 3
+    }
+  ]
+}

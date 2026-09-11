@@ -14,7 +14,23 @@ All photos sourced from [Unsplash](https://unsplash.com) under the [Unsplash Lic
 | `portable-skills.jpg` | A bunch of tools hanging up on a wall | [Unsplash](https://unsplash.com/photos/a-bunch-of-tools-hanging-up-on-a-wall-lDwKKjlHL2Y) |
 | `refactor-continuously.jpg` | Body of water under sky | [Unsplash](https://unsplash.com/photos/body-of-water-under-sky-6ArTTluciuA) |
 | `refactor-growth.jpg` | Gray concrete stair with gray steel handle | [Unsplash](https://unsplash.com/photos/gray-concrete-stair-with-gray-steel-handle-mP2GF2D8H-4) |
+| `refactor-growth-wide.jpg` | 16:9 crop of `refactor-growth.jpg`, retaining the bright upper skylight and the upper staircase | [Original Unsplash photo](https://unsplash.com/photos/gray-concrete-stair-with-gray-steel-handle-mP2GF2D8H-4) |
 | `refactor-intentionally.jpg` | A blueprint of a building with a bunch of windows | [Unsplash](https://unsplash.com/photos/a-blueprint-of-a-building-with-a-bunch-of-windows-URnyBZCnlIs) |
 | `team-reorg.jpg` | Assorted notepads | [Unsplash](https://unsplash.com/photos/assorted-notepads-ETRPjvb0KM0) |
 | `thirty-sixty-day.jpg` | Open monthly planner on wooden desk | [Unsplash](https://unsplash.com/photos/open-monthly-planner-on-wooden-desk-FoKO4DpXamQ) |
 | `who-are-you.jpg` | Silhouette of woman raising her hands | [Unsplash](https://unsplash.com/photos/silhouette-of-woman-raising-her-hands-F_QttqcsqNo) |
+
+## Landscape growth derivative
+
+`refactor-growth-wide.jpg` is a 1392 x 783 (16:9) crop of the local
+1400 x 1867 original, `refactor-growth.jpg`. The crop starts 4 pixels from
+the left and 100 pixels from the top, keeping the bright skylight visible
+while showing more steps than a top-aligned crop. The original is unchanged.
+
+Regenerate from the repository root with ImageMagick:
+
+```bash
+magick slides/img/stock/refactor-growth.jpg \
+  -crop 1392x783+4+100 +repage -quality 92 \
+  slides/img/stock/refactor-growth-wide.jpg
+```

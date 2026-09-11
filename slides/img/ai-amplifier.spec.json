@@ -1,0 +1,64 @@
+{
+  "title": "AI drafts; you own the judgment",
+  "description": "A top-to-bottom human-AI-human flow: you supply context and constraints; AI drafts alternatives; you review and decide. Drafts can lower the cost of trying an approach, but are not guarantees of correctness.",
+  "background": "#ffffff",
+  "padding": 30,
+  "nodes": [
+    {
+      "id": "human-context",
+      "label": "You supply\ncontext + constraints",
+      "x": 30,
+      "y": 30,
+      "width": 580,
+      "height": 120,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 34
+    },
+    {
+      "id": "ai-drafts",
+      "label": "AI drafts\nalternatives",
+      "x": 30,
+      "y": 240,
+      "width": 580,
+      "height": 120,
+      "shape": "rounded",
+      "fill": "#f1ebf7",
+      "stroke": "#76518f",
+      "fontColor": "#4c2c68",
+      "strokeWidth": 3,
+      "fontSize": 34
+    },
+    {
+      "id": "human-decision",
+      "label": "You review\nand decide",
+      "x": 30,
+      "y": 450,
+      "width": 580,
+      "height": 120,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 34
+    }
+  ],
+  "edges": [
+    {
+      "source": "human-context",
+      "target": "ai-drafts",
+      "orthogonal": true,
+      "strokeWidth": 3
+    },
+    {
+      "source": "ai-drafts",
+      "target": "human-decision",
+      "orthogonal": true,
+      "strokeWidth": 3
+    }
+  ]
+}

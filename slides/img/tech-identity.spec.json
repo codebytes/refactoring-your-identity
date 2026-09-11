@@ -1,0 +1,124 @@
+{
+  "title": "How technical identity reinforces itself",
+  "description": "A loop runs clockwise from Comfort to Praise to Label to Cost to Fear, then back to Comfort. Identity sits inside the loop. The arrows describe reinforcement, not a required career path.",
+  "background": "#ffffff",
+  "padding": 20,
+  "nodes": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "x": 20,
+      "y": 20,
+      "width": 160,
+      "height": 96,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 32
+    },
+    {
+      "id": "praise",
+      "label": "Praise",
+      "x": 460,
+      "y": 20,
+      "width": 160,
+      "height": 96,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 32
+    },
+    {
+      "id": "label",
+      "label": "Label",
+      "x": 460,
+      "y": 484,
+      "width": 160,
+      "height": 96,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 32
+    },
+    {
+      "id": "cost",
+      "label": "Cost",
+      "x": 20,
+      "y": 484,
+      "width": 160,
+      "height": 96,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 32
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "x": 20,
+      "y": 252,
+      "width": 160,
+      "height": 96,
+      "shape": "rounded",
+      "fill": "#eaf2fb",
+      "stroke": "#29577b",
+      "fontColor": "#224466",
+      "strokeWidth": 3,
+      "fontSize": 32
+    },
+    {
+      "id": "identity",
+      "label": "Identity",
+      "x": 220,
+      "y": 230,
+      "width": 200,
+      "height": 140,
+      "shape": "ellipse",
+      "fill": "#24496b",
+      "stroke": "#24496b",
+      "fontColor": "#ffffff",
+      "strokeWidth": 3,
+      "fontSize": 36
+    }
+  ],
+  "edges": [
+    {
+      "source": "comfort",
+      "target": "praise",
+      "orthogonal": true,
+      "strokeWidth": 3
+    },
+    {
+      "source": "praise",
+      "target": "label",
+      "orthogonal": true,
+      "strokeWidth": 3
+    },
+    {
+      "source": "label",
+      "target": "cost",
+      "orthogonal": true,
+      "strokeWidth": 3
+    },
+    {
+      "source": "cost",
+      "target": "fear",
+      "orthogonal": true,
+      "strokeWidth": 3
+    },
+    {
+      "source": "fear",
+      "target": "comfort",
+      "orthogonal": true,
+      "strokeWidth": 3
+    }
+  ]
+}

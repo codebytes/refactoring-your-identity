@@ -10,19 +10,6 @@ Slides for Chris Ayers's talk about doing useful work when the language, framewo
 The source deck for this presentation lives in [slides/](./slides/) and is built with [Marp](https://marp.app/).
 The [Pages workflow](./.github/workflows/marp-pages.yml) generates and deploys both formats on pushes to `main` or when run manually.
 
-## Overview
-
-The talk is designed for **60 minutes, excluding Q&A**. The 47 slides include brief questions and section breaks, stories, a reflection exercise, and a tour of skills that transfer across stacks.
-
-| Slides | Time | Focus |
-| --- | --- | --- |
-| 1-14 | About 15 minutes | How technical identity forms, the coding-kata story, and reflection |
-| 15-26 | About 15 minutes | Career risks, the re-org story, decision habits, and AI |
-| 27-41 | About 20 minutes | Portable skills, how they work together, and the cross-stack story |
-| 42-47 | About 10 minutes | Ongoing practice and the 30/60-day plans |
-
-Speaker notes contain delivery cues and room for the talk track. The blank technologies in the coding-kata quote are intentional: Chris supplies them aloud. Use rehearsal to adjust the time spent on each section.
-
 ## Resources
 
 Related reading and examples from Chris's blog:
@@ -105,6 +92,16 @@ SVG labels prevent clipping in Marp PDF exports. The print-only tooltip rule pre
 For diagrams that must reopen in draw.io, use the shared [drawio-diagrams skill](https://github.com/codebytes/skills/tree/main/skills/drawio-diagrams). Its generator, examples, and validation instructions are maintained in `codebytes/skills`.
 
 Keep both the source specification and rendered `.drawio.svg` under `slides/img/` for presentation-specific diagrams. The recommended Draw.io Integration extension opens these files for visual editing.
+
+The active diagrams use `*.spec.json` as their reproducible sources. Set `DRAWIO_SKILL_DIR` to the installed `drawio-diagrams` skill directory, then regenerate a diagram with its shared generator:
+
+```bash
+node "$DRAWIO_SKILL_DIR/scripts/make-drawio-svg.mjs" build \
+  slides/img/tech-identity.spec.json \
+  -o slides/img/tech-identity.drawio.svg
+```
+
+Use the matching specification and output name for the other diagrams. Keep each specification and SVG together; the original PNGs remain available as reference assets.
 
 ## Shared Agent Skills
 
